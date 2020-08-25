@@ -1,0 +1,1 @@
+io.swagger.jaxrs2.OperationParser.getSchemaFromAnnotation(io.swagger.oas.annotations.media.Schema)
