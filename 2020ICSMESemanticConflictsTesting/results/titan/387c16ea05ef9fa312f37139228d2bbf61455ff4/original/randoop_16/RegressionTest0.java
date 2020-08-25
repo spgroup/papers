@@ -1,0 +1,53 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest0 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test1() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test1");
+        int int0 = com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.RESERVED_ID_OFFSET;
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertTrue("'" + int0 + "' != '" + 256 + "'", int0 == 256);
+    }
+
+    @Test
+    public void test2() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test2");
+        com.thinkaurelius.titan.graphdb.database.serialize.Serializer serializer0 = null;
+        // The following exception was thrown during execution in test generation
+        try {
+            com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization.initialize(serializer0);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+        // Expected exception.
+        }
+    }
+
+    @Test
+    public void test3() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test3");
+        com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization serializerInitialization0 = new com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization();
+        java.lang.Class<?> wildcardClass1 = serializerInitialization0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass1);
+    }
+
+    @Test
+    public void test4() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test4");
+        java.lang.Object obj0 = new java.lang.Object();
+        java.lang.Class<?> wildcardClass1 = obj0.getClass();
+        // Regression assertion (captures the current behavior of the code)
+        org.junit.Assert.assertNotNull(wildcardClass1);
+    }
+}
+
