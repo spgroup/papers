@@ -1,0 +1,240 @@
+Project Name,Broken Build ID,Commit,Build Conflict Type,Parent Build One,Parent One Status,Parent Build Two,Parent Two Status,Build Fix,Build Fix Status,Resolution Pattern
+searchbox-io/Jest,266666842,66d15c8,incompatibleTypes,7348623,passed,266667301,passed,7530577,passed,ADJUST ON SENT PARAMETER TYPE
+searchbox-io/Jest,266666842,66d15c8,unavailableSymbolFile,7348623,passed,266667301,passed,7530577,passed,UPDATE OBJECT TYPE
+searchbox-io/Jest,266666842,66d15c8,unavailableSymbolFile,7348623,passed,266667301,passed,7530577,passed,UPDATE OBJECT TYPE
+searchbox-io/Jest,266666842,66d15c8,unavailableSymbolFile,7348623,passed,266667301,passed,7530577,passed,UPDATE OBJECT TYPE
+google/truth,25020324,2e4a23b,unavailableSymbolMethod,411486894,errored,411488114,errored,25031983,passed,MISSING-ELEMENT-REMOVAL
+tinkerpop/blueprints,267838950,0f4cb9d,unavailableSymbolFile,567178942,errored,567179414,errored,,,
+tinkerpop/blueprints,267833702,5a25e3a,duplicatedDeclaration,10006381,failed,10033212,failed,10120795,passed,DELETE-DUPLICATED-METHOD
+NLPchina/elasticsearch-sql,99402562,eb5fe5f,incompatibleTypes,99401600,passed,98781128,passed,99402657,passed,ADJUST ON TYPE CONVERTION
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolFile,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+naver/pinpoint,57442309,f20c6c6,unavailableSymbolVariable,57440459,passed,413033687,errored,57444277,passed,IMPORT UPDATE
+scribejava/scribejava,230252127,d4e9733,unimplementedMethod,230252863,errored,230253435,errored,182278380,passed,UNIMPLEMENTED METHOD IMPLEMENTATION
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,58945430,cd8f77a,incompatibleMethodSignature,58790794,passed,411186075,passed,58958884,passed,JDK UPDATE
+vavr-io/vavr,279623010,e9f3307,unavailableSymbolMethod,279623946,failed,73460929,passed,411142128,failed,METHOD-NAME-UPDATE
+jparsec/jparsec,298321301,94af6d9,unavailableSymbolFile,566743741,failed,44292456,passed,412777313,failed,IMPORT UPDATE
+ganglia/jmxetric,24711540,ee56a7b,incompatibleMethodSignature,417659170,errored,417659550,canceled,,,
+mgodave/barge,299827601,e48290a,duplicatedDeclaration,560087116,errored,560087473,errored,,,
+square/wire,157352214,7f8fc10,unavailableSymbolFile,151088900,passed,149644087,passed,157406367,passed,IMPORT-UPDATE
+square/wire,157352214,7f8fc10,unavailableSymbolFile,151088900,passed,149644087,passed,157406367,passed,IMPORT-UPDATE
+square/wire,157352214,7f8fc10,unavailableSymbolFile,151088900,passed,149644087,passed,157406367,passed,IMPORT-UPDATE
+square/wire,157352214,7f8fc10,unavailableSymbolFile,151088900,passed,149644087,passed,157406367,passed,IMPORT-UPDATE
+square/wire,157352214,7f8fc10,unavailableSymbolVariable,151088900,passed,149644087,passed,157406367,passed,IMPORT-UPDATE
+OfficeDev/ews-java-api,64285829,22206b7,unavailableSymbolVariable,417530931,errored,417531035,errored,64286846,passed,MISSING-ELEMENT-REMOVAL
+ontop/ontop,103065874,786663a,unavailableSymbolFile,93966682,passed,103064869,passed,103067144,passed,MISSING ELEMENT UPDATE
+ontop/ontop,103065874,786663a,unavailableSymbolVariable,93966682,passed,103064869,passed,103067144,passed,MISSING ELEMENT UPDATE
+ontop/ontop,103065874,786663a,unavailableSymbolVariable,93966682,passed,103064869,passed,103067144,passed,MISSING ELEMENT UPDATE
+ontop/ontop,103065874,786663a,unavailableSymbolVariable,93966682,passed,103064869,passed,103067144,passed,MISSING ELEMENT UPDATE
+ontop/ontop,83689234,0f62121,"[""unimplementedMethodSuperType""]",81807320,passed,68154415,passed,83690899,passed,METHOD IMPLEMENTATION
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,81066148,3d36dd6,unavailableSymbolFile,80620738,passed,80621067,failed,81186806,failed,MISSING ELEMENT REMOVAL
+ontop/ontop,59371438,c626206,unimplementedMethodSuperType,58779165,passed,59371143,passed,59372466,passed,METHOD IMPLEMENTATION
+ontop/ontop,30971217,83a07ab,unavailableSymbolMethod,26749094,failed,30728790,failed,30971511,failed,MISSING ELEMENT UPDATE
+graphaware/neo4j-framework,300000699,35d3bb5,unavailableSymbolFile,300001083,failed,300001574,failed,410448318,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-framework,299999324,3b230ef,unavailableSymbolFile,299999578,failed,300000232,failed,410451037,failed,MISSING-ELEMENT-REMOVAL
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+graphaware/neo4j-timetree,298701803,66d2770,incompatibleTypes,31937574,failed,31697048,passed,411543848,failed,ADJUST ON SENT PARAMETER TYPE
+square/javapoet,48407274,f3859b0,incompatibleMethodSignature,48276050,errored,48400811,passed,,,
+square/javapoet,48407274,f3859b0,incompatibleMethodSignature,48276050,errored,48400811,passed,,,
+square/javapoet,48407274,f3859b0,incompatibleMethodSignature,48276050,errored,48400811,passed,,,
+square/javapoet,48407274,f3859b0,incompatibleMethodSignature,48276050,errored,48400811,passed,,,
+square/javapoet,48407274,f3859b0,incompatibleMethodSignature,48276050,errored,48400811,passed,,,
+square/javapoet,48407274,f3859b0,incompatibleMethodSignature,48276050,errored,48400811,passed,,,
+square/javapoet,48276050,90b3f1a,incompatibleMethodSignature,568369435,failed,48249131,passed,,,
+square/javapoet,48276050,90b3f1a,incompatibleMethodSignature,568369435,failed,48249131,passed,,,
+square/javapoet,48276050,90b3f1a,incompatibleMethodSignature,568369435,failed,48249131,passed,,,
+square/javapoet,48276050,90b3f1a,incompatibleMethodSignature,568369435,failed,48249131,passed,,,
+square/javapoet,48276050,90b3f1a,incompatibleMethodSignature,568369435,failed,48249131,passed,,,
+square/javapoet,48276050,90b3f1a,incompatibleMethodSignature,568369435,failed,48249131,passed,,,
+square/javapoet,14388296,d019b6f,unavailableSymbolFile,14376435,passed,417073744,passed,14392985,passed,IMPORT-UPDATE
+square/okhttp,19399475,9dfeda5,unavailableSymbolVariable,462642750,errored,19398501,passed,19404300,passed,MISSING-ELEMENT-REMOVAL
+swagger-api/swagger-core,73319631,236254c,unavailableSymbolFile,418473439,errored,418473853,errored,,,
+swagger-api/swagger-core,73319631,236254c,unavailableSymbolFile,418473439,errored,418473853,errored,,,
+swagger-api/swagger-core,65086450,657b64b,unavailableSymbolVariable,64955895,passed,65083676,passed,65086520,passed,UPDATE-VARIABLE
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+traccar/traccar,232041300,20f6030,projectRules,232041477,canceled,145785480,passed,,,
+hdiv/hdiv,126140680,c620070,projectRules,126121157,passed,126010037,passed,126327214,passed,UPDATE ON LICENSE HEADER
+hdiv/hdiv,126140680,c620070,projectRules,126121157,passed,126010037,passed,126327214,passed,UPDATE ON LICENSE HEADER
+mikera/vectorz,263498620,d93ef1b,unavailableSymbolFile,263500444,errored,46700081,passed,47059762,passed,IMPORT-UPDATE
+tumblr/jumblr,15597349,31bd6f8,unavailableSymbolFile,409666793,errored,409667165,errored,15597425,passed,IMPORT UPDATE
+jmrozanec/cron-utils,298567732,158dd6b,unavailableSymbolVariable,560071306,errored,560071953,errored,,,UPDATE-VARIABLE
+pac4j/pac4j,291027337,e18dd85,unimplementedMethodSuperType,291028699,passed,111151558,passed,415883078,passed,SUPER TYPE CLASS ADITION
+pac4j/pac4j,291027337,e18dd85,unimplementedMethodSuperType,291028699,passed,111151558,passed,415883078,passed,SUPER TYPE CLASS ADITION
+pac4j/pac4j,291027337,e18dd85,unimplementedMethodSuperType,291028699,passed,111151558,passed,415883078,passed,SUPER TYPE CLASS ADITION
+pac4j/pac4j,291027337,e18dd85,unimplementedMethodSuperType,291028699,passed,111151558,passed,415883078,passed,SUPER TYPE CLASS ADITION
+pac4j/pac4j,291027337,e18dd85,unimplementedMethodSuperType,291028699,passed,111151558,passed,415883078,passed,SUPER TYPE CLASS ADITION
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolMethod,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolMethod,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolFile,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolVariable,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291027337,e18dd85,unavailableSymbolMethod,291028699,passed,111151558,passed,415883078,passed,IMPORT-UPDATE
+pac4j/pac4j,291001187,673c636,unavailableSymbolFile,291001416,passed,81744123,passed,415900400,passed,IMPORT-UPDATE
+pac4j/pac4j,291001187,673c636,unavailableSymbolFile,291001416,passed,81744123,passed,415900400,passed,IMPORT-UPDATE
+pac4j/pac4j,291001187,673c636,unavailableSymbolFile,291001416,passed,81744123,passed,415900400,passed,IMPORT-UPDATE
+pac4j/pac4j,291001187,673c636,unavailableSymbolFile,291001416,passed,81744123,passed,415900400,passed,IMPORT-UPDATE
+FasterXML/jackson-databind,383941436,30b7178,unimplementedMethod,565747299,errored,565747781,errored,,,
+FasterXML/jackson-databind,383941436,30b7178,unavailableSymbolMethod,565747299,errored,565747781,errored,,,
+FasterXML/jackson-databind,327869458,c7c40d9,unimplementedMethod,327112893,passed,327869362,passed,327872390,passed,METHOD-IMPLEMENTATION
+FasterXML/jackson-databind,49889399,fc7bd42,unavailableSymbolVariable,418645189,errored,418645575,errored,,,
+FasterXML/jackson-databind,261011849,ea412b1,incompatibleMethodSignature,565778754,errored,565778940,errored,176930919,passed,MISSING-ELEMENT-REMOVAL
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,DEPENDENCY-CHANGE
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+antlr/antlr4,68032658,6439b40,unavailableSymbolFile,,,,,,,
+sanity/quickml,53571613,62a2190,unavailableSymbolMethod,53552160,passed,53495563,passed,53575229,failed,MISSING-ELEMENT-REMOVAL
+sanity/quickml,26343961,a386843,unimplementedMethod,406667135,errored,26341401,passed,26344118,passed,METHOD-IMPLEMENTATION
+sanity/quickml,25749911,54c365e,unimplementedMethod,25749799,errored,25737623,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,unavailableSymbolMethod,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,unavailableSymbolMethod,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,incompatibleTypes,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,unavailableSymbolMethod,32365230,failed,32339061,passed,,,
+sanity/quickml,261094547,fa520cc,unavailableSymbolMethod,32365230,failed,32339061,passed,,,
+damnhandy/Handy-URI-Templates,91181857,6553ba9,duplicatedDeclaration,91181849,passed,403676249,passed,91182134,passed,DELETE-DUPLICATED-METHOD
+CorfuDB/CorfuDB,184169929,2ee82fb,unavailableSymbolFile,182952082,failed,184053786,passed,184175210,passed,MISSING-ELEMENT-REMOVAL
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,98425074,52d3998,unavailableSymbolFile,404149005,errored,98451494,passed,,,
+CorfuDB/CorfuDB,48852375,fb20d30,incompatibleMethodSignature,,,,,,,
+addthis/stream-lib,9659499,e0a13b0,unavailableSymbolMethod,,,,,9660610,passed,MISSING-ELEMENT-REMOVAL
+addthis/stream-lib,9659499,e0a13b0,unavailableSymbolMethod,,,,,9660610,passed,MISSING-ELEMENT-REMOVAL
+addthis/stream-lib,9659499,e0a13b0,unavailableSymbolMethod,,,,,9660610,passed,MISSING-ELEMENT-REMOVAL
+CloudSlang/cloud-slang,167353985,ca1a50b,projectRules,409655525,errored,566450975,errored,167369556,passed,LICENSE HEADER ADITION
+CloudSlang/cloud-slang,52708270,227a1b0,incompatibleMethodSignature,52624715,passed,52621434,passed,52708722,passed,METHOD CALL UPDATE
+CloudSlang/cloud-slang,48623977,ce5c90a,incompatibleMethodSignature,48452656,passed,47642475,passed,48631441,passed,METHOD CALL REMOVAL
+CloudSlang/cloud-slang,415166479,220dc20,unavailableSymbolMethod,152599216,passed,151487744,passed,152599963,passed,MISSING-ELEMENT-UPDATE
+basho/riak-java-client,417210066,3fb7249,unavailableSymbolMethod,571293447,errored,571294020,errored,,,
+basho/riak-java-client,417210066,3fb7249,unavailableSymbolMethod,571293447,errored,571294020,errored,,,
+FasterXML/jackson-core,382860260,e3f4c8e,unavailableSymbolFile,379819763,passed,382859994,passed,382865581,passed,IMPORT-UPDATE
+FasterXML/jackson-core,382860260,e3f4c8e,unavailableSymbolFile,379819763,passed,382859994,passed,382865581,passed,IMPORT-UPDATE
+FasterXML/jackson-core,331110190,bf0c40e,unavailableSymbolFile,327109857,passed,331110175,passed,331110842,passed,IMPORT-UPDATE
+FasterXML/jackson-core,559268941,df4be5d,unavailableSymbolFile,,,,,,,
+FasterXML/jackson-core,559268941,df4be5d,unavailableSymbolFile,,,,,,,
+yegor256/s3auth,294115389,b8bcb4a,unavailableSymbolFile,294116142,failed,27476470,failed,409659668,failed,MISSING-ELEMENT-REMOVAL
+code4craft/webmagic,258998355,b7f3c4b,duplicatedDeclaration,128642244,passed,258998698,passed,,,
+code4craft/webmagic,243501513,a2fba8c,duplicatedDeclaration,243501975,passed,11121696,passed,,,DELETE-DUPLICATED-METHOD
+perwendel/spark,229805514,3fd18a9,incompatibleMethodSignature,229805715,passed,181120662,passed,403188038,passed,ADITION OF PARAMETER
+datastax/java-driver,144600040,203a409,unavailableSymbolMethod,144584703,passed,144580240,passed,144856728,passed,METHOD-NAME-UPDATE
+datastax/java-driver,129572210,e75ab51,incompatibleMethodSignature,128966369,passed,129571864,passed,129573278,passed,PARAMETER REMOVAL
+datastax/java-driver,70541417,23b4cc3,unavailableSymbolMethod,69694110,passed,70541409,passed,70702298,passed,METHOD-NAME-UPDATE
+datastax/java-driver,70541417,23b4cc3,unavailableSymbolMethod,69694110,passed,70541409,passed,70702298,passed,METHOD-NAME-UPDATE
+datastax/java-driver,261062583,4692f3d,unavailableSymbolMethod,201229321,passed,202731595,passed,202758253,passed,METHOD-NAME-UPDATE
