@@ -334,7 +334,7 @@ div.tocify {
 <h2>Abstract</h2>
 <p>When collaborating, developers often create and change software artifacts without being fully aware of other team members’ work. While such independence is essential for increasing development productivity, it might also result in conflicts when integrating developers code contributions. To better understand some of these conflicts— the ones revealed by failures when building integrated code— we investigate their frequency, structure, and adopted resolution patterns in 451 open-source Java projects. To detect such build conflicts, we select merge scenarios from git repositories, parse the Travis logs generated when building the commits, and check whether the logged build error messages are related to the merged changes. We find and classify 239 build conflicts and their resolution patterns. Most build conflicts are caused by missing declarations removed or renamed by one developer but referenced by another developer. Conflicts caused by renaming are often resolved by updating the missing reference, whereas removed declarations are often reintroduced. Most fix commits are authored by one of the contributors involved in the merge scenario. We also detect and analyze build failures caused by immediate post integration changes, which are often performed with the aim of fixing merge conflicts but end up leading to build issues. Based on our catalogue of build conflict causes, awareness tools could alert developers about the risk of conflict situations. Program repair tools could benefit from our catalogue of build conflict resolution patterns to automatically fix conflicts; we illustrate that with a proof of concept implementation of a tool that recommends fixes for conflicts.</p>
 <ul>
-<li><a href="https://github.com/spgroup/papers/blob/master/EMSEBuildConflicts/preprint/preprint.pdf">Preprint</a></li>
+<li><a href="https://github.com/spgroup/papers/blob/master/BuildConflicts/preprint/preprint.pdf">Preprint</a></li>
 </ul>
 
 <h3>Authors</h3>
@@ -347,7 +347,7 @@ div.tocify {
 </div>
 <div id="how-many-semantic-conflicts-arise-when-changes-are-done-on-same-declarations" class="section level3 par-div">
 <h2>How frequently do build conflicts occur?</h2>
-<p>We present here the 239 Build Conflicts, we identify in our study. These build conflicts are from <b>65</b> merge scenarios mined from <b>37</b> different projects. <a href="https://github.com/spgroup/papers/blob/master/EMSEBuildConflicts/replication/build-conflicts.csv" target="_blank"><i>Here</i></a> you can find the list of build conflicts presented in the table bellow.</p>
+<p>We present here the 239 Build Conflicts, we identify in our study. These build conflicts are from <b>65</b> merge scenarios mined from <b>37</b> different projects. <a href="https://github.com/spgroup/papers/blob/master/BuildConflicts/replication/build-conflicts.csv" target="_blank"><i>Here</i></a> you can find the list of build conflicts presented in the table bellow.</p>
 <div id="rq2" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="rq2">{"x":{"filter":"none","data":[
 	["<a href=\" https://github.com/searchbox-io/Jest \" target=\"_blank\"> searchbox-io/Jest </a>" ,
@@ -5650,7 +5650,7 @@ div.tocify {
 
 <div id="how-frequently-do-broken-builds-occur-caused-by-post-integration-changes" class="section level3 par-div">
 <h2>How frequently do broken builds occur caused by post integration changes?</h2>
-<p>We present here <b>485</b> Broken Builds caused by post integration changes performed after the merge scenario by the integrator, we identify in our study. These broken builds are from <b>51</b> merge scenarios mined from <b>17</b> different projects. The causes reported here are the same reported for build conflict, but the motivation behind them are different. <a href="https://github.com/spgroup/papers/blob/master/EMSEBuildConflicts/replication/broken-builds-post-integration-changes.csv" target="_blank"><i>Here</i></a> you can find the list of broken builds caused by post integration changes presented in the table bellow. </p>
+<p>We present here <b>485</b> Broken Builds caused by post integration changes performed after the merge scenario by the integrator, we identify in our study. These broken builds are from <b>51</b> merge scenarios mined from <b>17</b> different projects. The causes reported here are the same reported for build conflict, but the motivation behind them are different. <a href="https://github.com/spgroup/papers/blob/master/BuildConflicts/replication/broken-builds-post-integration-changes.csv" target="_blank"><i>Here</i></a> you can find the list of broken builds caused by post integration changes presented in the table bellow. </p>
 <div id="how-frequently-do-broken-builds-occur-caused-by-post-integration-changes" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="how-frequently-do-broken-builds-occur-caused-by-post-integration-changes">{"x":{"filter":"none","data":[
 	["<a href=\"https://github.com/spotify/netty-zmtp\" target=\"_blank\"> spotify/netty-zmtp </a>",
@@ -9563,7 +9563,7 @@ div.tocify {
 			    </ul> 
 		</li>
 		<li>
-  			<b>Getting a sample</b> - Next, you must inform the list of projects to be analyzed using the file <a href="https://github.com/leusonmario/TravisAnalysis/blob/master/build_conflicts_analysis/projectsList" target="_blank"><i>projectsList</i></a>. These projects will be downloaded and temporarily saved. If you want to analyze the projects we used in our study, it can be found <a href="https://github.com/spgroup/papers/blob/master/EMSEBuildConflicts/replication/sample.csv" target="_blank"><i>here</i></a>. Otherwise, you can use a new list of projects.
+  			<b>Getting a sample</b> - Next, you must inform the list of projects to be analyzed using the file <a href="https://github.com/leusonmario/TravisAnalysis/blob/master/build_conflicts_analysis/projectsList" target="_blank"><i>projectsList</i></a>. These projects will be downloaded and temporarily saved. If you want to analyze the projects we used in our study, it can be found <a href="https://github.com/spgroup/papers/blob/master/BuildConflicts/replication/sample.csv" target="_blank"><i>here</i></a>. Otherwise, you can use a new list of projects.
 		</li>
 		<li>
 			<b>Running the study</b> - Finally, locate the <a href="https://github.com/leusonmario/TravisAnalysis/blob/master/build_conflicts_analysis/MainAnalysisProjects.rb" target="_blank"><i>MainAnalysisProjects</i></a> and run the command: "ruby MainAnalysisProjects.rb". After the execution, the folder <i>FinalResults</i> will be created, grouping the generated CSV files with the results.
