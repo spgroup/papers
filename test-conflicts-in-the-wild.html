@@ -360,10 +360,10 @@ software development. They increase developer productivity by fostering teamwork
 <h2>SAM: SemAntic Merge tool based on Unit Test Generation</h2>
 <p> The essence of SAM is to generate and execute tests when merge scenarios are performed. These tests are executed over the different commits of a merge scenario, and after interpreting their results, the tools report whether a semantic conflict is detected. </p>
 
-<p>SAM receives as input a merge scenario and, based on the changes performed by developers, invokes unit test generation tools to generate test suites exploring the ongoing changes. Next, based on some heuristics, SAM checks whether test conflicts occur by comparing the test suites’ results against the different merge scenario commits. If a conflict is detected, the tool warns developers about its occurrence, informing the class and its element involved in the conflict. Figure 1 below shows how SAM works. Our current version of SAM is available on GitHub <a target="_blank" href="https://github.com/leusonmario/SAM">dataset</a>.</p>
+<p>SAM receives as input a merge scenario and, based on the changes performed by developers, invokes unit test generation tools to generate test suites exploring the ongoing changes. Next, based on some heuristics, SAM checks whether test conflicts occur by comparing the test suites’ results against the different merge scenario commits. If a conflict is detected, the tool warns developers about its occurrence, informing the class and its element involved in the conflict. Figure 1 below shows how SAM works. Our current version of SAM is available on <a target="_blank" href="https://github.com/leusonmario/SAM">GitHub</a>.</p>
 
 <figure>
-  <img src="https://github.com/leusonmario/papers/tree/master/img/sam-workflow.png" alt="SAM workflow" style="width:100%">
+  <img src="img/sam-workflow.png" alt="SAM workflow" style="width:100%">
   <figcaption align="middle">Figure 1 - SAM workflow</figcaption>
 </figure>
 
