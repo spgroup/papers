@@ -336,22 +336,20 @@ div.tocify {
 </style>
 <div id="abstract" class="section level2 tabset tabset-fade tabset-pills par-div">
 <h2>Abstract</h2>
-<p>Branching and merging are common practices in collaborative
-software development. They increase developer productivity by fostering teamwork, allowing developers to independently contribute to a software project. Despite such benefits, branching and merging come at a cost— the need to merge software and resolve merge conflicts, which often occur in practice. While modern merge techniques, such as 3-way or structured merge, can resolve many such conflicts automatically, they do not support conflicts when they arise not at the syntactic but the semantic level. Detecting such conflicts requires understanding the behavior of the software changes, which is beyond the capabilities of most existing merge tools. As such, test conflicts can only be identified and fixed with significant effort and knowledge of the changes to be merged. While semantic merge tools have been proposed, they are usually heavyweight, based on static analysis, and need explicit specifications of program behavior. Here we take a different route and explore the automated creation of unit tests as partial specifications to detect unwanted behavior changes (conflicts) when merging software.</p>
 
-<p>In order to address these limitations, we present SAM, a semantic merge tool exploring the detection of test conflicts through unit-test generation. To evaluate our tool, we performed an empirical study relying on a ground-truth dataset of more than 80 mutually integrated changes’ pairs on class elements (constructors, methods, and fields) from 51 software merge scenarios; we manually analyzed all changes and investigated whether test conflicts exist. Next, we systematically explore the detection of conflicts through unit-test generation tools using EvoSuite (the standard and the differential version), Randoop, and Randoop Clean, our modified version of Radoop. Additionally, we also propose the adoption of Testability Transformations and Serialization. These transformations are changes directly applied in the original source code to increase its testability during the generation process of test suites. The adoption of serialization aims to support tools when creating complex required objects. As a final remark, since some conflicts might be challenging to be detected, we also aim to assess whether the generated test suites can detect general behavior changes and related metrics. This way, we may evaluate how far the tools are to detect conflicts considering the detected behavior changes partially explores the changes involved in the merge scenario. Our results show that the best approach to detect conflicts involves combining Differential EvoSuite and EvoSuite applied against programs with Testability Transformations (8 detected conflicts out of 28).</p>
+<p>Branching and merging are common practices in collaborative software development. They increase developer productivity by fostering teamwork, allowing developers to independently contribute to a software project. Despite such benefits, these practices come at a cost---the need to merge software and resolve merge conflicts, which often occur in practice. While modern merge techniques, such as 3-way or structured merge, can resolve many such conflicts automatically, they fail when the conflict arises not at the syntactic but the semantic level. Detecting such conflicts requires understanding the behavior of the software, which is beyond the capabilities of most existing merge tools. While semantic merge tools have been proposed, they are usually heavyweight, based on static analysis, and need explicit specifications of program behavior. %In this work, we take a different route and explore SAM, a semantic merge tool based on the automated creation of unit tests as partial specifications to detect unwanted behavior changes (conflicts) when merging software. In order to address these limitations, we present SAM, a semantic merge tool exploring the detection of test conflicts through unit-test generation to detect unwanted behavior changes (conflicts) when merging software. To evaluate SAM, we perform an empirical study relying on a ground-truth dataset of more than 80 mutually integrated changes’ pairs on class elements (constructors, methods, and fields) from 51 software merge scenarios; we manually analyzed all changes and investigated whether test conflicts exist. Next, we systematically explore the detection of conflicts through unit-test generation tools, like EvoSuite (the standard and the differential version), Randoop, and Randoop Clean, our extended version of Randoop. Additionally, we also propose the adoption of Testability Transformations and Serialization; these transformations are changes directly applied in the target source code aiming to increase its testability during the generation process of test suites, while serialization aims to support unit-test tools when creating complex required objects. As a final remark, since some conflicts might be challenging to be detected, we assess whether the generated test suites can detect general behavior changes and related metrics. Our results show that the best approach to detect conflicts involves combining Differential EvoSuite and EvoSuite applied against programs with Testability Transformations (nine detected conflicts out of 28). Our results reinforce previous findings of the potential of using test-case generation to detect test conflicts as a method that is versatile and requires only limited deployment effort in practice, as well as it does not require explicit behavior specifications.</p>
 
-<p>Our results bring evidence of the feasibility of using test-case generation to detect test conflicts as a versatile method and requiring only limited deployment effort in practice, as well as does not require explicit behavior specifications. Regarding the detection of Behavior Changes between commit pairs, though EvoSuite was the most successful tool detecting 53% of all reported changes, there is no combination of tools to detect all reported behavior changes. Finally, we observe that larger budgets (time used for tools to generate test suites) benefit Randoop Clean when generating tests with more diverse objects and multiple target method calls, which might contribute to Randoop Clean detecting more behavior changes compared to Randoop.</p>
-
-<br>
-<b>PhD Student:</b> Léuson Da Silva (<a href="mailto:lmps2@cin.ufpe.br">lmps2@cin.ufpe.br</a>)
-<br>
-<b>Advisor:</b> Paulo Borba (<a href="mailto:phmb@cin.ufpe.br">phmb@cin.ufpe.br</a>)
-<br>
-<b>Co-Advisor:</b> Thorsten Berger (<a href="mailto:thorsten.berger@chalmers.se">thorsten.berger@chalmers.se</a>)
-
+<h3>Authors</h3>
 <ul>
-<li>A previous version of this work is available here: <a href="https://github.com/spgroup/papers/tree/master/2020ICSMESemanticConflictsTesting/preprint/preprint.pdf" >Preprint</a></li>
+	<li>Léuson Da Silva (<a href="mailto:leuson.silva@unicap.br">leuson.silva@unicap.br</a>)</li>
+	<li>Paulo Borba (<a href="mailto:phmb@cin.ufpe.br">phmb@cin.ufpe.br</a>)</li>
+	<li>Toni Maciel (<a href="mailto:jaam@cin.ufpe.br">jaam@cin.ufpe.br</a>)</li>
+	<li>Wardah Mahmood (<a href="mailto:wardah@chalmers.se">wardah@chalmers.se</a>)</li>
+	<li>Thorsten Berger (<a href="mailto:thorsten.berger@rub.de">thorsten.berger@crub.de</a>)</li>
+	<li>João Moisakis (<a href="mailto:jprm@cin.ufpe.br">jprm@cin.ufpe.br</a>)</li>
+	<li>Aldiberg Gomes (<a href="mailto:agcj2@cin.ufpe.br">agcj2@cin.ufpe.br</a>)</li>
+	<li>Vinicius Leite (<a href="mailto:vtls@cin.ufpe.br">vtls@cin.ufpe.br</a>)</li>
+	<li>Thaís Rocha (<a href="mailto:thais.burity@ufape.edu.br">thais.burity@ufape.edu.br</a>)</li>
 </ul>
 
 </div>
@@ -372,18 +370,29 @@ software development. They increase developer productivity by fostering teamwork
 
 <div id="how-many-semantic-conflicts-arise-when-changes-are-done-on-same-declarations" class="section level3 par-div">
 <h2>Using Regression Testing for detecting semantic conflicts</h2>
-<p>We present here our dataset of 85 mutually integrated changes’ pairs on class elements (constructors, methods, and fields) from <b>51</b> software merge scenarios mined from <b>31</b> different projects. In 28 changes, we can observe the occurrence of semantic conflicts (column <i>Semantic Conflict</i>). Using <i>Regression Testing</i>, we were able to automatically detect 9 of these conflicts. 
+<p>We present here our dataset of 85 mutually integrated changes’ pairs on class elements (constructors, methods, and fields) from <b>51</b> software merge scenarios mined from <b>31</b> different projects. In 28 changes, we can observe the occurrence of semantic conflicts (column <i>Semantic Conflict</i>). Using <i>Regression Testing</i>, we were able to automatically detect 9 of these conflicts. Figure 2 below shows the steps we adopt in this study.
+
+<figure>
+  <img src="img/test-conflicts-methodology.png" alt="Study Design" style="width:100%">
+  <figcaption align="middle">Figure 2 - Study Design</figcaption>
+</figure>
 
 <p>Here, you can find the list of changes on the same declarations we analyzed in our study. Each change is represented as a row in the table below.
 	<ul>
 		<li>
-			In column <i>Semantic Conflict</i>, we report whether the change represents a semantic conflict based on our notion of local interference (manual analysis).
+			In the column <i>Target Class</i>, we report the class where the parent commits apply simultaneously their changes. Additionally, we provide a link for the project commit associated with that merge scenario.
 		</li>
 		<li>
-			In column <i>Detected Conflict</i>, we report whether the semantic conflict was detected by our study using regression testing.
+			In the column <i> Changed Element</i>, we report the element simultaneously changed by the parent commits. That element might be an attribute, a method, or a constructor.
 		</li>
 		<li>
-			In columns <i>Left</i> and <i>Right Orig., Trans. and Seria.</i>, you can find the generated test suites for the original, transformed, and serialized versions, respectively, from each merge scenario.
+			In the column <i>Semantic Conflict</i>, we report whether the change represents a semantic conflict based on our notion of local interference (manual analysis).
+		</li>
+		<li>
+			In the column <i>Detected Conflict</i>, we report whether the semantic conflict was detected by our study using regression testing.
+		</li>
+		<li>
+			In the columns <i>Left</i> and <i>Right Orig., Trans., and Seria.</i>, you can find the generated test suites for the original, transformed, and serialized versions, respectively, from each merge scenario.
 		</li>
 	</ul>
 <div id="rq2" style="width:100%;height:auto;" class="datatables html-widget"></div>
@@ -901,8 +910,8 @@ software development. They increase developer productivity by fostering teamwork
 "<a href=\"https://github.com/leusonmario/RepStudy/tree/main/hector/a33a46506656a39d1b0f7780973905665d3b6145/651a11421dbdcb31f758184cd768989ef88da3c1/HKerberosThriftClient/open/transformed\" target=\"_blank\"> Test suite </a>" ,
 "<a href=\"https://github.com/leusonmario/RepStudy/tree/main/hector/a33a46506656a39d1b0f7780973905665d3b6145/651a11421dbdcb31f758184cd768989ef88da3c1/HThriftClient/open/transformed\" target=\"_blank\"> Test suite </a>" ,
 "<a href=\"https://github.com/leusonmario/RepStudy/tree/main/hector/213f7887ea70eabdf0705cf8454de29af89e8c38/25c2810ab1f656783fa38a4bef994c7511be8ac8/HconnectionManager/operateWithFailover/transformed\" target=\"_blank\"> Test suite </a>" ,
-		"No",
-		"No"
+		" - ",
+		" - "
 	],
 	[ " - ",
 " - ",
