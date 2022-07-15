@@ -1,0 +1,401 @@
+@inproceedings{Bird2012AssessingTV,
+  title={Assessing the value of branches with what-if analysis},
+  author={Christian Bird and Thomas Zimmermann},
+  booktitle={SIGSOFT FSE},
+  year={2012}
+}
+
+@article{10.1145/3133883,
+author = {Cavalcanti, Guilherme and Borba, Paulo and Accioly, Paola},
+title = {Evaluating and Improving Semistructured Merge},
+year = {2017},
+issue_date = {October 2017},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {1},
+number = {OOPSLA},
+url = {https://doi.org/10.1145/3133883},
+doi = {10.1145/3133883},
+abstract = {While unstructured merge tools rely only on textual analysis to detect and resolve conflicts, semistructured merge tools go further by partially exploiting the syntactic structure and semantics of the involved artifacts. Previous studies compare these merge approaches with respect to the number of reported conflicts, showing, for most projects and merge situations, reduction in favor of semistructured merge. However, these studies do not investigate whether this reduction actually leads to integration effort reduction (productivity) without negative impact on the correctness of the merging process (quality). To analyze that, and better understand how merge tools could be improved, in this paper we reproduce more than 30,000 merges from 50 open source projects, identifying conflicts incorrectly reported by one approach but not by the other (false positives), and conflicts correctly reported by one approach but missed by the other (false negatives). Our results and complementary analysis indicate that, in the studied sample, the number of false positives is significantly reduced when using semistructured merge. We also find evidence that its false positives are easier to analyze and resolve than those reported by unstructured merge. However, we find no evidence that semistructured merge leads to fewer false negatives, and we argue that they are harder to detect and resolve than unstructured merge false negatives. Driven by these findings, we implement an improved semistructured merge tool that further combines both approaches to reduce the false positives and false negatives of semistructured merge. We find evidence that the improved tool, when compared to unstructured merge in our sample, reduces the number of reported conflicts by half, has no additional false positives, has at least 8\% fewer false negatives, and is not prohibitively slower.},
+journal = {Proc. ACM Program. Lang.},
+month = {oct},
+articleno = {59},
+numpages = {27},
+keywords = {software merging, collaborative development, version control systems}
+}
+
+@inproceedings{10.1109/ASE.2019.00097,
+author = {Cavalcanti, Guilherme and Borba, Paulo and Seibt, Georg and Apel, Sven},
+title = {The Impact of Structure on Software Merging: Semistructured versus Structured Merge},
+year = {2019},
+isbn = {9781728125084},
+publisher = {IEEE Press},
+url = {https://doi.org/10.1109/ASE.2019.00097},
+doi = {10.1109/ASE.2019.00097},
+abstract = {Merge conflicts often occur when developers concurrently change the same code artifacts. While state of practice unstructured merge tools (e.g. Git merge) try to automatically resolve merge conflicts based on textual similarity, semistructured and structured merge tools try to go further by exploiting the syntactic structure and semantics of the artifacts involved. Although there is evidence that semistructured merge has significant advantages over unstructured merge, and that structured merge reports significantly fewer conflicts than unstructured merge, it is unknown how semistructured merge compares with structured merge. To help developers decide which kind of tool to use, we compare semistructured and structured merge in an empirical study by reproducing more than 40,000 merge scenarios from more than 500 projects. In particular, we assess how often the two merge strategies report different results: we identify conflicts incorrectly reported by one but not by the other (false positives), and conflicts correctly reported by one but missed by the other (false negatives). Our results show that semistructured and structured merge differ in 24\% of the scenarios with conflicts. Semistructured merge reports more false positives, whereas structured merge has more false negatives. Finally, we found that adapting a semistructured merge tool to resolve a particular kind of conflict makes semistructured and structured merge even closer.},
+booktitle = {Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering},
+pages = {1002–1013},
+numpages = {12},
+keywords = {version control systems, code integration, collaborative development, software merging},
+location = {San Diego, California},
+series = {ASE '19}
+}
+
+@INPROCEEDINGS{8952450,  author={Trindade Tavares, Alberto and Borba, Paulo and Cavalcanti, Guilherme and Soares, Sérgio},  booktitle={2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)},   title={Semistructured Merge in JavaScript Systems},   year={2019},  volume={},  number={},  pages={1014-1025},  doi={10.1109/ASE.2019.00098}}
+
+@article{Horwitz1989IntegratingNV,
+  title={Integrating noninterfering versions of programs},
+  author={Susan Horwitz and Jan Prins and T. Reps},
+  journal={ACM Trans. Program. Lang. Syst.},
+  year={1989},
+  volume={11},
+  pages={345-387}
+}
+
+@INPROCEEDINGS{LeusonSilva2020,
+  author={Silva, Leuson Da and Borba, Paulo and Mahmood, Wardah and Berger, Thorsten and Moisakis, João},
+  booktitle={2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)}, 
+  title={Detecting Semantic Conflicts via Automated Behavior Change Detection},
+  year={2020},
+  volume={},
+  number={},
+  pages={174-184},
+  doi={10.1109/ICSME46990.2020.00026}
+ }
+ 
+@ARTICLE{Binkley95programintegration,
+    author = {David Binkley and Susan Horwitz and Thomas Reps},
+    title = {Program integration for languages with procedure calls},
+    journal = {ACM Transactions on Software Engineering and Methodology},
+    year = {1995},
+    volume = {4},
+    pages = {3--35}
+}
+@article{InformationFlowRoberto,
+    author = {Roberto de Barros Filho},
+    title = {Using information flow to estimate interference between same-method contributions},
+    journal={Master’s thesis, Universidade Federal de Pernambuco},
+    year = {2017},
+}
+@ARTICLE{Sarma,
+  author={Sarma, Anita and Redmiles, David F. and van der Hoek, André},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={Palantir: Early Detection of Development Conflicts Arising from Parallel Code Changes}, 
+  year={2012},
+  volume={38},
+  number={4},
+  pages={889-908},
+  doi={10.1109/TSE.2011.64}
+}
+ 
+ @article{brun,
+author = {Brun, Yuriy and Holmes, Reid and Ernst, Michael D. and Notkin, David},
+title = {Early Detection of Collaboration Conflicts and Risks},
+year = {2013},
+issue_date = {October 2013},
+publisher = {IEEE Press},
+volume = {39},
+number = {10},
+issn = {0098-5589},
+url = {https://doi.org/10.1109/TSE.2013.28},
+doi = {10.1109/TSE.2013.28},
+abstract = {Conflicts among developers' inconsistent copies of a shared project arise in collaborative development and can slow progress and decrease quality. Identifying and resolving such conflicts early can help. Identifying situations which may lead to conflicts can prevent some conflicts altogether. By studying nine open-source systems totaling 3.4 million lines of code, we establish that conflicts are frequent, persistent, and appear not only as overlapping textual edits but also as subsequent build and test failures. Motivated by this finding, we develop a speculative analysis technique that uses previously unexploited information from version control operations to precisely diagnose important classes of conflicts. Then, we design and implement Crystal, a publicly available tool that helps developers identify, manage, and prevent conflicts. Crystal uses speculative analysis to make concrete advice unobtrusively available to developers.},
+journal = {IEEE Trans. Softw. Eng.},
+month = {oct},
+pages = {1358–1375},
+numpages = {18},
+keywords = {version control, developer awareness, collaboration conflicts, speculative analysis, Collaborative development, Crystal}
+} 
+
+@inproceedings{10.1145/958160.958177,
+author = {de Souza, Cleidson R. B. and Redmiles, David and Dourish, Paul},
+title = {"Breaking the Code", Moving between Private and Public Work in Collaborative Software Development},
+year = {2003},
+isbn = {1581136935},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/958160.958177},
+doi = {10.1145/958160.958177},
+abstract = {Software development is typically cooperative endeavor where a group of engineers need to work together to achieve a common, coordinated result. As a cooperative effort, it is especially difficult because of the many interdependencies amongst the artifacts created during the process. This has lead software engineers to create tools, such as configuration management tools, that isolate developers from the effects of each other's work. In so doing, these tools create a distinction between private and public aspects of work of the developer. Technical support is provided to these aspects as well as for transitions between them. However, we present empirical material collected from a software development team that suggests that the transition from private to public work needs to be more carefully handled. Indeed, the analysis of our material suggests that different formal and informal work practices are adopted by the developers to allow a delicate transition, where software developers are not largely affected by the emergent public work. Finally, we discuss how groupware tools might support this transition.},
+booktitle = {Proceedings of the 2003 International ACM SIGGROUP Conference on Supporting Group Work},
+pages = {105–114},
+numpages = {10},
+keywords = {qualitative studies, collaborative software development, public work, private work},
+location = {Sanibel Island, Florida, USA},
+series = {GROUP '03}
+}
+
+@INPROCEEDINGS{6915251,  author={Estler, H. Christian and Nordio, Martin and Furia, Carlo A. and Meyer, Bertrand},  booktitle={2014 IEEE 9th International Conference on Global Software Engineering},   title={Awareness and Merge Conflicts in Distributed Software Development},   year={2014},  volume={},  number={},  pages={26-35},  doi={10.1109/ICGSE.2014.17}}
+
+@INPROCEEDINGS{4228648,  author={Zimmermann, Thomas},  booktitle={Fourth International Workshop on Mining Software Repositories (MSR'07:ICSE Workshops 2007)},   title={Mining Workspace Updates in CVS},   year={2007},  volume={},  number={},  pages={11-11},  doi={10.1109/MSR.2007.22}}
+
+@article{10.1145/383876.383878,
+author = {Perry, Dewayne E. and Siy, Harvey P. and Votta, Lawrence G.},
+title = {Parallel Changes in Large-Scale Software Development: An Observational Case Study},
+year = {2001},
+issue_date = {July 2001},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {10},
+number = {3},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/383876.383878},
+doi = {10.1145/383876.383878},
+abstract = {An essential characteristic of large-scale software development is parallel development by teams of developers. How this parallel development is structured and supported has a profound effect on both the quality and timeliness of the product. We conduct an observational case study in which we collect and analyze the change and configuration management history of a legacy system to delineate the boundaries of, and to understand the nature of, the problems encountered in parallel development. The results of our studies are (1) that the degree of parallelism is very highhigher than considered by tool builders; (2) there are multiple levels of parallelism, and the data for some important aspects are uniform and consistent for all levels; (3) the tails of the distributions are long,  indicating the tail, rather than the mean, must receive serious attention in providing solutions for these problems; and (4) there is a significant correlation between the degree of parallel work on a given component and the number of quality problems it has. Thus, the results of this study are important both for tool builders and for process and project engineers.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = {jul},
+pages = {308–337},
+numpages = {30},
+keywords = {parallel versions, parallel/concurrent changes, merging interfering and noninterfering versions, change management, software integration}
+}
+
+@INPROCEEDINGS{8094445,  author={McKee, Shane and Nelson, Nicholas and Sarma, Anita and Dig, Danny},  booktitle={2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)},   title={Software Practitioner Perspectives on Merge Conflicts and Resolutions},   year={2017},  volume={},  number={},  pages={467-478},  doi={10.1109/ICSME.2017.53}}
+
+@inproceedings{10.1145/2786805.2803208,
+author = {Nguyen, Hung Viet and Nguyen, My Huu and Dang, Son Cuu and K\"{a}stner, Christian and Nguyen, Tien N.},
+title = {Detecting Semantic Merge Conflicts with Variability-Aware Execution},
+year = {2015},
+isbn = {9781450336758},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2786805.2803208},
+doi = {10.1145/2786805.2803208},
+abstract = { In collaborative software development, changes made in parallel by multiple developers may conflict. Previous research has shown that conflicts are common and occur as textual conflicts or semantic conflicts, which manifest as build or test failures. With many parallel changes, it is desirable to identify conflicts early and pinpoint the (minimum) set of changes involved. However, the costs of identifying semantic conflicts can be high because tests need to be executed on many merge scenarios. We propose Semex, a novel approach to detect semantic conflicts using variability-aware execution. We encode all parallel changes into a single program, in which "if" statements guard the alternative code fragments. Then, we run the test cases using variability-aware execution, exploring all possible concrete executions of the combined program with regard to all possible merge scenarios, while exploiting similarities among the executions to speed up the process. Variability-aware execution returns a formula describing all failing merge scenarios. In our preliminary experimental study on seven PHP programs with a total of 50 test cases and 19 semantic conflicts, Semex correctly detected all 19 conflicts. },
+booktitle = {Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering},
+pages = {926–929},
+numpages = {4},
+keywords = {Variability-aware execution, n-way merge, semantic merge conflicts},
+location = {Bergamo, Italy},
+series = {ESEC/FSE 2015}
+}
+
+@article{10.1145/3276535,
+author = {Sousa, Marcelo and Dillig, Isil and Lahiri, Shuvendu K.},
+title = {Verified Three-Way Program Merge},
+year = {2018},
+issue_date = {November 2018},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {OOPSLA},
+url = {https://doi.org/10.1145/3276535},
+doi = {10.1145/3276535},
+abstract = {Even though many programmers rely on 3-way merge tools to integrate changes from different branches, such tools can introduce subtle bugs in the integration process. This paper aims to mitigate this problem by defining a semantic notion of conflict-freedom, which ensures that the merged program does not introduce new unwanted behaviors. We also show how to verify this property using a novel, compositional algorithm that combines lightweight summarization for shared program fragments with precise relational reasoning for the modifications. Towards this goal, our method uses a 4-way differencing algorithm on abstract syntax trees to represent different program versions as edits applied to a shared program with holes. This representation allows our verification algorithm to reason about different edits in isolation and compose them to obtain an overall proof of conflict freedom. We have implemented the proposed technique in a new tool called SafeMerge for Java and evaluate it on 52 real-world merge scenarios obtained from Github. The experimental results demonstrate the benefits of our approach over syntactic conflict-freedom and indicate that SafeMerge is both precise and practical.},
+journal = {Proc. ACM Program. Lang.},
+month = {oct},
+articleno = {165},
+numpages = {29},
+keywords = {Three-way program merge, product programs, relational verification}
+}
+
+@inproceedings{10.1145/111062.111071,
+author = {Westfechtel, Bernhard},
+title = {Structure-Oriented Merging of Revisions of Software Documents},
+year = {1991},
+isbn = {0897914295},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/111062.111071},
+doi = {10.1145/111062.111071},
+booktitle = {Proceedings of the 3rd International Workshop on Software Configuration Management},
+pages = {68–79},
+numpages = {12},
+location = {Trondheim, Norway},
+series = {SCM '91}
+}
+
+@inproceedings{Buffenbarger,
+title = {Syntactic software merging}, 
+author = {Jim Buffenbarger},
+year = {1993},
+booktitle = {Software Configuration Management. Springer},
+pages = {153–172},
+}
+
+@article{10.1007/s10515-006-0002-0,
+author = {Apiwattanapong, Taweesup and Orso, Alessandro and Harrold, Mary Jean},
+title = {JDiff: A Differencing Technique and Tool for Object-Oriented Programs},
+year = {2007},
+issue_date = {March     2007},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {14},
+number = {1},
+issn = {0928-8910},
+url = {https://doi.org/10.1007/s10515-006-0002-0},
+doi = {10.1007/s10515-006-0002-0},
+abstract = {During software evolution, information about changes between different versions of a program is useful for a number of software engineering tasks. For example, configuration-management systems can use change information to assess possible conflicts among updates from different users. For another example, in regression testing, knowledge about which parts of a program are unchanged can help in identifying test cases that need not be rerun. For many of these tasks, a purely syntactic differencing may not provide enough information for the task to be performed effectively. This problem is especially relevant in the case of object-oriented software, for which a syntactic change can have subtle and unforeseen effects. In this paper, we present a technique for comparing object-oriented programs that identifies both differences and correspondences between two versions of a program. The technique is based on a representation that handles object-oriented features and, thus, can capture the behavior of object-oriented programs. We also present  JDiff , a tool that implements the technique for Java programs. Finally, we present the results of four empirical studies, performed on many versions of two medium-sized subjects, that show the efficiency and effectiveness of the technique when used on real programs.},
+journal = {Automated Software Engg.},
+month = {mar},
+pages = {3–36},
+numpages = {34},
+keywords = {Software evolution, Program differencing}
+}
+
+@inproceedings{Cdiff,
+title = {Cdiff: A Syntax Directed Differencer for C++ Programs}, 
+author = {Judith E. Grass.},
+year = {1992},
+booktitle = {Proceedings of the USENIX C++ Conference. USENIX Association},
+}
+@INPROCEEDINGS{6494912,  author={Apel, Sven and Leßenich, Olaf and Lengauer, Christian},  booktitle={2012 Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering},   title={Structured merge with auto-tuning: balancing precision and performance},   year={2012},  volume={},  number={},  pages={120-129},  doi={10.1145/2351676.2351694}}
+
+@inproceedings{10.1145/2025113.2025141,
+author = {Apel, Sven and Liebig, J\"{o}rg and Brandl, Benjamin and Lengauer, Christian and K\"{a}stner, Christian},
+title = {Semistructured Merge: Rethinking Merge in Revision Control Systems},
+year = {2011},
+isbn = {9781450304436},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2025113.2025141},
+doi = {10.1145/2025113.2025141},
+abstract = {An ongoing problem in revision control systems is how to resolve conflicts in a merge of independently developed revisions. Unstructured revision control systems are purely text-based and solve conflicts based on textual similarity. Structured revision control systems are tailored to specific languages and use language-specific knowledge for conflict resolution. We propose semistructured revision control systems that inherit the strengths of both: the generality of unstructured systems and the expressiveness of structured systems. The idea is to provide structural information of the underlying software artifacts --- declaratively, in the form of annotated grammars. This way, a wide variety of languages can be supported and the information provided can assist in the automatic resolution of two classes of conflicts: ordering conflicts and semantic conflicts. The former can be resolved independently of the language and the latter using specific conflict handlers. We have been developing a tool that supports semistructured merge and conducted an empirical study on 24 software projects developed in Java, C#, and Python comprising 180 merge scenarios. We found that semistructured merge reduces the number of conflicts in 60\% of the sample merge scenarios by, on average, 34\%, compared to unstructured merge. We found also that renaming is challenging in that it can increase the number of conflicts during semistructured merge, and that a combination of unstructured and semistructured merge is a pragmatic way to go.},
+booktitle = {Proceedings of the 19th ACM SIGSOFT Symposium and the 13th European Conference on Foundations of Software Engineering},
+pages = {190–200},
+numpages = {11},
+keywords = {semistructured merge, revision control, software merging, version control, featurehouse, fstmerge},
+location = {Szeged, Hungary},
+series = {ESEC/FSE '11}
+}
+
+@INPROCEEDINGS{7321191,  author={Cavalcanti, Guilherme and Accioly, Paola and Borba, Paulo},  booktitle={2015 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)},   title={Assessing Semistructured Merge in Version Control Systems: A Replicated Experiment},   year={2015},  volume={},  number={},  pages={1-10},  doi={10.1109/ESEM.2015.7321191}}
+
+@inproceedings{10.1109/ICSE-Companion.2019.00117,
+author = {Zhu, Fengmin and He, Fei and Yu, Qianshan},
+title = {Enhancing Precision of Structured Merge by Proper Tree Matching},
+year = {2019},
+publisher = {IEEE Press},
+url = {https://doi.org/10.1109/ICSE-Companion.2019.00117},
+doi = {10.1109/ICSE-Companion.2019.00117},
+abstract = {Recently, structured merge has shown its advantage in improving the merge precision over conventional line-based, unstructured merge. A typical structured merge algorithm consists of matching and amalgamation on abstract syntax trees. Existing tree matching techniques aim to figure out optimal matches by maximizing the number of matched nodes. From real-world codebases, however, we find that many of the reported conflicts are unnecessary. We propose a new objective function for defining a proper tree matching, with which the overall conflicting rate can be greatly reduced. We conducted experiments on 3,687 merge scenarios extracted from 18 open-source projects. Results show significant merge precision enhancement of our approach.},
+booktitle = {Proceedings of the 41st International Conference on Software Engineering: Companion Proceedings},
+pages = {286–287},
+numpages = {2},
+keywords = {tree matching, software merge, revision control systems, structured merge},
+location = {Montreal, Quebec, Canada},
+series = {ICSE '19}
+}
+
+@article{1113835899,
+ abstract = {In a collaborative development context, conflicting code changes might compromise software quality and developers productivity. To reduce conflicts, one could avoid the parallel execution of potentially conflicting tasks. Although hopeful, this strategy is challenging because it relies on the prediction of the required file changes to complete a task. As predicting such file changes is hard, we investigate its feasibility for BDD (Behaviour-Driven Development) projects, which write automated acceptance tests before implementing features. We develop a tool that, for a given task, statically analyzes Cucumber tests and infers test-based interfaces (files that could be executed by the tests), approximating files that would be changed by the task. To assess the accuracy of this approximation, we measure precision and recall of test-based interfaces of 513 tasks from 18 Rails projects on GitHub. We also compare such interfaces with randomly defined interfaces, interfaces obtained by textual similarity of test specifications with past tasks, and interfaces computed by executing tests. Our results give evidence that, in the specific context of BDD, Cucumber tests might help to predict files changed by tasks. We find that the better the test coverage, the better the predictive power. A hybrid approach for computing test-based interfaces is promising.},
+ author = {Rocha, Thaís and Borba, Paulo and Santos, João Pedro},
+ doi = {10.1016/j.jss.2019.04.060},
+ journal = {Journal of Systems and Software},
+ keywords = {},
+ number = {},
+ pages = {176-195},
+ title = {Using acceptance tests to predict files changed by programming tasks},
+ url = {https://app.dimensions.ai/details/publication/pub.1113835899},
+ volume = {154},
+ year = {2019}
+}
+
+@article{10.1145/201055.201056,
+author = {Binkley, David and Horwitz, Susan and Reps, Thomas},
+title = {Program Integration for Languages with Procedure Calls},
+year = {1995},
+issue_date = {Jan. 1995},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {1},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/201055.201056},
+doi = {10.1145/201055.201056},
+abstract = {Given a program Base and two variants, A and B, each created by modifying separate copies of Base, the goal of program integration is to determine whether the modifications interfere, and if they do not, to create an integrated program that incorporates both sets of changes as well as the portions of Base preserved in both variants. Text-based integration techniques, such as the one used by the Unix diff3 utility, are obviously unsatisfactory because one has no guarantees about how the execution behavior of the integrated program relates to the behaviors of Base, A, and B. The first program integration algorithm to provide such guarantees was developed by Horwitz, Prins, and Reps. However, a limitation of that algorithm is that it only applied to programs written in a  restricted language—in particular, the algorithm does not handle programs with procedures. This article describes a generalization of the Horwitz-Prins-Reps algorithm that handles programs that consist of multiple (and possibly mutually recursive) procedures.We show that two straightforward generalizations of the Horwitz-Prins-Reps algorithm yield unsatisfactory results. The key issue in developing a satisfactory algorithm is how to take into account different calling contexts when determining what has changed in the variants A and B. Our solution to this problem involves identifying two different kinds of affected components of A and B: those affected regardless of how the procedure is called, and those affected by a changed or new calling context. The algorithm makes use of  interprocedural program slicing to identify these components, as well as components in Base, A, and B with the same behavior.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = {jan},
+pages = {3–35},
+numpages = {33},
+keywords = {data dependence, program dependence graph, semantics-based program integration, control dependence, data-flow analysis, program slicing, flow-insensitive summary information}
+}
+
+@article{10.1145/65979.65980,
+author = {Horwitz, Susan and Prins, Jan and Reps, Thomas},
+title = {Integrating Noninterfering Versions of Programs},
+year = {1989},
+issue_date = {July 1989},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {11},
+number = {3},
+issn = {0164-0925},
+url = {https://doi.org/10.1145/65979.65980},
+doi = {10.1145/65979.65980},
+abstract = {The need to integrate several versions of a program into a common one arises frequently, but it is a tedious and time consuming task to integrate programs by hand. To date, the only available tools for assisting with program integration are variants of text-based differential file comparators; these are of limited utility because one has no guarantees about how the program that is the product of an integration behaves compared to the programs that were integrated.This paper concerns the design of a semantics-based tool for automatically integrating program versions. The main contribution of the paper is an algorithm that takes as input three programs A, B, and Base, where A and B are two variants of Base. Whenever the changes made to Base to create A and B do not “interfere” (in a sense defined in the paper), the algorithm produces a program M that integrates A and B. The algorithm is predicated on the assumption that differences in the behavior of the variant programs from that of Base, rather than differences in the text, are significant and must be preserved in M. Although it is undecidable whether a program modification actually leads to such a difference, it is possible to determine a safe approximation by comparing each of the variants with Base. To determine this information, the integration algorithm employs a program representation that is similar (although not identical) to the dependence graphs that have been used previously in vectorizing and parallelizing compilers. The algorithm also makes use of the notion of a program slice to find just those statements of a program that determine the values of potentially affected variables.The program-integration problem has not been formalized previously. It should be noted, however, that the integration problem examined here is a greatly simplified one; in particular, we assume that expressions contain only scalar variables and constants, and that the only statements used in programs are assignment statements, conditional statements, and while-loops.},
+journal = {ACM Trans. Program. Lang. Syst.},
+month = {jul},
+pages = {345–387},
+numpages = {43}
+}
+
+@INPROCEEDINGS{336770,  author={Jackson and Ladd},  booktitle={Proceedings 1994 International Conference on Software Maintenance},   title={Semantic Diff: a tool for summarizing the effects of modifications},   year={1994},  volume={},  number={},  pages={243-252},  doi={10.1109/ICSM.1994.336770}}
+
+@article{10.1145/131736.131756,
+author = {Yang, Wuu and Horwitz, Susan and Reps, Thomas},
+title = {A Program Integration Algorithm That Accommodates Semantics-Preserving Transformations},
+year = {1992},
+issue_date = {July 1992},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {1},
+number = {3},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/131736.131756},
+doi = {10.1145/131736.131756},
+abstract = {Given a program Base and two variants, A and B, each created by modifying separate copies of Base, the goal of program integration is to determine whether the modifications interfere, and if they do not, to create an integrated program that includes both sets of changes as well as the portions of Base preserved in both variants. Text-based integration techniques, such as the one used by the Unix diff3 utility, are obviously unsatisfactory because one has no guarantees about how the execution behavior of the integrated program relates to the behaviors of Base, A, and B. The first program-integration algorithm to   provide such guarantees was developed by Horwitz et al.[13]. However, a limitation of that algorithm is that it incorporates no notion of semantics-preserving transformations. This limitation causes the algorithm to be overly conservative in its definition of interference. For example, if one variant changes the way a computation is performed (without changing the values computed) while the other variant adds code that uses the result of the computation, the algorithm would classify those changes as interfering. This paper describes a new integration algorithm that is able to accommodate semantics-preserving transformations.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = {jul},
+pages = {310–354},
+numpages = {45},
+keywords = {flow dependence, control dependence, program integration, program dependence graph, static-single-assignment form, program representation graph, data dependence, coarsest partition, data-flow analysis}
+}
+
+@inbook{10.1145/3474624.3474646,
+author = {Clementino, J\^{o}natas and Borba, Paulo and Cavalcanti, Guilherme},
+title = {Textual Merge Based on Language-Specific Syntactic Separators},
+year = {2021},
+isbn = {9781450390613},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3474624.3474646},
+abstract = {In practice, developers mostly use purely textual, line-based, merge tools. Such tools, however, often report false conflicts. Researchers have then proposed AST-based tools that explore language syntactic structure to reduce false conflicts. Nevertheless, these approaches might negatively impact merge performance, and demand the creation of a new tool for each language. Trying to simulate the behavior of AST-based tools without their drawbacks, this paper proposes and analyzes a purely textual, separator-based, merge tool that aims to simulate AST-based tools by considering programming language syntactic separators, instead of just lines, when comparing and merging changes. The obtained results show that the separator-based textual approach might reduce the number of false conflicts when compared to the line-based approach. The new solution makes room for future studies and hybrid merge tools.},
+booktitle = {Brazilian Symposium on Software Engineering},
+pages = {243–252},
+numpages = {10}
+}
+
+@inproceedings{10.5555/1781794.1781836,
+author = {Khanna, Sanjeev and Kunal, Keshav and Pierce, Benjamin C.},
+title = {A Formal Investigation of Diff3},
+year = {2007},
+isbn = {3540770496},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+abstract = {The diff3 algorithm is widely considered the gold standard formerging uncoordinated changes to list-structured data such as text files. Surprisingly, its fundamental properties have never been studied in depth.We offer a simple, abstract presentation of the diff3 algorithm and investigate its behavior. Despite abundant anecdotal evidence that people find diff3's behavior intuitive and predictable in practice, characterizing its good properties turns out to be rather delicate: a number of seemingly natural intuitions are incorrect in general. Our main result is a careful analysis of the intuition that edits to "well-separated" regions of the same document are guaranteed never to conflict.},
+booktitle = {Proceedings of the 27th International Conference on Foundations of Software Technology and Theoretical Computer Science},
+pages = {485–496},
+numpages = {12},
+location = {New Delhi, India},
+series = {FSTTCS'07}
+}
+
+@inproceedings{10.1145/2568225.2568300,
+author = {Nguyen, Hung Viet and K\"{a}stner, Christian and Nguyen, Tien N.},
+title = {Exploring Variability-Aware Execution for Testing Plugin-Based Web Applications},
+year = {2014},
+isbn = {9781450327565},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2568225.2568300},
+doi = {10.1145/2568225.2568300},
+abstract = { In plugin-based systems, plugin conflicts may occur when two or more plugins interfere with one another, changing their expected behaviors. It is highly challenging to detect plugin conflicts due to the exponential explosion of the combinations of plugins (i.e., configurations). In this paper, we address the challenge of executing a test case over many configurations. Leveraging the fact that many executions of a test are similar, our variability-aware execution runs common code once. Only when encountering values that are different depending on specific configurations will the execution split to run for each of them. To evaluate the scalability of variability-aware execution on a large real-world setting, we built a prototype PHP interpreter called Varex and ran it on the popular WordPress blogging Web application. The results show that while plugin interactions exist, there is a significant amount of sharing that allows variability-aware execution to scale to 2^50 configurations within seven minutes of running time. During our study, with Varex, we were able to detect two plugin conflicts: one was recently reported on WordPress forum and another one was not previously discovered. },
+booktitle = {Proceedings of the 36th International Conference on Software Engineering},
+pages = {907–918},
+numpages = {12},
+keywords = {Plugin-based Web Applications, Configurable Code, Testing, Software Product Lines, Variability-aware Execution},
+location = {Hyderabad, India},
+series = {ICSE 2014}
+}
+
+@ARTICLE{9625780,  author={Vale, Gustavo and Hunsen, Claus and Figueiredo, Eduardo and Apel, Sven},  journal={IEEE Transactions on Software Engineering},   title={Challenges of Resolving Merge Conflicts: A Mining and Survey Study},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/TSE.2021.3130098}}
