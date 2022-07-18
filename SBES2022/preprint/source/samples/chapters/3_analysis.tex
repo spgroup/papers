@@ -37,12 +37,12 @@ Outro detalhe importante é com relação à acurácia com que a análise detect
 De modo geral, o algoritmo da análise proposta consiste em percorrer os comandos de um método de entrada.\footnote{A implementação atual considera como método de entrada o método onde ocorreu a primeira modificação feita pelo desenvolvedor \emph{Left}} Quando encontra uma atribuição adicionada por \emph{Left} ou \emph{Right}, guarda essa informação em um conjunto que contém os elementos do estado alterado.\footnote{Tal conjunto corresponde a uma abstração na infraestrutura de análise de programas \emph{Soot Framework}. Outro termo comumente encontrado na literatura é \emph{lattice}.} Uma interferência é reportada sempre que o elemento de estado já existe no conjunto. Quando encontra uma atribuição de \emph{Base}, tira da abstração. Para \emph{interprocedural}, adicionalmente atravessa recursivamente os comandos do método chamado quando encontra uma chamada de método. Um pseudocódigo simplificado do algoritmo pode ser observado na imagem a seguir.
 
 \begin{algorithm}[h]
-    \caption{Algorítimo de substituição de atribuição}
+    \caption{Algoritmo de substituição de atribuição}
     
     \SetKwInOut{Input}{input}
     \SetKwInOut{Output}{output}
 
-    \Input{Um metodo de entrada $m$}
+    \Input{Um método de entrada $m$}
     \Output{Uma lista de interferências}
     
     \SetKwData{abstractionRight}{abstractionRight}\SetKwData{abstractionLeft}{abstractionLeft}
