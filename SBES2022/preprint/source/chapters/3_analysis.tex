@@ -60,8 +60,8 @@ Um pseudocódigo simplificado do algoritmo pode ser observado na imagem a seguir
     \BlankLine
     \Fn{\traverse($m$)}{
         \ForEach{$cmd\in m$}{
-            \uIf{\isTagged($cmd$)}{
-                \uIf{\isAssigment($cmd$)}{
+            \uIf{\isAssigment($cmd$)}{
+                \uIf{\isTagged($cmd$)}{
                     \uIf{\isRight($cmd$)}{
                         $abstractionRight\leftarrow cmd$\
                     }
@@ -71,16 +71,16 @@ Um pseudocódigo simplificado do algoritmo pode ser observado na imagem a seguir
                     \tcc*[h]{verifica se existe Interferência e adiciona na lista de conflitos}
                     
                     \checkConflict($cmd$)\;
-                }
-                \uElseIf{\isMethodCall($cmd$)}{
-                    \traverse($cmd$)\;
+                    }
+                \Else{
+                    \tcc*[h]{remove o comando das listas.}
+                    \kill($cmd$)\; 
                 }
             }
-            \Else{
-                \tcc*[h]{remove o comando das listas.}
-                
-                \kill($cmd$)\; 
+            \uElseIf{\isMethodCall($cmd$)}{
+                \traverse($cmd$)\;
             }
+          
         }
     }
 \end{algorithm}
