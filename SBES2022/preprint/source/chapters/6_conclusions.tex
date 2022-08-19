@@ -1,0 +1,9 @@
+\section{CONCLUSÕES}
+
+Neste estudo apresentamos uma proposta de análise estática de substituição de atribuições entre contribuições de dois desenvolvedores, de modo a detectar interferências. Foi implementado duas abordagens para a análise proposta, sendo uma \emph{intraprocedural} e outra \emph{interprocedural}.
+
+\rev{Apesar de haver outros tipos de análise que podem detectar interferência, focamos em OA por ela ter mais chances de ser efetiva, já que a nossa expectativa era de que normalmente quando há esse tipo de sobreposição há também interferência. Além disso, existe a necessidade de entender com precisão os pontos fortes e fracos de cada análise individualmente, de forma a poder sugerir uma combinação de análises que seja mais efetiva para detectar interferência.}
+
+A análise proposta se mostrou capaz de detectar cenários com substituições de atribuições e com interferência localmente observável entre as contribuições. No entanto, teve uma quantidade considerável de falsos negativos, o que indica que ela não é suficiente para detectar cenários com interferência de forma confiável. Portanto, a análise proposta poderia ser combinada com outras para compor uma ferramenta mais robusta para detecção de conflitos de integração semânticos.
+
+\rev{Como trabalho futuro, pretende-se implementar a resolução de algumas limitações conhecidas para a análise, além de realizar combinações com outras ferramentas de detecção de conflitos semânticos relacionadas.}

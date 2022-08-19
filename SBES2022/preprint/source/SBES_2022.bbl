@@ -1,0 +1,589 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{35}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{sit}{2022}]%
+        {sitesbes2022}
+ \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Online Appendix}.
+\newblock \bibinfo{howpublished}{available at:
+  \url{https://spgroup.github.io/papers/semantic-conflicts-SBES2022.html}}.
+\newblock
+\urldef\tempurl%
+\url{https://spgroup.github.io/papers/overriding-assignment-sbes2022.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apel, Leßenich, and Lengauer}{Apel
+  et~al\mbox{.}}{2012}]%
+        {6494912}
+\bibfield{author}{\bibinfo{person}{Sven Apel}, \bibinfo{person}{Olaf
+  Leßenich}, {and} \bibinfo{person}{Christian Lengauer}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Structured merge with auto-tuning: balancing
+  precision and performance}. In \bibinfo{booktitle}{\emph{2012 Proceedings of
+  the 27th IEEE/ACM International Conference on Automated Software
+  Engineering}}. \bibinfo{pages}{120--129}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2351676.2351694}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apel, Liebig, Brandl, Lengauer, and
+  K\"{a}stner}{Apel et~al\mbox{.}}{2011}]%
+        {10.1145/2025113.2025141}
+\bibfield{author}{\bibinfo{person}{Sven Apel}, \bibinfo{person}{J\"{o}rg
+  Liebig}, \bibinfo{person}{Benjamin Brandl}, \bibinfo{person}{Christian
+  Lengauer}, {and} \bibinfo{person}{Christian K\"{a}stner}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Semistructured Merge: Rethinking Merge in Revision
+  Control Systems}. In \bibinfo{booktitle}{\emph{Proceedings of the 19th ACM
+  SIGSOFT Symposium and the 13th European Conference on Foundations of Software
+  Engineering}} \emph{(\bibinfo{series}{ESEC/FSE '11})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{190–200}.
+\newblock
+\showISBNx{9781450304436}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2025113.2025141}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Apiwattanapong, Orso, and
+  Harrold}{Apiwattanapong et~al\mbox{.}}{2007}]%
+        {10.1007/s10515-006-0002-0}
+\bibfield{author}{\bibinfo{person}{Taweesup Apiwattanapong},
+  \bibinfo{person}{Alessandro Orso}, {and} \bibinfo{person}{Mary~Jean
+  Harrold}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{JDiff: A Differencing Technique and Tool for
+  Object-Oriented Programs}.
+\newblock \bibinfo{journal}{\emph{Automated Software Engg.}}
+  \bibinfo{volume}{14}, \bibinfo{number}{1} (\bibinfo{date}{mar}
+  \bibinfo{year}{2007}), \bibinfo{pages}{3–36}.
+\newblock
+\showISSN{0928-8910}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10515-006-0002-0}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Binkley, Horwitz, and Reps}{Binkley
+  et~al\mbox{.}}{1995a}]%
+        {Binkley95programintegration}
+\bibfield{author}{\bibinfo{person}{David Binkley}, \bibinfo{person}{Susan
+  Horwitz}, {and} \bibinfo{person}{Thomas Reps}.}
+  \bibinfo{year}{1995}\natexlab{a}.
+\newblock \showarticletitle{Program integration for languages with procedure
+  calls}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Software Engineering and
+  Methodology}}  \bibinfo{volume}{4} (\bibinfo{year}{1995}),
+  \bibinfo{pages}{3--35}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Binkley, Horwitz, and Reps}{Binkley
+  et~al\mbox{.}}{1995b}]%
+        {10.1145/201055.201056}
+\bibfield{author}{\bibinfo{person}{David Binkley}, \bibinfo{person}{Susan
+  Horwitz}, {and} \bibinfo{person}{Thomas Reps}.}
+  \bibinfo{year}{1995}\natexlab{b}.
+\newblock \showarticletitle{Program Integration for Languages with Procedure
+  Calls}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
+  \bibinfo{volume}{4}, \bibinfo{number}{1} (\bibinfo{date}{jan}
+  \bibinfo{year}{1995}), \bibinfo{pages}{3–35}.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/201055.201056}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bird and Zimmermann}{Bird and
+  Zimmermann}{2012}]%
+        {Bird2012AssessingTV}
+\bibfield{author}{\bibinfo{person}{Christian Bird} {and}
+  \bibinfo{person}{Thomas Zimmermann}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Assessing the value of branches with what-if
+  analysis}. In \bibinfo{booktitle}{\emph{SIGSOFT FSE}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brun, Holmes, Ernst, and Notkin}{Brun
+  et~al\mbox{.}}{2013}]%
+        {brun}
+\bibfield{author}{\bibinfo{person}{Yuriy Brun}, \bibinfo{person}{Reid Holmes},
+  \bibinfo{person}{Michael~D. Ernst}, {and} \bibinfo{person}{David Notkin}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Early Detection of Collaboration Conflicts and
+  Risks}.
+\newblock \bibinfo{journal}{\emph{IEEE Trans. Softw. Eng.}}
+  \bibinfo{volume}{39}, \bibinfo{number}{10} (\bibinfo{date}{oct}
+  \bibinfo{year}{2013}), \bibinfo{pages}{1358–1375}.
+\newblock
+\showISSN{0098-5589}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2013.28}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Buffenbarger}{Buffenbarger}{1993}]%
+        {Buffenbarger}
+\bibfield{author}{\bibinfo{person}{Jim Buffenbarger}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Syntactic software merging}. In
+  \bibinfo{booktitle}{\emph{Software Configuration Management. Springer}}.
+  \bibinfo{pages}{153–172}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cavalcanti, Accioly, and Borba}{Cavalcanti
+  et~al\mbox{.}}{2015}]%
+        {7321191}
+\bibfield{author}{\bibinfo{person}{Guilherme Cavalcanti},
+  \bibinfo{person}{Paola Accioly}, {and} \bibinfo{person}{Paulo Borba}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Assessing Semistructured Merge in Version Control
+  Systems: A Replicated Experiment}. In \bibinfo{booktitle}{\emph{2015 ACM/IEEE
+  International Symposium on Empirical Software Engineering and Measurement
+  (ESEM)}}. \bibinfo{pages}{1--10}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ESEM.2015.7321191}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cavalcanti, Borba, and Accioly}{Cavalcanti
+  et~al\mbox{.}}{2017}]%
+        {10.1145/3133883}
+\bibfield{author}{\bibinfo{person}{Guilherme Cavalcanti},
+  \bibinfo{person}{Paulo Borba}, {and} \bibinfo{person}{Paola Accioly}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Evaluating and Improving Semistructured Merge}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Program. Lang.}}
+  \bibinfo{volume}{1}, \bibinfo{number}{OOPSLA}, Article
+  \bibinfo{articleno}{59} (\bibinfo{date}{oct} \bibinfo{year}{2017}),
+  \bibinfo{numpages}{27}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3133883}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cavalcanti, Borba, Seibt, and Apel}{Cavalcanti
+  et~al\mbox{.}}{2019}]%
+        {10.1109/ASE.2019.00097}
+\bibfield{author}{\bibinfo{person}{Guilherme Cavalcanti},
+  \bibinfo{person}{Paulo Borba}, \bibinfo{person}{Georg Seibt}, {and}
+  \bibinfo{person}{Sven Apel}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Impact of Structure on Software Merging:
+  Semistructured versus Structured Merge}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 34th IEEE/ACM International
+  Conference on Automated Software Engineering}} \emph{(\bibinfo{series}{ASE
+  '19})}. \bibinfo{publisher}{IEEE Press}, \bibinfo{pages}{1002–1013}.
+\newblock
+\showISBNx{9781728125084}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ASE.2019.00097}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Clementino, Borba, and Cavalcanti}{Clementino
+  et~al\mbox{.}}{2021}]%
+        {10.1145/3474624.3474646}
+\bibfield{author}{\bibinfo{person}{J\^{o}natas Clementino},
+  \bibinfo{person}{Paulo Borba}, {and} \bibinfo{person}{Guilherme Cavalcanti}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Textual Merge Based on Language-Specific
+  Syntactic Separators}}.
+\newblock \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{243–252}.
+\newblock
+\showISBNx{9781450390613}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3474624.3474646}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{de~Barros~Filho}{de~Barros~Filho}{2017}]%
+        {InformationFlowRoberto}
+\bibfield{author}{\bibinfo{person}{Roberto de Barros~Filho}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Using information flow to estimate interference
+  between same-method contributions}.
+\newblock \bibinfo{journal}{\emph{Master’s thesis, Universidade Federal de
+  Pernambuco}} (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{de~Souza, Redmiles, and Dourish}{de~Souza
+  et~al\mbox{.}}{2003}]%
+        {10.1145/958160.958177}
+\bibfield{author}{\bibinfo{person}{Cleidson R.~B. de Souza},
+  \bibinfo{person}{David Redmiles}, {and} \bibinfo{person}{Paul Dourish}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{"Breaking the Code", Moving between Private and
+  Public Work in Collaborative Software Development}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2003 International ACM SIGGROUP
+  Conference on Supporting Group Work}} \emph{(\bibinfo{series}{GROUP '03})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{105–114}.
+\newblock
+\showISBNx{1581136935}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/958160.958177}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Estler, Nordio, Furia, and Meyer}{Estler
+  et~al\mbox{.}}{2014}]%
+        {6915251}
+\bibfield{author}{\bibinfo{person}{H.~Christian Estler},
+  \bibinfo{person}{Martin Nordio}, \bibinfo{person}{Carlo~A. Furia}, {and}
+  \bibinfo{person}{Bertrand Meyer}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Awareness and Merge Conflicts in Distributed
+  Software Development}. In \bibinfo{booktitle}{\emph{2014 IEEE 9th
+  International Conference on Global Software Engineering}}.
+  \bibinfo{pages}{26--35}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICGSE.2014.17}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Grass.}{Grass.}{1992}]%
+        {Cdiff}
+\bibfield{author}{\bibinfo{person}{Judith~E. Grass.}}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Cdiff: A Syntax Directed Differencer for C++
+  Programs}. In \bibinfo{booktitle}{\emph{Proceedings of the USENIX C++
+  Conference. USENIX Association}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Horwitz, Prins, and Reps}{Horwitz
+  et~al\mbox{.}}{1989a}]%
+        {Horwitz1989IntegratingNV}
+\bibfield{author}{\bibinfo{person}{Susan Horwitz}, \bibinfo{person}{Jan Prins},
+  {and} \bibinfo{person}{T. Reps}.} \bibinfo{year}{1989}\natexlab{a}.
+\newblock \showarticletitle{Integrating noninterfering versions of programs}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Program. Lang. Syst.}}
+  \bibinfo{volume}{11} (\bibinfo{year}{1989}), \bibinfo{pages}{345--387}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Horwitz, Prins, and Reps}{Horwitz
+  et~al\mbox{.}}{1989b}]%
+        {10.1145/65979.65980}
+\bibfield{author}{\bibinfo{person}{Susan Horwitz}, \bibinfo{person}{Jan Prins},
+  {and} \bibinfo{person}{Thomas Reps}.} \bibinfo{year}{1989}\natexlab{b}.
+\newblock \showarticletitle{Integrating Noninterfering Versions of Programs}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Program. Lang. Syst.}}
+  \bibinfo{volume}{11}, \bibinfo{number}{3} (\bibinfo{date}{jul}
+  \bibinfo{year}{1989}), \bibinfo{pages}{345–387}.
+\newblock
+\showISSN{0164-0925}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/65979.65980}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jackson and Ladd}{Jackson and Ladd}{1994}]%
+        {336770}
+\bibfield{author}{\bibinfo{person}{Jackson} {and} \bibinfo{person}{Ladd}.}
+  \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{Semantic Diff: a tool for summarizing the effects
+  of modifications}. In \bibinfo{booktitle}{\emph{Proceedings 1994
+  International Conference on Software Maintenance}}.
+  \bibinfo{pages}{243--252}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSM.1994.336770}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Khanna, Kunal, and Pierce}{Khanna
+  et~al\mbox{.}}{2007}]%
+        {10.5555/1781794.1781836}
+\bibfield{author}{\bibinfo{person}{Sanjeev Khanna}, \bibinfo{person}{Keshav
+  Kunal}, {and} \bibinfo{person}{Benjamin~C. Pierce}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{A Formal Investigation of Diff3}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 27th International Conference on
+  Foundations of Software Technology and Theoretical Computer Science}}
+  \emph{(\bibinfo{series}{FSTTCS'07})}. \bibinfo{publisher}{Springer-Verlag},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{485–496}.
+\newblock
+\showISBNx{3540770496}
+
+
+\bibitem[\protect\citeauthoryear{McKee, Nelson, Sarma, and Dig}{McKee
+  et~al\mbox{.}}{2017}]%
+        {8094445}
+\bibfield{author}{\bibinfo{person}{Shane McKee}, \bibinfo{person}{Nicholas
+  Nelson}, \bibinfo{person}{Anita Sarma}, {and} \bibinfo{person}{Danny Dig}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Software Practitioner Perspectives on Merge
+  Conflicts and Resolutions}. In \bibinfo{booktitle}{\emph{2017 IEEE
+  International Conference on Software Maintenance and Evolution (ICSME)}}.
+  \bibinfo{pages}{467--478}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSME.2017.53}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nguyen, K\"{a}stner, and Nguyen}{Nguyen
+  et~al\mbox{.}}{2014}]%
+        {10.1145/2568225.2568300}
+\bibfield{author}{\bibinfo{person}{Hung~Viet Nguyen},
+  \bibinfo{person}{Christian K\"{a}stner}, {and} \bibinfo{person}{Tien~N.
+  Nguyen}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Exploring Variability-Aware Execution for Testing
+  Plugin-Based Web Applications}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 36th International Conference on Software Engineering}}
+  \emph{(\bibinfo{series}{ICSE 2014})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{907–918}.
+\newblock
+\showISBNx{9781450327565}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2568225.2568300}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nguyen, Nguyen, Dang, K\"{a}stner, and
+  Nguyen}{Nguyen et~al\mbox{.}}{2015}]%
+        {10.1145/2786805.2803208}
+\bibfield{author}{\bibinfo{person}{Hung~Viet Nguyen}, \bibinfo{person}{My~Huu
+  Nguyen}, \bibinfo{person}{Son~Cuu Dang}, \bibinfo{person}{Christian
+  K\"{a}stner}, {and} \bibinfo{person}{Tien~N. Nguyen}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Detecting Semantic Merge Conflicts with
+  Variability-Aware Execution}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2015 10th Joint Meeting on Foundations of Software Engineering}}
+  \emph{(\bibinfo{series}{ESEC/FSE 2015})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{926–929}.
+\newblock
+\showISBNx{9781450336758}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2786805.2803208}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Perry, Siy, and Votta}{Perry
+  et~al\mbox{.}}{2001}]%
+        {10.1145/383876.383878}
+\bibfield{author}{\bibinfo{person}{Dewayne~E. Perry},
+  \bibinfo{person}{Harvey~P. Siy}, {and} \bibinfo{person}{Lawrence~G. Votta}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Parallel Changes in Large-Scale Software
+  Development: An Observational Case Study}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
+  \bibinfo{volume}{10}, \bibinfo{number}{3} (\bibinfo{date}{jul}
+  \bibinfo{year}{2001}), \bibinfo{pages}{308–337}.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/383876.383878}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Rocha, Borba, and Santos}{Rocha
+  et~al\mbox{.}}{2019}]%
+        {1113835899}
+\bibfield{author}{\bibinfo{person}{Thaís Rocha}, \bibinfo{person}{Paulo
+  Borba}, {and} \bibinfo{person}{João~Pedro Santos}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Using acceptance tests to predict files changed by
+  programming tasks}.
+\newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}
+  \bibinfo{volume}{154} (\bibinfo{year}{2019}), \bibinfo{pages}{176--195}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.jss.2019.04.060}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Sarma, Redmiles, and van~der Hoek}{Sarma
+  et~al\mbox{.}}{2012}]%
+        {Sarma}
+\bibfield{author}{\bibinfo{person}{Anita Sarma}, \bibinfo{person}{David~F.
+  Redmiles}, {and} \bibinfo{person}{André van~der Hoek}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Palantir: Early Detection of Development Conflicts
+  Arising from Parallel Code Changes}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{38}, \bibinfo{number}{4} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{889--908}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2011.64}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Silva, Borba, Mahmood, Berger, and
+  Moisakis}{Silva et~al\mbox{.}}{2020}]%
+        {LeusonSilva2020}
+\bibfield{author}{\bibinfo{person}{Leuson~Da Silva}, \bibinfo{person}{Paulo
+  Borba}, \bibinfo{person}{Wardah Mahmood}, \bibinfo{person}{Thorsten Berger},
+  {and} \bibinfo{person}{João Moisakis}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Detecting Semantic Conflicts via Automated Behavior
+  Change Detection}. In \bibinfo{booktitle}{\emph{2020 IEEE International
+  Conference on Software Maintenance and Evolution (ICSME)}}.
+  \bibinfo{pages}{174--184}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSME46990.2020.00026}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Sousa, Dillig, and Lahiri}{Sousa
+  et~al\mbox{.}}{2018}]%
+        {10.1145/3276535}
+\bibfield{author}{\bibinfo{person}{Marcelo Sousa}, \bibinfo{person}{Isil
+  Dillig}, {and} \bibinfo{person}{Shuvendu~K. Lahiri}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Verified Three-Way Program Merge}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Program. Lang.}}
+  \bibinfo{volume}{2}, \bibinfo{number}{OOPSLA}, Article
+  \bibinfo{articleno}{165} (\bibinfo{date}{oct} \bibinfo{year}{2018}),
+  \bibinfo{numpages}{29}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3276535}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Trindade~Tavares, Borba, Cavalcanti, and
+  Soares}{Trindade~Tavares et~al\mbox{.}}{2019}]%
+        {8952450}
+\bibfield{author}{\bibinfo{person}{Alberto Trindade~Tavares},
+  \bibinfo{person}{Paulo Borba}, \bibinfo{person}{Guilherme Cavalcanti}, {and}
+  \bibinfo{person}{Sérgio Soares}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Semistructured Merge in JavaScript Systems}. In
+  \bibinfo{booktitle}{\emph{2019 34th IEEE/ACM International Conference on
+  Automated Software Engineering (ASE)}}. \bibinfo{pages}{1014--1025}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ASE.2019.00098}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Vale, Hunsen, Figueiredo, and Apel}{Vale
+  et~al\mbox{.}}{2021}]%
+        {9625780}
+\bibfield{author}{\bibinfo{person}{Gustavo Vale}, \bibinfo{person}{Claus
+  Hunsen}, \bibinfo{person}{Eduardo Figueiredo}, {and} \bibinfo{person}{Sven
+  Apel}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Challenges of Resolving Merge Conflicts: A Mining
+  and Survey Study}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{1--1}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2021.3130098}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Westfechtel}{Westfechtel}{1991}]%
+        {10.1145/111062.111071}
+\bibfield{author}{\bibinfo{person}{Bernhard Westfechtel}.}
+  \bibinfo{year}{1991}\natexlab{}.
+\newblock \showarticletitle{Structure-Oriented Merging of Revisions of Software
+  Documents}. In \bibinfo{booktitle}{\emph{Proceedings of the 3rd International
+  Workshop on Software Configuration Management}} \emph{(\bibinfo{series}{SCM
+  '91})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{68–79}.
+\newblock
+\showISBNx{0897914295}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/111062.111071}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yang, Horwitz, and Reps}{Yang
+  et~al\mbox{.}}{1992}]%
+        {10.1145/131736.131756}
+\bibfield{author}{\bibinfo{person}{Wuu Yang}, \bibinfo{person}{Susan Horwitz},
+  {and} \bibinfo{person}{Thomas Reps}.} \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{A Program Integration Algorithm That Accommodates
+  Semantics-Preserving Transformations}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
+  \bibinfo{volume}{1}, \bibinfo{number}{3} (\bibinfo{date}{jul}
+  \bibinfo{year}{1992}), \bibinfo{pages}{310–354}.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/131736.131756}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zhu, He, and Yu}{Zhu et~al\mbox{.}}{2019}]%
+        {10.1109/ICSE-Companion.2019.00117}
+\bibfield{author}{\bibinfo{person}{Fengmin Zhu}, \bibinfo{person}{Fei He},
+  {and} \bibinfo{person}{Qianshan Yu}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Enhancing Precision of Structured Merge by Proper
+  Tree Matching}. In \bibinfo{booktitle}{\emph{Proceedings of the 41st
+  International Conference on Software Engineering: Companion Proceedings}}
+  \emph{(\bibinfo{series}{ICSE '19})}. \bibinfo{publisher}{IEEE Press},
+  \bibinfo{pages}{286–287}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSE-Companion.2019.00117}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zimmermann}{Zimmermann}{2007}]%
+        {4228648}
+\bibfield{author}{\bibinfo{person}{Thomas Zimmermann}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Mining Workspace Updates in CVS}. In
+  \bibinfo{booktitle}{\emph{Fourth International Workshop on Mining Software
+  Repositories (MSR'07:ICSE Workshops 2007)}}. \bibinfo{pages}{11--11}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MSR.2007.22}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

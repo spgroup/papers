@@ -1,4 +1,4 @@
-\section{Motivação e Conceitos Básicos}
+\section{MOTIVAÇÃO E CONCEITOS BÁSICOS}
 \subsection{Caso Motivador}
 Para exemplificar melhor o conceito de conflito de integração semântico, considere o cenário de exemplo da \hyperref[fig:codigo-motivador]{Figura 1}.\footnote{Assumindo um cenário de \emph{merge} formado por \emph{commits Base, Left, Right e Merge}, esse último contendo o arquivo apresentado na figura.} Conseguimos observar a classe \texttt{Text}, que contém três atributos: uma \emph{string}, que referencia o texto representado pelos objetos dessa classe e dois atributos do tipo inteiro, que correspondem à quantidade de correções aplicadas ao texto (remoção de espaços e palavras duplicadas), e a quantidade de comentários no texto. A classe \texttt{Text} também conta com o método \texttt{generateReport()} responsável por gerar o relatório da quantidade de \texttt{fixes} necessárias e comentários existentes.
 
@@ -78,7 +78,7 @@ Um exemplo de caso em que existe OA, mas não existe LOI, pode ser observado na 
 \begin{figure}[!h]
     \begin{lstlisting}[escapechar=!]
     public void testQueryModeCommonGramsAnalysis() {
-       !\colorbox{yellow}{String json = "/org/elasticsearch/..."}!
+       !\colorbox{yellow}{String json = '/org/elasticsearch/...'}!
         Settings settings = Settings.settingsBuilder()
             .loadFrom!\colorbox{yellow}{Stream(json, ...)}!
             .put("path.home", create!\colorbox{green}{Home}!())
