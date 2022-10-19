@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: SBES_2022.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: biblio.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in sitesbes2022
+Warning--no author, editor, organization, or key in sitesbes2022
+Warning--to sort, need author or key in sitesbes2022
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, author in sitesbes2022
+Warning--no key, author in sitesbes2022
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in sitesbes2022
+Warning--no author, editor, organization, or key in sitesbes2022
+Warning--empty author in sitesbes2022
+Warning--empty publisher in 6494912
+Warning--empty address in 6494912
+Warning--empty publisher in Bird2012AssessingTV
+Warning--empty address in Bird2012AssessingTV
+Warning--page numbers missing in both pages and numpages fields in Bird2012AssessingTV
+Warning--empty publisher in Buffenbarger
+Warning--empty address in Buffenbarger
+Warning--empty publisher in 7321191
+Warning--empty address in 7321191
+Warning--empty address in 10.1109/ASE.2019.00097
+Warning--no number and no volume in InformationFlowRoberto
+Warning--page numbers missing in both pages and numpages fields in InformationFlowRoberto
+Warning--empty publisher in 6915251
+Warning--empty address in 6915251
+Warning--empty publisher in Cdiff
+Warning--empty address in Cdiff
+Warning--page numbers missing in both pages and numpages fields in Cdiff
+Warning--empty publisher in 336770
+Warning--empty address in 336770
+Warning--empty publisher in 8094445
+Warning--empty address in 8094445
+Warning--empty publisher in LeusonSilva2020
+Warning--empty address in LeusonSilva2020
+Warning--empty publisher in 8952450
+Warning--empty address in 8952450
+Warning--no number and no volume in 9625780
+Warning--empty address in 10.1109/ICSE-Companion.2019.00117
+Warning--empty publisher in 4228648
+Warning--empty address in 4228648
+You've used 35 entries,
+            5727 wiz_defined-function locations,
+            1561 strings with 22812 characters,
+and the built_in function-call counts, 43206 in all, are:
+= -- 5492
+> -- 1413
+< -- 0
++ -- 459
+- -- 444
+* -- 2974
+:= -- 4053
+add.period$ -- 172
+call.type$ -- 35
+change.case$ -- 242
+chr.to.int$ -- 33
+cite$ -- 76
+duplicate$ -- 4019
+empty$ -- 2679
+format.name$ -- 558
+if$ -- 10680
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 151
+newline$ -- 401
+num.names$ -- 270
+pop$ -- 1429
+preamble$ -- 1
+purify$ -- 553
+quote$ -- 0
+skip$ -- 1579
+stack$ -- 0
+substring$ -- 3096
+swap$ -- 581
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 833
+warning$ -- 37
+while$ -- 207
+width$ -- 0
+write$ -- 734
+(There were 37 warnings)

@@ -1,0 +1,105 @@
+\section{ANÁLISE DE SUBSTITUIÇÃO DE ATRIBUIÇÃO (OA)}
+
+A análise proposta, essencialmente, verifica se a execução das mudanças feitas por um desenvolvedor (digamos, \emph{Left}), pode sobrescrever uma atribuição (OA) da execução das mudanças feitas pelo outro desenvolvedor (digamos, \emph{Right}), ou vice-versa.
+
+Consideramos que pode haver OA quando as alterações (adições e modificações) em um dos ramos podem semanticamente (ou seja, sua execução), envolver uma operação de escrita para um elemento de estado\footnote{Variável local, parâmetro, campo estático ou de instância, arquivo, fluxo, expressão na instrução de retorno, exceção levantada, etc. Incluindo o estado temporário também. Por exemplo, no código ilustrado na \hyperref[fig:codigo-motivador]{Figura 1} tem como elementos de estado os atributos \texttt{text}, \texttt{fixes} e \texttt{comments}}, que também estão associados a uma operação de escrita envolvida nas alterações (acréscimos e modificações) feitas por outro ramo e não há operação de escrita entre eles. 
+
+Como vimos na seção anterior, o exemplo da \hyperref[fig:codigo-motivador]{Figura 1} contém uma interferência. Como essa interferência não foi planejada, podemos afirmar que se trata de um conflito semântico. Agora, imagine que a chamada ao método \texttt{countComments()} também sobrescrevesse a variável \texttt{fixes}. Com isso, não existiria interferência entre \emph{Right} e \emph{Left}. Resumidamente, \emph{Right} não estaria sobrescrevendo uma variável alterada por \emph{Left} e sim por \emph{Base}, o que não ocasiona conflitos semânticos.
+
+Seguindo o mesmo raciocínio, as referências a atributos de um objeto como \texttt{o.a} e \texttt{o.b} são consideradas diferentes elementos de estado e podem ser escritas pelas ramificações sem levar à interferência. Por outro lado, a variável \texttt{o} também representa um elemento de estado diferente, mas não pode ser alterado junto com \texttt{o.a} ou \texttt{o.b} sem causar interferência. (\hyperref[fig:object-samples]{Figura 7}).
+
+
+\begin{figure}[h]
+    \begin{lstlisting}[escapechar=!]
+    void m() { // Sem Interferencia
+        Object o = new Object();
++       !\colorbox{yellow}{o.a = "exemplo A";}!
+        ...
++       !\colorbox{green}{o.b = "exemplo B";}!
+    }
+    void m() { // Com Interferencia
+        Object o = new Object();
++       !\colorbox{yellow}{o = new Object();}!
+        ...
++       !\colorbox{green}{o.a = "exemplo";}!
+    }
+    \end{lstlisting}
+    \caption{Caso de exemplo com objetos}
+    \label{fig:object-samples}
+\end{figure}
+
+Algo similar acontece com \emph{arrays}, onde cada posição corresponde a um elemento de estado diferente. Dessa forma, \texttt{a[0]} e \texttt{a[1]} podem ser escritos por versões de desenvolvedores diferentes e isso não leva à interferência. No entanto, a variável \texttt{a} corresponde a um elemento de estado diferente, mas não pode ser alterado junto com \texttt{a[0]} e \texttt{a[1]} sem causar interferência.
+
+Outro detalhe importante é com relação à acurácia com que a análise detecta interferência. A análise proposta é considerada conservadora. Para exemplificar isso, podemos imaginar uma versão da \hyperref[fig:codigo-motivador]{Figura 1}, em que a atribuição do desenvolvedor \emph{Right} está no escopo de um comando condicional \texttt{if}. Por se tratar de uma análise estática, em casos como esse, a análise não conseguiria inferir se a condição do \texttt{if} seria verdadeira ou falsa, Dessa forma, a análise irá verificar as duas possibilidades, o que resultaria em interferência para esse exemplo, mesmo que a condição do \texttt{if} nunca viesse a ser \emph{true} em execuções do sistema.
+
+\subsection{Especificação do Algoritmo}
+
+Um pseudocódigo simplificado do algoritmo pode ser observado na imagem a seguir.
+
+\begin{algorithm}[h]
+    \caption{Algoritmo de substituição de atribuição}
+    
+    \SetKwInOut{Input}{input}
+    \SetKwInOut{Output}{output}
+
+    \Input{Um método de entrada $m$}
+    \Output{Uma lista de interferências}
+    
+    \SetKwData{abstractionRight}{abstractionRight}\SetKwData{abstractionLeft}{abstractionLeft}
+   
+    \SetKwProg{Fn}{}{\string:}{end}
+    \SetKwFunction{traverse}{traverse}
+    \SetKwFunction{isTagged}{isTagged}
+    \SetKwFunction{isAssigment}{isAssigment}
+    \SetKwFunction{isRight}{isRight}
+    \SetKwFunction{isLeft}{isLeft}
+    \SetKwFunction{isMethodCall}{isMethodCall}
+    \SetKwFunction{checkConflict}{checkConflict}
+    \SetKwFunction{kill}{kill}
+    
+    \BlankLine
+    \Fn{\traverse($m$)}{
+        \ForEach{$cmd\in m$}{
+            \uIf{\isAssigment($cmd$)}{
+                \uIf{\isTagged($cmd$)}{
+                    \uIf{\isRight($cmd$)}{
+                        $abstractionRight\leftarrow cmd$\
+                    }
+                    \uElseIf{\isLeft($cmd$)}{
+                        $abstractionLeft\leftarrow cmd$\;
+                    }
+                    \tcc*[h]{verifica se existe Interferência e adiciona na lista de conflitos}
+                    
+                    \checkConflict($cmd$)\;
+                    }
+                \Else{
+                    \tcc*[h]{remove o comando das listas.}
+                    \kill($cmd$)\; 
+                }
+            }
+            \uElseIf{\isMethodCall($cmd$)}{
+                \traverse($cmd$)\;
+            }
+          
+        }
+    }
+\end{algorithm}
+
+
+De modo geral, o algoritmo da análise proposta consiste em percorrer os comandos de um método de entrada.\footnote{A implementação atual considera como método de entrada o método onde ocorreu a primeira modificação feita pelo desenvolvedor \emph{Left}} Quando encontra uma atribuição adicionada por \emph{Left} ou \emph{Right}, guarda essa informação em um conjunto que contém os elementos do estado alterado.\footnote{Tal conjunto corresponde a uma abstração na infraestrutura de análise de programas \emph{Soot Framework}. Outro termo comumente encontrado na literatura é \emph{lattice}.} Uma interferência é reportada sempre que o elemento de estado já existe no conjunto. Quando encontra uma atribuição de \emph{Base}, tira do conjunto. Para \emph{interprocedural}, adicionalmente atravessa recursivamente os comandos do método chamado quando encontra uma chamada de método.
+
+Neste trabalho, implementamos duas abordagens diferentes: (\emph{intraprocedural} e \emph{interprocedural}) para a análise de substituição de atribuição proposta.
+
+\subsubsection*{Análise intraprocedural}
+
+A implementação \emph{intraprocedural} é mais barata com relação aos custos computacionais, assim, não consegue detectar interferências quando ocorrem em métodos chamados a partir do método de entrada, pois desconsidera comandos de chamada de método, não alterando a abstração da análise e seguindo para o próximo comando.
+
+\subsubsection*{Análise interprocedural}
+
+A implementação \emph{interprocedural} é mais robusta e, consequentemente, mais cara. Quando a análise \emph{interprocedural} recebe um comando de chamada de método, ela recupera o corpo do método que está sendo chamado e o analisa, eventualmente alterando a abstração da análise, para só depois voltar para analisar o próximo comando. 
+
+
+\subsection{Implementação}
+As abordagens da análise proposta foram implementadas utilizando a linguagem de programação Java e a \emph{API} do \emph{Soot Framework}\footnote{http://soot-oss.github.io/soot/} para executar o algoritmo descrito anteriormente.\footnote{As implementações da análise proposta pode ser encontrada no repositório \href{https://github.com/spgroup/conflict-static-analysis}{https://github.com/spgroup/conflict-static-analysis}. Este projeto, disponível no \emph{Github}, reúne as implementações utilizadas para esse e outros trabalhos e visa implementar uma biblioteca de análises estáticas para detectar conflitos de merge semântico.} 
+
+As análises recebem como entrada o código compilado da versão integrada empacotado em um arquivo \emph{.JAR} e um arquivo \emph{.CSV} gerado pela ferramenta \emph{miningframework}\footnote{Um framework para mineração de projetos git. \href{https://github.com/spgroup/miningframework}{https://github.com/spgroup/miningframework}}, em que cada linha representa uma linha de código modificada\footnote{Para esse trabalho, as linhas de código deletadas não são coletadas, pois, a análise de substituição de atribuição proposta não as considera. As linhas removidas são consideradas para análise manual de interferência.}, contendo as informações do nome da classe modificada e o número da linha modificada para a versão integrada, e se essa linha foi modificada por \emph{Left} ou \emph{Right}.
