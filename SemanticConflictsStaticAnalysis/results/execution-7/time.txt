@@ -1,0 +1,1428 @@
+Configure Soot Confluence 1 1.73100s
+Time to perform Confluence 1 0.37100s
+Configure Soot Confluence 2 0.82600s
+Time to perform Confluence 2 0.01300s
+Configure Soot OA Inter 1.74800s
+Time to perform OA Inter 1.83000s
+Configure Soot DFP 1.64900s
+Time to perform DFP 0.40400s
+Configure Soot DFP 1.69400s
+Time to perform DFP 0.36100s
+Configure Soot PDG 1.67500s
+Time to perform PDG 0.40900s
+Configure Soot PDG 1.67900s
+Time to perform PDG 0.38400s
+Configure Soot Confluence 1 1.63900s
+Time to perform Confluence 1 0.36000s
+Configure Soot Confluence 2 0.95800s
+Time to perform Confluence 2 0.01300s
+Configure Soot OA Inter 1.75100s
+Time to perform OA Inter 1.83600s
+Configure Soot DFP 1.62300s
+Time to perform DFP 0.29400s
+Configure Soot DFP 1.62500s
+Time to perform DFP 0.35300s
+Configure Soot PDG 1.66000s
+Time to perform PDG 0.38500s
+Configure Soot PDG 1.65800s
+Time to perform PDG 0.38100s
+Configure Soot Confluence 1 47.68000s
+Time to perform Confluence 1 18.61300s
+Configure Soot Confluence 2 45.97000s
+Time to perform Confluence 2 25.82900s
+Configure Soot OA Inter 48.38300s
+Time to perform OA Inter 54.45700s
+Configure Soot DFP 46.80000s
+Time to perform DFP 14.54900s
+Configure Soot DFP 47.70300s
+Time to perform DFP 19.45300s
+Configure Soot PDG 46.49400s
+Time to perform PDG 7.14700s
+Configure Soot PDG 47.41300s
+Time to perform PDG 8.80100s
+Configure Soot Confluence 1 1.42400s
+Time to perform Confluence 1 2.28400s
+Configure Soot Confluence 2 0.67900s
+Time to perform Confluence 2 0.28300s
+Configure Soot OA Inter 1.42600s
+Time to perform OA Inter 1.63500s
+Configure Soot DFP 1.40600s
+Time to perform DFP 1.61000s
+Configure Soot DFP 1.42200s
+Time to perform DFP 1.20000s
+Configure Soot PDG 1.34800s
+Time to perform PDG 1.27200s
+Configure Soot PDG 1.32300s
+Time to perform PDG 1.35700s
+Configure Soot Confluence 1 1.95800s
+Time to perform Confluence 1 1.12000s
+Configure Soot Confluence 2 0.93600s
+Time to perform Confluence 2 0.21100s
+Configure Soot OA Inter 2.07200s
+Time to perform OA Inter 2.20200s
+Configure Soot DFP 1.74300s
+Time to perform DFP 0.64400s
+Configure Soot DFP 1.93900s
+Time to perform DFP 1.00200s
+Configure Soot PDG 1.88600s
+Time to perform PDG 1.24900s
+Configure Soot PDG 1.94200s
+Time to perform PDG 1.23000s
+Configure Soot Confluence 1 1.20600s
+Time to perform Confluence 1 1.19100s
+Configure Soot Confluence 2 0.40600s
+Time to perform Confluence 2 0.16900s
+Configure Soot OA Inter 1.25400s
+Time to perform OA Inter 1.46900s
+Configure Soot DFP 1.19100s
+Time to perform DFP 1.04200s
+Configure Soot DFP 1.19100s
+Time to perform DFP 1.05800s
+Configure Soot PDG 1.16900s
+Time to perform PDG 0.94200s
+Configure Soot PDG 1.15200s
+Time to perform PDG 0.94700s
+Configure Soot Confluence 1 1.04000s
+Time to perform Confluence 1 0.80400s
+Configure Soot Confluence 2 0.34500s
+Time to perform Confluence 2 0.05900s
+Configure Soot OA Inter 1.14100s
+Time to perform OA Inter 1.24400s
+Configure Soot DFP 1.07000s
+Time to perform DFP 0.87700s
+Configure Soot DFP 1.03900s
+Time to perform DFP 0.83400s
+Configure Soot PDG 1.04500s
+Time to perform PDG 0.94600s
+Configure Soot PDG 1.06000s
+Time to perform PDG 1.01600s
+Configure Soot Confluence 1 1.23400s
+Time to perform Confluence 1 1.03100s
+Configure Soot Confluence 2 0.35700s
+Time to perform Confluence 2 0.00700s
+Configure Soot OA Inter 1.31400s
+Time to perform OA Inter 1.45100s
+Configure Soot DFP 1.20600s
+Time to perform DFP 0.73700s
+Configure Soot DFP 1.27700s
+Time to perform DFP 0.30500s
+Configure Soot PDG 1.22900s
+Time to perform PDG 0.59700s
+Configure Soot PDG 1.23700s
+Time to perform PDG 0.13300s
+Configure Soot Confluence 1 1.18600s
+Time to perform Confluence 1 0.99500s
+Configure Soot Confluence 2 0.33600s
+Time to perform Confluence 2 0.01200s
+Configure Soot OA Inter 1.19900s
+Time to perform OA Inter 1.36500s
+Configure Soot DFP 1.13800s
+Time to perform DFP 0.69100s
+Configure Soot DFP 1.14300s
+Time to perform DFP 0.31900s
+Configure Soot PDG 1.12400s
+Time to perform PDG 0.78400s
+Configure Soot PDG 1.15000s
+Time to perform PDG 0.33700s
+Configure Soot Confluence 1 1.15200s
+Time to perform Confluence 1 1.71800s
+Configure Soot Confluence 2 0.39700s
+Time to perform Confluence 2 0.00900s
+Configure Soot OA Inter 1.20800s
+Time to perform OA Inter 1.32000s
+Configure Soot DFP 1.15400s
+Time to perform DFP 0.97800s
+Configure Soot DFP 1.12300s
+Time to perform DFP 0.31000s
+Configure Soot PDG 1.14500s
+Time to perform PDG 0.78600s
+Configure Soot PDG 1.12600s
+Time to perform PDG 0.32500s
+Configure Soot Confluence 1 1.22400s
+Time to perform Confluence 1 0.97800s
+Configure Soot Confluence 2 0.36000s
+Time to perform Confluence 2 0.09100s
+Configure Soot OA Inter 1.26800s
+Time to perform OA Inter 1.39500s
+Configure Soot DFP 1.16100s
+Time to perform DFP 0.80100s
+Configure Soot DFP 1.19500s
+Time to perform DFP 0.80600s
+Configure Soot PDG 1.21600s
+Time to perform PDG 1.00200s
+Configure Soot PDG 1.17800s
+Time to perform PDG 0.99600s
+Configure Soot Confluence 1 1.30500s
+Time to perform Confluence 1 0.68500s
+Configure Soot Confluence 2 0.50200s
+Time to perform Confluence 2 0.07600s
+Configure Soot OA Inter 1.38100s
+Time to perform OA Inter 1.51000s
+Configure Soot DFP 1.32100s
+Time to perform DFP 0.64100s
+Configure Soot DFP 1.29800s
+Time to perform DFP 0.58800s
+Configure Soot PDG 1.28100s
+Time to perform PDG 0.78300s
+Configure Soot PDG 1.28900s
+Time to perform PDG 0.74600s
+Configure Soot Confluence 1 1.43200s
+Time to perform Confluence 1 5.65500s
+Configure Soot Confluence 2 0.55000s
+Time to perform Confluence 2 5.00500s
+Configure Soot OA Inter 0.84100s
+Time to perform OA Inter 1.05100s
+Configure Soot DFP 1.43300s
+Time to perform DFP 4.35700s
+Configure Soot DFP 1.39100s
+Time to perform DFP 4.32200s
+Configure Soot PDG 1.41200s
+Time to perform PDG 1.30800s
+Configure Soot PDG 1.41500s
+Time to perform PDG 1.28200s
+Configure Soot Confluence 1 1.37300s
+Time to perform Confluence 1 0.92700s
+Configure Soot Confluence 2 0.44900s
+Time to perform Confluence 2 0.17200s
+Configure Soot OA Inter 1.47500s
+Time to perform OA Inter 1.63600s
+Configure Soot DFP 1.44300s
+Time to perform DFP 0.91400s
+Configure Soot DFP 1.40700s
+Time to perform DFP 0.87400s
+Configure Soot PDG 1.45700s
+Time to perform PDG 0.97000s
+Configure Soot PDG 1.40600s
+Time to perform PDG 0.74100s
+Configure Soot Confluence 1 1.31900s
+Time to perform Confluence 1 4.21700s
+Configure Soot Confluence 2 0.37100s
+Time to perform Confluence 2 2.30000s
+Configure Soot OA Inter 1.32700s
+Time to perform OA Inter 1.60600s
+Configure Soot DFP 1.25500s
+Time to perform DFP 3.03500s
+Configure Soot DFP 1.31100s
+Time to perform DFP 3.04900s
+Configure Soot PDG 1.32900s
+Time to perform PDG 1.53800s
+Configure Soot PDG 1.35400s
+Time to perform PDG 1.58000s
+Configure Soot Confluence 1 1.06300s
+Time to perform Confluence 1 2.02400s
+Configure Soot Confluence 2 0.37000s
+Time to perform Confluence 2 0.78600s
+Configure Soot OA Inter 1.17100s
+Time to perform OA Inter 1.61000s
+Configure Soot DFP 1.07300s
+Time to perform DFP 1.52000s
+Configure Soot DFP 1.09500s
+Time to perform DFP 1.59300s
+Configure Soot PDG 1.07300s
+Time to perform PDG 1.23100s
+Configure Soot PDG 1.08100s
+Time to perform PDG 1.16200s
+Configure Soot Confluence 1 1.30700s
+Time to perform Confluence 1 1.42700s
+Configure Soot Confluence 2 0.41400s
+Time to perform Confluence 2 0.31700s
+Configure Soot OA Inter 1.33600s
+Time to perform OA Inter 1.60900s
+Configure Soot DFP 1.28500s
+Time to perform DFP 1.13000s
+Configure Soot DFP 1.27700s
+Time to perform DFP 1.16400s
+Configure Soot PDG 1.29200s
+Time to perform PDG 1.11100s
+Configure Soot PDG 1.27300s
+Time to perform PDG 1.06200s
+Configure Soot Confluence 1 1.31800s
+Time to perform Confluence 1 1.36100s
+Configure Soot Confluence 2 0.40200s
+Time to perform Confluence 2 0.27700s
+Configure Soot OA Inter 1.34500s
+Time to perform OA Inter 1.59000s
+Configure Soot DFP 1.31600s
+Time to perform DFP 1.09900s
+Configure Soot DFP 1.24100s
+Time to perform DFP 1.20800s
+Configure Soot PDG 1.28900s
+Time to perform PDG 1.13100s
+Configure Soot PDG 1.27400s
+Time to perform PDG 1.07200s
+Configure Soot Confluence 1 1.04500s
+Time to perform Confluence 1 1.93500s
+Configure Soot Confluence 2 0.35700s
+Time to perform Confluence 2 0.77700s
+Configure Soot OA Inter 1.13900s
+Time to perform OA Inter 1.37600s
+Configure Soot DFP 1.06400s
+Time to perform DFP 1.44100s
+Configure Soot DFP 1.09100s
+Time to perform DFP 1.37900s
+Configure Soot PDG 1.06300s
+Time to perform PDG 1.12900s
+Configure Soot PDG 1.07300s
+Time to perform PDG 1.05600s
+Configure Soot Confluence 1 1.77800s
+Time to perform Confluence 1 6.70500s
+Configure Soot Confluence 2 0.90200s
+Time to perform Confluence 2 4.04700s
+Configure Soot OA Inter 1.73300s
+Time to perform OA Inter 1.96800s
+Configure Soot DFP 1.64700s
+Time to perform DFP 2.50800s
+Configure Soot DFP 1.06800s
+Time to perform DFP 3.82800s
+Configure Soot PDG 1.06900s
+Time to perform PDG 0.84000s
+Configure Soot PDG 1.70400s
+Time to perform PDG 1.46000s
+Configure Soot Confluence 1 1.11200s
+Time to perform Confluence 1 8.70400s
+Configure Soot Confluence 2 0.52300s
+Time to perform Confluence 2 3.35400s
+Configure Soot OA Inter 1.86400s
+Time to perform OA Inter 2.48500s
+Configure Soot DFP 1.79800s
+Time to perform DFP 6.86800s
+Configure Soot DFP 1.75400s
+Time to perform DFP 3.09600s
+Configure Soot PDG 1.79200s
+Time to perform PDG 1.78900s
+Configure Soot PDG 1.82900s
+Time to perform PDG 1.84600s
+Configure Soot Confluence 1 2.21600s
+Time to perform Confluence 1 2.06400s
+Configure Soot Confluence 2 1.56200s
+Time to perform Confluence 2 0.60900s
+Configure Soot OA Inter 2.26100s
+Time to perform OA Inter 2.40300s
+Configure Soot DFP 2.31500s
+Time to perform DFP 1.54800s
+Configure Soot DFP 2.20300s
+Time to perform DFP 1.62400s
+Configure Soot PDG 2.15000s
+Time to perform PDG 1.08400s
+Configure Soot PDG 2.16000s
+Time to perform PDG 1.12000s
+Configure Soot Confluence 1 1.10900s
+Time to perform Confluence 1 1.04100s
+Configure Soot Confluence 2 0.37000s
+Time to perform Confluence 2 0.20900s
+Configure Soot OA Inter 1.21600s
+Time to perform OA Inter 1.58300s
+Configure Soot DFP 1.09800s
+Time to perform DFP 0.96800s
+Configure Soot DFP 1.13200s
+Time to perform DFP 1.02200s
+Configure Soot PDG 1.11900s
+Time to perform PDG 1.15700s
+Configure Soot PDG 1.09400s
+Time to perform PDG 1.15200s
+Configure Soot Confluence 1 1.27600s
+Time to perform Confluence 1 0.31400s
+Configure Soot Confluence 2 0.49800s
+Time to perform Confluence 2 1.66300s
+Configure Soot OA Inter 1.43100s
+Time to perform OA Inter 1.51100s
+Configure Soot DFP 1.32600s
+Time to perform DFP 0.33300s
+Configure Soot DFP 1.29500s
+Time to perform DFP 1.39500s
+Configure Soot PDG 1.32200s
+Time to perform PDG 0.32500s
+Configure Soot PDG 1.31000s
+Time to perform PDG 1.24800s
+Configure Soot Confluence 1 1.34100s
+Time to perform Confluence 1 1.11800s
+Configure Soot Confluence 2 0.46800s
+Time to perform Confluence 2 0.12300s
+Configure Soot OA Inter 1.42600s
+Time to perform OA Inter 1.56200s
+Configure Soot DFP 1.37300s
+Time to perform DFP 1.01400s
+Configure Soot DFP 1.31400s
+Time to perform DFP 0.96700s
+Configure Soot PDG 1.34200s
+Time to perform PDG 1.17100s
+Configure Soot PDG 1.39300s
+Time to perform PDG 1.12000s
+Configure Soot Confluence 1 1.20300s
+Time to perform Confluence 1 1.29100s
+Configure Soot Confluence 2 0.37700s
+Time to perform Confluence 2 0.14100s
+Configure Soot OA Inter 1.23500s
+Time to perform OA Inter 1.35900s
+Configure Soot DFP 1.22300s
+Time to perform DFP 1.20000s
+Configure Soot DFP 1.19800s
+Time to perform DFP 1.05000s
+Configure Soot PDG 1.15400s
+Time to perform PDG 0.69600s
+Configure Soot PDG 1.15700s
+Time to perform PDG 0.80100s
+Configure Soot Confluence 1 1.22500s
+Time to perform Confluence 1 1.48900s
+Configure Soot Confluence 2 0.42600s
+Time to perform Confluence 2 0.14600s
+Configure Soot OA Inter 1.24100s
+Time to perform OA Inter 1.41100s
+Configure Soot DFP 1.22000s
+Time to perform DFP 1.25600s
+Configure Soot DFP 1.20000s
+Time to perform DFP 1.06200s
+Configure Soot PDG 1.16900s
+Time to perform PDG 0.81800s
+Configure Soot PDG 1.15400s
+Time to perform PDG 0.77900s
+Configure Soot Confluence 1 0.99700s
+Time to perform Confluence 1 1.44000s
+Configure Soot Confluence 2 0.32600s
+Time to perform Confluence 2 0.44800s
+Configure Soot OA Inter 1.10400s
+Time to perform OA Inter 1.44400s
+Configure Soot DFP 1.01300s
+Time to perform DFP 1.21100s
+Configure Soot DFP 1.00800s
+Time to perform DFP 1.20900s
+Configure Soot PDG 1.01000s
+Time to perform PDG 1.15100s
+Configure Soot PDG 1.00900s
+Time to perform PDG 1.16600s
+Configure Soot Confluence 1 1.24200s
+Time to perform Confluence 1 1.28800s
+Configure Soot Confluence 2 0.40700s
+Time to perform Confluence 2 0.22200s
+Configure Soot OA Inter 1.31200s
+Time to perform OA Inter 1.54200s
+Configure Soot DFP 1.22400s
+Time to perform DFP 1.12700s
+Configure Soot DFP 1.28000s
+Time to perform DFP 1.18800s
+Configure Soot PDG 1.22200s
+Time to perform PDG 1.39300s
+Configure Soot PDG 1.23500s
+Time to perform PDG 1.37500s
+Configure Soot Confluence 1 1.05200s
+Time to perform Confluence 1 2.61800s
+Configure Soot Confluence 2 0.27400s
+Time to perform Confluence 2 0.70900s
+Configure Soot OA Inter 1.13100s
+Time to perform OA Inter 1.23200s
+Configure Soot DFP 1.01800s
+Time to perform DFP 1.56900s
+Configure Soot DFP 1.05300s
+Time to perform DFP 1.46200s
+Configure Soot PDG 1.01300s
+Time to perform PDG 0.69300s
+Configure Soot PDG 1.01700s
+Time to perform PDG 0.66400s
+Configure Soot Confluence 1 21.25400s
+Time to perform Confluence 1 10.47500s
+Configure Soot Confluence 2 19.07800s
+Time to perform Confluence 2 8.02200s
+Configure Soot OA Inter 21.85500s
+Time to perform OA Inter 26.23500s
+Configure Soot DFP 21.28700s
+Time to perform DFP 11.03400s
+Configure Soot DFP 20.67900s
+Time to perform DFP 9.33000s
+Configure Soot PDG 20.68900s
+Time to perform PDG 6.94200s
+Configure Soot PDG 21.24700s
+Time to perform PDG 6.94700s
+Configure Soot Confluence 1 3.27800s
+Time to perform Confluence 1 5.94800s
+Configure Soot Confluence 2 2.15400s
+Time to perform Confluence 2 2.09200s
+Configure Soot OA Inter 2.75600s
+Time to perform OA Inter 3.22800s
+Configure Soot DFP 2.78000s
+Time to perform DFP 4.09500s
+Configure Soot DFP 3.38600s
+Time to perform DFP 2.36600s
+Configure Soot PDG 3.45100s
+Time to perform PDG 1.06600s
+Configure Soot PDG 4.12500s
+Time to perform PDG 1.13400s
+Configure Soot Confluence 1 1.29600s
+Time to perform Confluence 1 1.41600s
+Configure Soot Confluence 2 0.57100s
+Time to perform Confluence 2 0.48000s
+Configure Soot OA Inter 0.97800s
+Time to perform OA Inter 1.18200s
+Configure Soot DFP 1.30500s
+Time to perform DFP 1.19700s
+Configure Soot DFP 1.32000s
+Time to perform DFP 1.29500s
+Configure Soot PDG 1.30700s
+Time to perform PDG 1.09000s
+Configure Soot PDG 1.28500s
+Time to perform PDG 1.18900s
+Configure Soot Confluence 1 2.31500s
+Time to perform Confluence 1 6.23000s
+Configure Soot Confluence 2 0.80600s
+Time to perform Confluence 2 2.54600s
+Configure Soot OA Inter 1.35100s
+Time to perform OA Inter 2.26300s
+Configure Soot DFP 2.07100s
+Time to perform DFP 2.90000s
+Configure Soot DFP 2.15700s
+Time to perform DFP 2.71900s
+Configure Soot PDG 1.90600s
+Time to perform PDG 1.92600s
+Configure Soot PDG 1.33500s
+Time to perform PDG 1.27100s
+Configure Soot Confluence 1 1.18100s
+Time to perform Confluence 1 2.02600s
+Configure Soot Confluence 2 0.44400s
+Time to perform Confluence 2 0.76900s
+Configure Soot OA Inter 1.24300s
+Time to perform OA Inter 1.48700s
+Configure Soot DFP 1.23400s
+Time to perform DFP 1.64300s
+Configure Soot DFP 1.21600s
+Time to perform DFP 1.63000s
+Configure Soot PDG 1.18900s
+Time to perform PDG 1.07500s
+Configure Soot PDG 1.20700s
+Time to perform PDG 1.06100s
+Configure Soot Confluence 1 1.22000s
+Time to perform Confluence 1 4.59800s
+Configure Soot Confluence 2 0.36300s
+Time to perform Confluence 2 2.71300s
+Configure Soot OA Inter 0.73100s
+Time to perform OA Inter 0.93500s
+Configure Soot DFP 1.06700s
+Time to perform DFP 3.32700s
+Configure Soot DFP 1.23000s
+Time to perform DFP 3.62000s
+Configure Soot PDG 1.19300s
+Time to perform PDG 1.40100s
+Configure Soot PDG 1.20900s
+Time to perform PDG 1.40400s
+Configure Soot Confluence 1 19.40800s
+Time to perform Confluence 1 98.03100s
+Configure Soot Confluence 2 15.86300s
+Time to perform Confluence 2 2.27100s
+Configure Soot OA Inter 17.50300s
+Time to perform OA Inter 19.55300s
+Configure Soot DFP 19.18900s
+Time to perform DFP 38.49700s
+Configure Soot DFP 18.82600s
+Time to perform DFP 4.73500s
+Configure Soot PDG 17.77900s
+Time to perform PDG 3.37700s
+Configure Soot PDG 16.70700s
+Time to perform PDG 3.36100s
+Configure Soot Confluence 1 2.11100s
+Time to perform Confluence 1 16.95600s
+Configure Soot Confluence 2 0.69900s
+Time to perform Confluence 2 204.34600s
+Configure Soot OA Inter 1.30800s
+Time to perform OA Inter 3.30300s
+Configure Soot DFP 2.21500s
+Time to perform DFP 18.05400s
+Configure Soot DFP 2.70000s
+Time to perform DFP 89.72500s
+Configure Soot PDG 1.91100s
+Time to perform PDG 3.10100s
+Configure Soot PDG 2.00000s
+Time to perform PDG 1.90500s
+Configure Soot Confluence 1 1.31400s
+Time to perform Confluence 1 7.17000s
+Configure Soot Confluence 2 0.71700s
+Time to perform Confluence 2 6.36700s
+Configure Soot OA Inter 2.43100s
+Time to perform OA Inter 2.74300s
+Configure Soot DFP 1.34800s
+Time to perform DFP 6.96900s
+Configure Soot DFP 1.33000s
+Time to perform DFP 4.85700s
+Configure Soot PDG 1.91400s
+Time to perform PDG 2.95200s
+Configure Soot PDG 2.08700s
+Time to perform PDG 3.24500s
+Configure Soot Confluence 1 1.22200s
+Time to perform Confluence 1 1.78700s
+Configure Soot Confluence 2 0.45100s
+Time to perform Confluence 2 0.93100s
+Configure Soot OA Inter 0.70900s
+Time to perform OA Inter 0.79700s
+Configure Soot DFP 1.13400s
+Time to perform DFP 1.54400s
+Configure Soot DFP 1.22400s
+Time to perform DFP 1.57100s
+Configure Soot PDG 1.20400s
+Time to perform PDG 0.90300s
+Configure Soot PDG 1.19900s
+Time to perform PDG 0.92400s
+Configure Soot Confluence 1 1.03800s
+Time to perform Confluence 1 0.80400s
+Configure Soot Confluence 2 0.34000s
+Time to perform Confluence 2 0.16700s
+Configure Soot OA Inter 1.21200s
+Time to perform OA Inter 1.33300s
+Configure Soot DFP 1.07100s
+Time to perform DFP 0.77200s
+Configure Soot DFP 1.11700s
+Time to perform DFP 0.77700s
+Configure Soot PDG 1.07600s
+Time to perform PDG 0.98100s
+Configure Soot PDG 1.06000s
+Time to perform PDG 0.96500s
+Configure Soot Confluence 1 1.38300s
+Time to perform Confluence 1 1.54500s
+Configure Soot Confluence 2 0.54600s
+Time to perform Confluence 2 0.26700s
+Configure Soot OA Inter 1.38200s
+Time to perform OA Inter 1.62600s
+Configure Soot DFP 1.34500s
+Time to perform DFP 1.37700s
+Configure Soot DFP 1.38100s
+Time to perform DFP 1.24400s
+Configure Soot PDG 1.31600s
+Time to perform PDG 1.03100s
+Configure Soot PDG 1.29600s
+Time to perform PDG 1.00900s
+Configure Soot Confluence 1 1.20600s
+Time to perform Confluence 1 0.81800s
+Configure Soot Confluence 2 0.46600s
+Time to perform Confluence 2 0.05700s
+Configure Soot OA Inter 1.27400s
+Time to perform OA Inter 1.38300s
+Configure Soot DFP 1.22600s
+Time to perform DFP 0.67700s
+Configure Soot DFP 1.23100s
+Time to perform DFP 0.70000s
+Configure Soot PDG 1.20300s
+Time to perform PDG 0.80700s
+Configure Soot PDG 1.22200s
+Time to perform PDG 0.77700s
+Configure Soot Confluence 1 1.35900s
+Time to perform Confluence 1 6.30500s
+Configure Soot Confluence 2 0.24300s
+Time to perform Confluence 2 3.32700s
+Configure Soot OA Inter 1.34600s
+Time to perform OA Inter 1.73300s
+Configure Soot DFP 1.32200s
+Time to perform DFP 5.01400s
+Configure Soot DFP 1.31600s
+Time to perform DFP 5.19500s
+Configure Soot PDG 1.34500s
+Time to perform PDG 4.05600s
+Configure Soot PDG 1.32000s
+Time to perform PDG 4.01700s
+Configure Soot Confluence 1 1.53300s
+Time to perform Confluence 1 1.25600s
+Configure Soot Confluence 2 0.43600s
+Time to perform Confluence 2 0.32400s
+Configure Soot OA Inter 1.46600s
+Time to perform OA Inter 1.60800s
+Configure Soot DFP 1.39500s
+Time to perform DFP 1.21100s
+Configure Soot DFP 1.39300s
+Time to perform DFP 1.21900s
+Configure Soot PDG 1.32500s
+Time to perform PDG 1.36800s
+Configure Soot PDG 1.36500s
+Time to perform PDG 1.42700s
+Configure Soot Confluence 1 1.38700s
+Time to perform Confluence 1 6.72800s
+Configure Soot Confluence 2 0.24900s
+Time to perform Confluence 2 3.81000s
+Configure Soot OA Inter 1.41400s
+Time to perform OA Inter 1.83900s
+Configure Soot DFP 1.33800s
+Time to perform DFP 4.60000s
+Configure Soot DFP 1.34300s
+Time to perform DFP 5.04300s
+Configure Soot PDG 1.31600s
+Time to perform PDG 3.84400s
+Configure Soot PDG 1.35600s
+Time to perform PDG 4.05900s
+Configure Soot Confluence 1 1.21500s
+Time to perform Confluence 1 4.09400s
+Configure Soot Confluence 2 0.36200s
+Time to perform Confluence 2 2.40300s
+Configure Soot OA Inter 1.27200s
+Time to perform OA Inter 1.46100s
+Configure Soot DFP 1.17600s
+Time to perform DFP 2.74200s
+Configure Soot DFP 1.26500s
+Time to perform DFP 2.79300s
+Configure Soot PDG 1.24800s
+Time to perform PDG 1.56300s
+Configure Soot PDG 1.27300s
+Time to perform PDG 1.48200s
+Configure Soot Confluence 1 1.30100s
+Time to perform Confluence 1 5.85900s
+Configure Soot Confluence 2 0.45200s
+Time to perform Confluence 2 3.07700s
+Configure Soot OA Inter 1.35400s
+Time to perform OA Inter 1.55000s
+Configure Soot DFP 1.23800s
+Time to perform DFP 3.59200s
+Configure Soot DFP 1.21700s
+Time to perform DFP 3.80200s
+Configure Soot PDG 1.25800s
+Time to perform PDG 1.76800s
+Configure Soot PDG 1.28100s
+Time to perform PDG 1.79800s
+Configure Soot Confluence 1 1.34400s
+Time to perform Confluence 1 9.16800s
+Configure Soot Confluence 2 0.26800s
+Time to perform Confluence 2 6.38700s
+Configure Soot OA Inter 1.43100s
+Time to perform OA Inter 1.66300s
+Configure Soot DFP 1.36200s
+Time to perform DFP 6.28800s
+Configure Soot DFP 1.28900s
+Time to perform DFP 6.38700s
+Configure Soot PDG 1.23800s
+Time to perform PDG 0.98600s
+Configure Soot PDG 1.36700s
+Time to perform PDG 1.35200s
+Configure Soot Confluence 1 1.37600s
+Time to perform Confluence 1 1.21400s
+Configure Soot Confluence 2 0.42300s
+Time to perform Confluence 2 0.16300s
+Configure Soot OA Inter 1.46400s
+Time to perform OA Inter 1.72800s
+Configure Soot DFP 1.37500s
+Time to perform DFP 1.05100s
+Configure Soot DFP 1.39300s
+Time to perform DFP 1.04700s
+Configure Soot PDG 1.36800s
+Time to perform PDG 1.09700s
+Configure Soot PDG 1.34100s
+Time to perform PDG 1.13100s
+Configure Soot Confluence 1 1.29700s
+Time to perform Confluence 1 1.84800s
+Configure Soot Confluence 2 0.56200s
+Time to perform Confluence 2 0.99400s
+Configure Soot OA Inter 1.35300s
+Time to perform OA Inter 1.57400s
+Configure Soot DFP 1.34300s
+Time to perform DFP 1.63700s
+Configure Soot DFP 1.33500s
+Time to perform DFP 1.86900s
+Configure Soot PDG 1.30400s
+Time to perform PDG 1.07500s
+Configure Soot PDG 1.30400s
+Time to perform PDG 1.05700s
+Configure Soot Confluence 1 1.29300s
+Time to perform Confluence 1 1.59600s
+Configure Soot Confluence 2 0.49900s
+Time to perform Confluence 2 0.44000s
+Configure Soot OA Inter 1.34000s
+Time to perform OA Inter 1.57200s
+Configure Soot DFP 1.26000s
+Time to perform DFP 1.29400s
+Configure Soot DFP 1.24300s
+Time to perform DFP 1.33100s
+Configure Soot PDG 1.25400s
+Time to perform PDG 1.14600s
+Configure Soot PDG 1.21000s
+Time to perform PDG 1.08700s
+Configure Soot Confluence 1 1.30900s
+Time to perform Confluence 1 1.26200s
+Configure Soot Confluence 2 0.48600s
+Time to perform Confluence 2 0.14800s
+Configure Soot OA Inter 1.36400s
+Time to perform OA Inter 1.56100s
+Configure Soot DFP 1.35700s
+Time to perform DFP 1.15700s
+Configure Soot DFP 1.34400s
+Time to perform DFP 1.04600s
+Configure Soot PDG 1.33700s
+Time to perform PDG 1.10500s
+Configure Soot PDG 1.32600s
+Time to perform PDG 1.05400s
+Configure Soot Confluence 1 1.33000s
+Time to perform Confluence 1 1.89400s
+Configure Soot Confluence 2 0.49800s
+Time to perform Confluence 2 0.84000s
+Configure Soot OA Inter 1.38600s
+Time to perform OA Inter 1.55000s
+Configure Soot DFP 1.31600s
+Time to perform DFP 1.39800s
+Configure Soot DFP 1.36000s
+Time to perform DFP 1.42700s
+Configure Soot PDG 1.31700s
+Time to perform PDG 1.27300s
+Configure Soot PDG 1.33900s
+Time to perform PDG 1.26200s
+Configure Soot Confluence 1 1.21500s
+Time to perform Confluence 1 1.16300s
+Configure Soot Confluence 2 0.50600s
+Time to perform Confluence 2 0.19300s
+Configure Soot OA Inter 1.28500s
+Time to perform OA Inter 1.54400s
+Configure Soot DFP 1.23200s
+Time to perform DFP 0.94400s
+Configure Soot DFP 1.21600s
+Time to perform DFP 0.94200s
+Configure Soot PDG 1.19400s
+Time to perform PDG 1.06700s
+Configure Soot PDG 1.18900s
+Time to perform PDG 1.07400s
+Configure Soot Confluence 1 1.60200s
+Time to perform Confluence 1 1.19200s
+Configure Soot Confluence 2 0.59600s
+Time to perform Confluence 2 0.15500s
+Configure Soot OA Inter 1.70600s
+Time to perform OA Inter 1.89900s
+Configure Soot DFP 1.60500s
+Time to perform DFP 0.99400s
+Configure Soot DFP 1.59600s
+Time to perform DFP 1.03600s
+Configure Soot PDG 1.59700s
+Time to perform PDG 1.24000s
+Configure Soot PDG 1.60900s
+Time to perform PDG 1.15800s
+Configure Soot Confluence 1 1.13000s
+Time to perform Confluence 1 0.78400s
+Configure Soot Confluence 2 0.36900s
+Time to perform Confluence 2 0.18400s
+Configure Soot OA Inter 1.44800s
+Time to perform OA Inter 1.61500s
+Configure Soot DFP 1.12300s
+Time to perform DFP 0.72800s
+Configure Soot DFP 1.10900s
+Time to perform DFP 0.72600s
+Configure Soot PDG 1.09000s
+Time to perform PDG 0.91700s
+Configure Soot PDG 1.09500s
+Time to perform PDG 0.91100s
+Configure Soot Confluence 1 1.10300s
+Time to perform Confluence 1 0.99500s
+Configure Soot Confluence 2 0.34900s
+Time to perform Confluence 2 0.20900s
+Configure Soot OA Inter 1.20500s
+Time to perform OA Inter 1.36000s
+Configure Soot DFP 1.12100s
+Time to perform DFP 0.89300s
+Configure Soot DFP 1.12700s
+Time to perform DFP 0.90700s
+Configure Soot PDG 1.11600s
+Time to perform PDG 1.21200s
+Configure Soot PDG 1.12100s
+Time to perform PDG 1.18800s
+Configure Soot Confluence 1 1.12600s
+Time to perform Confluence 1 0.96700s
+Configure Soot Confluence 2 0.35500s
+Time to perform Confluence 2 0.12200s
+Configure Soot OA Inter 1.18600s
+Time to perform OA Inter 1.30800s
+Configure Soot DFP 1.13000s
+Time to perform DFP 0.85600s
+Configure Soot DFP 1.12900s
+Time to perform DFP 0.83700s
+Configure Soot PDG 1.11300s
+Time to perform PDG 1.00000s
+Configure Soot PDG 1.09900s
+Time to perform PDG 0.93200s
+Configure Soot Confluence 1 1.14900s
+Time to perform Confluence 1 0.98100s
+Configure Soot Confluence 2 0.34600s
+Time to perform Confluence 2 0.18700s
+Configure Soot OA Inter 1.22300s
+Time to perform OA Inter 1.33200s
+Configure Soot DFP 1.11200s
+Time to perform DFP 0.84100s
+Configure Soot DFP 1.13400s
+Time to perform DFP 0.87800s
+Configure Soot PDG 1.13400s
+Time to perform PDG 0.99100s
+Configure Soot PDG 1.11400s
+Time to perform PDG 0.98300s
+Configure Soot Confluence 1 1.09000s
+Time to perform Confluence 1 0.95400s
+Configure Soot Confluence 2 0.33700s
+Time to perform Confluence 2 0.21000s
+Configure Soot OA Inter 1.19800s
+Time to perform OA Inter 1.31700s
+Configure Soot DFP 1.08600s
+Time to perform DFP 0.90600s
+Configure Soot DFP 1.10800s
+Time to perform DFP 0.84800s
+Configure Soot PDG 1.10400s
+Time to perform PDG 0.86500s
+Configure Soot PDG 1.09000s
+Time to perform PDG 0.98200s
+Configure Soot Confluence 1 1.11400s
+Time to perform Confluence 1 0.29900s
+Configure Soot Confluence 2 0.40300s
+Time to perform Confluence 2 0.80900s
+Configure Soot OA Inter 1.19200s
+Time to perform OA Inter 1.27200s
+Configure Soot DFP 1.10100s
+Time to perform DFP 0.32900s
+Configure Soot DFP 1.11000s
+Time to perform DFP 0.80600s
+Configure Soot PDG 1.09500s
+Time to perform PDG 0.33600s
+Configure Soot PDG 1.09400s
+Time to perform PDG 1.17600s
+Configure Soot Confluence 1 1.16800s
+Time to perform Confluence 1 0.30000s
+Configure Soot Confluence 2 0.39100s
+Time to perform Confluence 2 0.64400s
+Configure Soot OA Inter 1.26600s
+Time to perform OA Inter 1.35200s
+Configure Soot DFP 1.14400s
+Time to perform DFP 0.29500s
+Configure Soot DFP 1.16300s
+Time to perform DFP 0.77200s
+Configure Soot PDG 1.15400s
+Time to perform PDG 0.33600s
+Configure Soot PDG 1.13000s
+Time to perform PDG 0.97200s
+Configure Soot Confluence 1 1.20000s
+Time to perform Confluence 1 1.20500s
+Configure Soot Confluence 2 0.39700s
+Time to perform Confluence 2 0.00900s
+Configure Soot OA Inter 1.31300s
+Time to perform OA Inter 1.41800s
+Configure Soot DFP 1.21200s
+Time to perform DFP 0.85200s
+Configure Soot DFP 1.20300s
+Time to perform DFP 0.31000s
+Configure Soot PDG 1.19100s
+Time to perform PDG 0.81000s
+Configure Soot PDG 1.18900s
+Time to perform PDG 0.33800s
+Configure Soot Confluence 1 6.17000s
+Time to perform Confluence 1 0.45100s
+Configure Soot Confluence 2 3.88600s
+Time to perform Confluence 2 0.04500s
+Configure Soot OA Inter 5.59700s
+Time to perform OA Inter 5.65900s
+Configure Soot DFP 4.68700s
+Time to perform DFP 0.33400s
+Configure Soot DFP 6.50100s
+Time to perform DFP 0.42800s
+Configure Soot PDG 4.73200s
+Time to perform PDG 0.41800s
+Configure Soot PDG 5.71900s
+Time to perform PDG 0.39400s
+Configure Soot Confluence 1 6.04300s
+Time to perform Confluence 1 4.30400s
+Configure Soot Confluence 2 4.01400s
+Time to perform Confluence 2 1.59800s
+Configure Soot OA Inter 5.86800s
+Time to perform OA Inter 6.11000s
+Configure Soot DFP 6.07900s
+Time to perform DFP 1.78400s
+Configure Soot DFP 6.57500s
+Time to perform DFP 2.88200s
+Configure Soot PDG 5.41000s
+Time to perform PDG 0.92400s
+Configure Soot PDG 5.65400s
+Time to perform PDG 0.99200s
+Configure Soot Confluence 1 3.29700s
+Time to perform Confluence 1 2.86000s
+Configure Soot Confluence 2 2.37300s
+Time to perform Confluence 2 1.24700s
+Configure Soot OA Inter 3.02400s
+Time to perform OA Inter 3.23000s
+Configure Soot DFP 2.84300s
+Time to perform DFP 1.26500s
+Configure Soot DFP 3.02000s
+Time to perform DFP 1.31600s
+Configure Soot PDG 3.32500s
+Time to perform PDG 1.30900s
+Configure Soot PDG 3.42300s
+Time to perform PDG 1.61700s
+Configure Soot Confluence 1 5.75000s
+Time to perform Confluence 1 11.25400s
+Configure Soot Confluence 2 3.96900s
+Time to perform Confluence 2 9.21200s
+Configure Soot OA Inter 6.01400s
+Time to perform OA Inter 7.47400s
+Configure Soot DFP 6.29600s
+Time to perform DFP 8.18400s
+Configure Soot DFP 5.31700s
+Time to perform DFP 6.68100s
+Configure Soot PDG 5.98700s
+Time to perform PDG 3.93900s
+Configure Soot PDG 5.40000s
+Time to perform PDG 2.78500s
+Configure Soot Confluence 1 5.38800s
+Time to perform Confluence 1 31.25800s
+Configure Soot Confluence 2 3.91700s
+Time to perform Confluence 2 28.03100s
+Configure Soot OA Inter 5.52800s
+Time to perform OA Inter 6.33400s
+Configure Soot DFP 6.43500s
+Time to perform DFP 19.42900s
+Configure Soot DFP 5.66400s
+Time to perform DFP 18.82900s
+Configure Soot PDG 5.48700s
+Time to perform PDG 1.95400s
+Configure Soot PDG 4.74300s
+Time to perform PDG 1.79400s
+Configure Soot Confluence 1 5.82500s
+Time to perform Confluence 1 1.00300s
+Configure Soot Confluence 2 4.09500s
+Time to perform Confluence 2 3.61200s
+Configure Soot OA Inter 6.35800s
+Time to perform OA Inter 6.49500s
+Configure Soot DFP 6.58900s
+Time to perform DFP 1.47100s
+Configure Soot DFP 5.23100s
+Time to perform DFP 3.80800s
+Configure Soot PDG 5.64500s
+Time to perform PDG 0.49100s
+Configure Soot PDG 6.20800s
+Time to perform PDG 0.54400s
+Configure Soot Confluence 1 6.14900s
+Time to perform Confluence 1 4.10100s
+Configure Soot Confluence 2 4.06300s
+Time to perform Confluence 2 1.07800s
+Configure Soot OA Inter 5.84200s
+Time to perform OA Inter 6.03400s
+Configure Soot DFP 7.10300s
+Time to perform DFP 2.23800s
+Configure Soot DFP 5.50300s
+Time to perform DFP 1.57300s
+Configure Soot PDG 4.74800s
+Time to perform PDG 0.94800s
+Configure Soot PDG 4.77700s
+Time to perform PDG 1.44600s
+Configure Soot Confluence 1 4.47900s
+Time to perform Confluence 1 1.76900s
+Configure Soot Confluence 2 2.66700s
+Time to perform Confluence 2 0.68100s
+Configure Soot OA Inter 4.31100s
+Time to perform OA Inter 4.87100s
+Configure Soot DFP 4.01800s
+Time to perform DFP 1.08200s
+Configure Soot DFP 4.33400s
+Time to perform DFP 1.25000s
+Configure Soot PDG 3.73200s
+Time to perform PDG 0.72400s
+Configure Soot PDG 2.95000s
+Time to perform PDG 0.72500s
+Configure Soot Confluence 1 5.03800s
+Time to perform Confluence 1 19.48900s
+Configure Soot Confluence 2 4.11500s
+Time to perform Confluence 2 20.71900s
+Configure Soot OA Inter 5.66200s
+Time to perform OA Inter 6.30800s
+Configure Soot DFP 6.20200s
+Time to perform DFP 13.23300s
+Configure Soot DFP 5.88600s
+Time to perform DFP 14.30300s
+Configure Soot PDG 5.55200s
+Time to perform PDG 1.46700s
+Configure Soot PDG 5.67000s
+Time to perform PDG 1.46700s
+Configure Soot Confluence 1 5.47900s
+Time to perform Confluence 1 1.06000s
+Configure Soot Confluence 2 3.94800s
+Time to perform Confluence 2 0.41600s
+Configure Soot OA Inter 4.73700s
+Time to perform OA Inter 4.81700s
+Configure Soot DFP 5.36500s
+Time to perform DFP 1.11500s
+Configure Soot DFP 6.20500s
+Time to perform DFP 0.93300s
+Configure Soot PDG 4.67300s
+Time to perform PDG 0.63200s
+Configure Soot PDG 5.68000s
+Time to perform PDG 0.94100s
+Configure Soot Confluence 1 5.64400s
+Time to perform Confluence 1 1.04300s
+Configure Soot Confluence 2 3.92800s
+Time to perform Confluence 2 0.37200s
+Configure Soot OA Inter 5.60400s
+Time to perform OA Inter 5.91000s
+Configure Soot DFP 4.73700s
+Time to perform DFP 1.60500s
+Configure Soot DFP 5.85000s
+Time to perform DFP 1.05500s
+Configure Soot PDG 4.69800s
+Time to perform PDG 1.22300s
+Configure Soot PDG 6.52500s
+Time to perform PDG 1.08600s
+Configure Soot Confluence 1 6.61300s
+Time to perform Confluence 1 1.08900s
+Configure Soot Confluence 2 3.96300s
+Time to perform Confluence 2 0.56200s
+Configure Soot OA Inter 5.72400s
+Time to perform OA Inter 5.79900s
+Configure Soot DFP 5.27100s
+Time to perform DFP 1.33200s
+Configure Soot DFP 6.88600s
+Time to perform DFP 0.90000s
+Configure Soot PDG 6.70800s
+Time to perform PDG 1.09300s
+Configure Soot PDG 5.97200s
+Time to perform PDG 0.74200s
+Configure Soot Confluence 1 5.22000s
+Time to perform Confluence 1 688.22600s
+Configure Soot Confluence 2 3.90400s
+Time to perform Confluence 2 288.97200s
+Configure Soot OA Inter 6.42300s
+Time to perform OA Inter 27.65800s
+Configure Soot DFP 5.74200s
+Time to perform DFP 172.42300s
+Configure Soot DFP 5.87100s
+Time to perform DFP 190.20300s
+Configure Soot PDG 5.71000s
+Time to perform PDG 7.02500s
+Configure Soot PDG 5.37500s
+Time to perform PDG 4.62400s
+Configure Soot Confluence 1 6.00500s
+Time to perform Confluence 1 37.39000s
+Configure Soot Confluence 2 3.96700s
+Time to perform Confluence 2 1.40700s
+Configure Soot OA Inter 5.98800s
+Time to perform OA Inter 6.60400s
+Configure Soot DFP 6.56000s
+Time to perform DFP 21.50000s
+Configure Soot DFP 5.91600s
+Time to perform DFP 2.78400s
+Configure Soot PDG 5.42200s
+Time to perform PDG 1.43300s
+Configure Soot PDG 4.71900s
+Time to perform PDG 1.44500s
+Configure Soot Confluence 1 4.79000s
+Time to perform Confluence 1 1.40900s
+Configure Soot Confluence 2 4.04900s
+Time to perform Confluence 2 0.67300s
+Configure Soot OA Inter 5.72400s
+Time to perform OA Inter 5.84600s
+Configure Soot DFP 4.80400s
+Time to perform DFP 1.07100s
+Configure Soot DFP 5.74500s
+Time to perform DFP 1.06300s
+Configure Soot PDG 6.15000s
+Time to perform PDG 0.74600s
+Configure Soot PDG 5.74300s
+Time to perform PDG 0.76500s
+Configure Soot Confluence 1 4.88000s
+Time to perform Confluence 1 2.30000s
+Configure Soot Confluence 2 4.28200s
+Time to perform Confluence 2 0.02700s
+Configure Soot OA Inter 5.87000s
+Time to perform OA Inter 6.85100s
+Configure Soot DFP 4.88000s
+Time to perform DFP 1.60300s
+Configure Soot DFP 6.35800s
+Time to perform DFP 0.55900s
+Configure Soot PDG 5.88700s
+Time to perform PDG 1.40400s
+Configure Soot PDG 5.64900s
+Time to perform PDG 0.52900s
+Configure Soot Confluence 1 6.92800s
+Time to perform Confluence 1 2.68700s
+Configure Soot Confluence 2 4.16100s
+Time to perform Confluence 2 0.02700s
+Configure Soot OA Inter 6.08400s
+Time to perform OA Inter 7.47000s
+Configure Soot DFP 5.67500s
+Time to perform DFP 1.92500s
+Configure Soot DFP 6.21300s
+Time to perform DFP 0.37800s
+Configure Soot PDG 6.17600s
+Time to perform PDG 1.61100s
+Configure Soot PDG 4.90000s
+Time to perform PDG 0.41000s
+Configure Soot Confluence 1 4.82800s
+Time to perform Confluence 1 2.06200s
+Configure Soot Confluence 2 4.24600s
+Time to perform Confluence 2 0.02700s
+Configure Soot OA Inter 4.92500s
+Time to perform OA Inter 5.60400s
+Configure Soot DFP 4.88200s
+Time to perform DFP 1.71500s
+Configure Soot DFP 4.91000s
+Time to perform DFP 0.49300s
+Configure Soot PDG 6.13400s
+Time to perform PDG 1.35300s
+Configure Soot PDG 4.84700s
+Time to perform PDG 0.41500s
+Configure Soot Confluence 1 6.05400s
+Time to perform Confluence 1 0.36700s
+Configure Soot Confluence 2 3.97000s
+Time to perform Confluence 2 0.04600s
+Configure Soot OA Inter 4.83300s
+Time to perform OA Inter 4.89800s
+Configure Soot DFP 5.46300s
+Time to perform DFP 0.46600s
+Configure Soot DFP 4.87000s
+Time to perform DFP 0.39500s
+Configure Soot PDG 4.83300s
+Time to perform PDG 0.44500s
+Configure Soot PDG 4.78900s
+Time to perform PDG 0.39200s
+Configure Soot Confluence 1 1.19600s
+Time to perform Confluence 1 1.10000s
+Configure Soot Confluence 2 0.39500s
+Time to perform Confluence 2 0.23300s
+Configure Soot OA Inter 1.33600s
+Time to perform OA Inter 1.85700s
+Configure Soot DFP 1.21900s
+Time to perform DFP 1.12100s
+Configure Soot DFP 1.22500s
+Time to perform DFP 1.15400s
+Configure Soot PDG 1.24000s
+Time to perform PDG 1.29300s
+Configure Soot PDG 1.23900s
+Time to perform PDG 1.34800s
+Configure Soot Confluence 1 7.46500s
+Time to perform Confluence 1 0.88800s
+Configure Soot Confluence 2 5.33800s
+Time to perform Confluence 2 0.15600s
+Configure Soot OA Inter 7.08200s
+Time to perform OA Inter 7.25100s
+Configure Soot DFP 5.37000s
+Time to perform DFP 0.85400s
+Configure Soot DFP 5.84500s
+Time to perform DFP 0.78200s
+Configure Soot PDG 6.74500s
+Time to perform PDG 0.75200s
+Configure Soot PDG 4.90300s
+Time to perform PDG 0.89700s
+Configure Soot Confluence 1 6.21900s
+Time to perform Confluence 1 0.34800s
+Configure Soot Confluence 2 4.12600s
+Time to perform Confluence 2 2.66500s
+Configure Soot OA Inter 4.88400s
+Time to perform OA Inter 4.94700s
+Configure Soot DFP 4.91200s
+Time to perform DFP 0.35300s
+Configure Soot DFP 4.85100s
+Time to perform DFP 1.88200s
+Configure Soot PDG 6.07600s
+Time to perform PDG 0.41100s
+Configure Soot PDG 6.90600s
+Time to perform PDG 1.13400s
+Configure Soot Confluence 1 3.29600s
+Time to perform Confluence 1 1.60500s
+Configure Soot Confluence 2 2.09400s
+Time to perform Confluence 2 0.57800s
+Configure Soot OA Inter 3.40200s
+Time to perform OA Inter 3.57400s
+Configure Soot DFP 2.73700s
+Time to perform DFP 0.83300s
+Configure Soot DFP 3.00400s
+Time to perform DFP 0.81200s
+Configure Soot PDG 2.03300s
+Time to perform PDG 1.13100s
+Configure Soot PDG 3.03500s
+Time to perform PDG 0.64500s
+Configure Soot Confluence 1 5.89600s
+Time to perform Confluence 1 4.15800s
+Configure Soot Confluence 2 4.13200s
+Time to perform Confluence 2 1.48800s
+Configure Soot OA Inter 5.83900s
+Time to perform OA Inter 6.37500s
+Configure Soot DFP 7.24000s
+Time to perform DFP 3.24200s
+Configure Soot DFP 6.34700s
+Time to perform DFP 3.36200s
+Configure Soot PDG 6.01300s
+Time to perform PDG 1.19200s
+Configure Soot PDG 6.01800s
+Time to perform PDG 0.97100s
+Configure Soot Confluence 1 6.03400s
+Time to perform Confluence 1 4.17000s
+Configure Soot Confluence 2 4.18200s
+Time to perform Confluence 2 1.48600s
+Configure Soot OA Inter 5.88000s
+Time to perform OA Inter 6.41500s
+Configure Soot DFP 6.28300s
+Time to perform DFP 3.09300s
+Configure Soot DFP 5.70200s
+Time to perform DFP 2.06100s
+Configure Soot PDG 6.40300s
+Time to perform PDG 1.02900s
+Configure Soot PDG 4.84800s
+Time to perform PDG 0.99100s
+Configure Soot Confluence 1 1.04900s
+Time to perform Confluence 1 1.31000s
+Configure Soot Confluence 2 0.30700s
+Time to perform Confluence 2 0.37400s
+Configure Soot OA Inter 1.11400s
+Time to perform OA Inter 1.24800s
+Configure Soot DFP 1.04300s
+Time to perform DFP 1.17900s
+Configure Soot DFP 1.04300s
+Time to perform DFP 1.09400s
+Configure Soot PDG 1.04600s
+Time to perform PDG 1.01900s
+Configure Soot PDG 1.26300s
+Time to perform PDG 1.01300s
+Configure Soot Confluence 1 3.57000s
+Time to perform Confluence 1 1.27600s
+Configure Soot Confluence 2 2.14100s
+Time to perform Confluence 2 0.34100s
+Configure Soot OA Inter 3.22000s
+Time to perform OA Inter 3.43300s
+Configure Soot DFP 3.52700s
+Time to perform DFP 0.90300s
+Configure Soot DFP 3.14700s
+Time to perform DFP 0.68200s
+Configure Soot PDG 3.54100s
+Time to perform PDG 0.91400s
+Configure Soot PDG 3.19500s
+Time to perform PDG 0.48200s
+Configure Soot Confluence 1 0.76900s
+Time to perform Confluence 1 0.47800s
+Configure Soot Confluence 2 0.28800s
+Time to perform Confluence 2 0.05000s
+Configure Soot OA Inter 0.81100s
+Time to perform OA Inter 0.87300s
+Configure Soot DFP 0.74500s
+Time to perform DFP 0.61200s
+Configure Soot DFP 1.21900s
+Time to perform DFP 0.66700s
+Configure Soot PDG 1.23100s
+Time to perform PDG 0.88900s
+Configure Soot PDG 1.27000s
+Time to perform PDG 0.90100s
+Configure Soot Confluence 1 1.94700s
+Time to perform Confluence 1 1.26600s
+Configure Soot Confluence 2 1.04100s
+Time to perform Confluence 2 0.30700s
+Configure Soot OA Inter 2.15200s
+Time to perform OA Inter 2.26300s
+Configure Soot DFP 2.06800s
+Time to perform DFP 1.22000s
+Configure Soot DFP 1.98700s
+Time to perform DFP 1.18300s
+Configure Soot PDG 1.95200s
+Time to perform PDG 0.77900s
+Configure Soot PDG 1.94900s
+Time to perform PDG 0.75600s
+Configure Soot Confluence 1 0.99600s
+Time to perform Confluence 1 0.70800s
+Configure Soot Confluence 2 0.26700s
+Time to perform Confluence 2 0.05700s
+Configure Soot OA Inter 1.05900s
+Time to perform OA Inter 1.16900s
+Configure Soot DFP 0.98300s
+Time to perform DFP 0.66300s
+Configure Soot DFP 0.95300s
+Time to perform DFP 0.63000s
+Configure Soot PDG 0.98100s
+Time to perform PDG 0.77300s
+Configure Soot PDG 0.95200s
+Time to perform PDG 0.74500s
+Configure Soot Confluence 1 1.04000s
+Time to perform Confluence 1 0.30500s
+Configure Soot Confluence 2 0.40400s
+Time to perform Confluence 2 0.00800s
+Configure Soot OA Inter 1.12900s
+Time to perform OA Inter 1.20800s
+Configure Soot DFP 1.06100s
+Time to perform DFP 0.28700s
+Configure Soot DFP 1.02900s
+Time to perform DFP 0.28700s
+Configure Soot PDG 1.02200s
+Time to perform PDG 0.32700s
+Configure Soot PDG 1.00700s
+Time to perform PDG 0.32200s
+Configure Soot Confluence 1 1.45100s
+Time to perform Confluence 1 0.92800s
+Configure Soot Confluence 2 0.65500s
+Time to perform Confluence 2 0.09400s
+Configure Soot OA Inter 1.53900s
+Time to perform OA Inter 1.64500s
+Configure Soot DFP 1.44400s
+Time to perform DFP 0.77400s
+Configure Soot DFP 1.51300s
+Time to perform DFP 0.79000s
+Configure Soot PDG 1.48500s
+Time to perform PDG 0.99500s
+Configure Soot PDG 1.46800s
+Time to perform PDG 0.93600s
+Configure Soot Confluence 1 1.57600s
+Time to perform Confluence 1 2.01000s
+Configure Soot Confluence 2 0.82000s
+Time to perform Confluence 2 2.83300s
+Configure Soot OA Inter 1.61200s
+Time to perform OA Inter 1.73400s
+Configure Soot DFP 1.55500s
+Time to perform DFP 1.78500s
+Configure Soot DFP 1.58000s
+Time to perform DFP 2.58900s
+Configure Soot PDG 1.56000s
+Time to perform PDG 0.96300s
+Configure Soot PDG 1.47600s
+Time to perform PDG 0.96500s
+Configure Soot Confluence 1 1.37700s
+Time to perform Confluence 1 2.29900s
+Configure Soot Confluence 2 0.67500s
+Time to perform Confluence 2 2.08900s
+Configure Soot OA Inter 1.41300s
+Time to perform OA Inter 1.54100s
+Configure Soot DFP 1.38900s
+Time to perform DFP 1.66600s
+Configure Soot DFP 1.37200s
+Time to perform DFP 2.19100s
+Configure Soot PDG 1.27000s
+Time to perform PDG 0.93200s
+Configure Soot PDG 1.30500s
+Time to perform PDG 0.93200s
+Configure Soot Confluence 1 1.37400s
+Time to perform Confluence 1 2.14600s
+Configure Soot Confluence 2 0.68200s
+Time to perform Confluence 2 1.83200s
+Configure Soot OA Inter 1.42200s
+Time to perform OA Inter 1.54800s
+Configure Soot DFP 1.36200s
+Time to perform DFP 1.69700s
+Configure Soot DFP 1.35600s
+Time to perform DFP 2.29100s
+Configure Soot PDG 1.31200s
+Time to perform PDG 0.91800s
+Configure Soot PDG 1.30100s
+Time to perform PDG 0.93000s
+Configure Soot Confluence 1 1.33700s
+Time to perform Confluence 1 0.31300s
+Configure Soot Confluence 2 0.53500s
+Time to perform Confluence 2 1.44900s
+Configure Soot OA Inter 1.33200s
+Time to perform OA Inter 1.41300s
+Configure Soot DFP 1.32200s
+Time to perform DFP 0.31600s
+Configure Soot DFP 1.31100s
+Time to perform DFP 1.13600s
+Configure Soot PDG 1.26500s
+Time to perform PDG 0.34400s
+Configure Soot PDG 1.29100s
+Time to perform PDG 0.85200s
+Configure Soot Confluence 1 1.43600s
+Time to perform Confluence 1 1.05700s
+Configure Soot Confluence 2 0.56200s
+Time to perform Confluence 2 0.32900s
+Configure Soot OA Inter 1.52500s
+Time to perform OA Inter 1.64500s
+Configure Soot DFP 1.44200s
+Time to perform DFP 0.92000s
+Configure Soot DFP 1.45400s
+Time to perform DFP 0.92200s
+Configure Soot PDG 1.43400s
+Time to perform PDG 1.00300s
+Configure Soot PDG 1.45300s
+Time to perform PDG 0.93800s
+Configure Soot Confluence 1 0.97200s
+Time to perform Confluence 1 0.80900s
+Configure Soot Confluence 2 0.30000s
+Time to perform Confluence 2 0.00900s
+Configure Soot OA Inter 1.07500s
+Time to perform OA Inter 1.24700s
+Configure Soot DFP 0.98700s
+Time to perform DFP 0.64400s
+Configure Soot DFP 1.00500s
+Time to perform DFP 0.30100s
+Configure Soot PDG 0.97600s
+Time to perform PDG 0.67900s
+Configure Soot PDG 0.98000s
+Time to perform PDG 0.29600s

@@ -116,6 +116,11 @@
     .table th:not([align]) {
       text-align: left;
     }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+    }
   </style>
 
   <style type="text/css">
@@ -395,7 +400,7 @@
             a combination of static analyses: direct flow analysis, confluence analysis, substitution assignment
             analysis, and analysis with a program dependency graph. We conducted an empirical study based on a set of 99
             code integration scenarios, with compiled and dependency-free versions, taken from open-source Java
-            projects. We executed and compared the tool's results with a ground truth dataset. [FAZER] Our tool can
+            projects. We executed and compared the tool's results with a ground truth dataset. Our tool can
             detect interference between contributions, identifying 19 out of a total of 34 with a recall of 0.55. We had
             about 18 false positives and 15 false negatives with a precision of 0.51. However, 62\% of the false
             positives involved refactoring, which implies that combining with other tools could reduce this number. Most
@@ -426,100 +431,112 @@
 </figure>
 
 </div> -->
+        <div>
 
+          <div id="Detecting-Semantic-Conflics-Using-Static-Analysis" class="section level3 par-div">
+            <h2>Detecting Semantic Conflics Using Static Analysis</h2>
+            <p>We use static analysis to verify if the contributions
+              from left and right in merging scenarios lead to interferences. For
+              example, we examine if one developer’s change affects the exe-
+              cution flow of the other developer’s change or alters any state
+              element, leading to a program behavior that is different from the
+              expected behavior of the individual changes. We implemented the
+              Static Semantic Merge tool (SSM), which combines four static anal-
+              ysis algorithms to identify interferences. Whenever one of these
+              algorithms indicates an interference, we conclude that a semantic
+              conflict might have occurred.
+              our analyses takes as input a merged version with the lines
+              modified by developers in the same method. We then perform our
+              analyses and provide a positive or negative result as output.
+              </br></br>
+              To detect interferences through the execution of static analyses
+              on the resulting code from textual merge, the code is pre-annotated
+              with markings of modifications, such as insertions or line mod-
+              ifications, taking into consideration that line deletions will not
+              be considered as they are not preserved in the merge. Based on
+              these annotations, our analyses check for properties that may be
+              associated with occurrences of interference.
+              </br></br>
+              To assess the potential of our static analyses for detecting interfer-
+              ence, we follow the study setup illustrated in Figure 1 and explained
+              in the rest of the section. We want to understand how accurate and
+              efficient our analyses are for detecting interference, with the aim of
+              understanding whether they could be useful as the basis of semantic
+              merge conflict detection tools
 
-        <div id="how-many-semantic-conflicts-arise-when-changes-are-done-on-same-declarations"
-          class="section level3 par-div">
-          <h2>Detecting Semantic Conflics Using Static Analysis</h2>
-          <p>We use static analysis to verify if the contributions
-            from left and right in merging scenarios lead to interferences. For
-            example, we examine if one developer’s change affects the exe-
-            cution flow of the other developer’s change or alters any state
-            element, leading to a program behavior that is different from the
-            expected behavior of the individual changes. We implemented the
-            Static Semantic Merge tool (SSM), which combines four static anal-
-            ysis algorithms to identify interferences. Whenever one of these
-            algorithms indicates an interference, we conclude that a semantic
-            conflict might have occurred.
-            our analyses takes as input a merged version with the lines
-            modified by developers in the same method. We then perform our
-            analyses and provide a positive or negative result as output.
-            </br></br>
-            To detect interferences through the execution of static analyses
-            on the resulting code from textual merge, the code is pre-annotated
-            with markings of modifications, such as insertions or line mod-
-            ifications, taking into consideration that line deletions will not
-            be considered as they are not preserved in the merge. Based on
-            these annotations, our analyses check for properties that may be
-            associated with occurrences of interference.
-            </br></br>
-            To assess the potential of our static analyses for detecting interfer-
-            ence, we follow the study setup illustrated in Figure 1 and explained
-            in the rest of the section. We want to understand how accurate and
-            efficient our analyses are for detecting interference, with the aim of
-            understanding whether they could be useful as the basis of semantic
-            merge conflict detection tools
+            <figure>
+              <img src="img\semanticConflictsStaticAnalysisMethodology.png" alt="Study Design" style="width:100%">
+              <figcaption align="middle">Figure 1 - Study Design</figcaption>
+            </figure>
 
-          <figure>
-            <img src="img\semanticConflictsStaticAnalysisMethodology.png" alt="Study Design" style="width:100%">
-            <figcaption align="middle">Figure 1 - Study Design</figcaption>
-          </figure>
+            For additional details on our results, you can find more information <a href="./SemanticConflictsStaticAnalysis/results/">here</a>. We provide data on all our runs, charts, logs, timesheets and more.
+            </p>
 
+          </div>
 
-          </p>
+          <div id="sample" class="section level3 par-div">
+            <h2>Sample</h2>
+            <p>Here you can find the list of projects of our sample. For each project, we present some metrics collected
+              from GitHub or locally by git.</p>
+
+            <iframe
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMUhAqphN1mNYDgGV6meNJ9uiiyPPVCqX15qpTrvgBhMPogXWNJWi0648RkFzlvVKjpeoAKlR9xZJo/pubhtml?gid=1158684519&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+            <p>Here, you can find the list of changes on the same declarations we analyzed in our study. Each change is
+              represented as a row in the table below.</p>
+            <iframe
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMUhAqphN1mNYDgGV6meNJ9uiiyPPVCqX15qpTrvgBhMPogXWNJWi0648RkFzlvVKjpeoAKlR9xZJo/pubhtml?gid=792123321&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+          </div>
+
+          <div id="study-replication" class="section level3 par-div">
+            <h2>Study Replication</h2>
+            <p>Here you can find the links for the scripts and dataset we used to perform our study. Aiming to support
+              replications, we provide our sample of merge scenarios as a <a target="_blank"
+                href="https://github.com/spgroup/mergedataset/releases/tag/article2023">dataset</a>.</p>
+
+            <p>Below, we present in detail how our scripts can be used to replicate our study using our dataset.</p>
+
+            <h3>Replicating the study</h3>
+            <p>We recommend the execution of the next steps when trying to replicate our study.
+              </br></br>
+              In order to facilitate the replication of our study, we created a
+              docker container that assembles all the necessary infrastructure for the complete execution.
+              </br></br>
+              To use it, you need to have docker installed on your machine, so follow the instructions in the official
+              documentation: <a
+                href="https://docs.docker.com/desktop/install">https://docs.docker.com/desktop/install</a>.
+              </br></br>
+              After installation or if you already have docker installed, we have prepared a <a
+                href="https://github.com/spgroup/conflict-static-analysis/tree/article2023/docker">guide</a> so you can
+              create an image, initialize a container and run the analyses.
+
+            </p>
+          </div>
         </div>
 
-        <div id="study-replication" class="section level3 par-div">
-          <h2>Study Replication</h2>
-          <p>Here you can find the links for the scripts and dataset we used to perform our study. Aiming to support
-            replications, we provide our sample of merge scenarios as a <a target="_blank"
-              href="https://github.com/spgroup/mergedataset/releases/tag/article2023">dataset</a>.</p>
 
-          <p>Below, we present in detail how our scripts can be used to replicate our study using our dataset.</p>
+        <script>
 
-          <h3>Replicating the study</h3>
-          <p>We recommend the execution of the next steps when trying to replicate our study.
-            </br></br>
-            In order to facilitate the replication of our study, we created a
-            docker container that assembles all the necessary infrastructure for the complete execution.
-            </br></br>
-            To use it, you need to have docker installed on your machine, so follow the instructions in the official
-            documentation: <a
-              href="https://docs.docker.com/desktop/install">https://docs.docker.com/desktop/install</a>.
-            </br></br>
-            After installation or if you already have docker installed, we have prepared a <a
-              href="https://github.com/spgroup/conflict-static-analysis/tree/article2023/docker">guide</a> so you can
-            create an image, initialize a container and run the analyses.
-
-          </p>
-        </div>
-      </div>
-
-    </div>
+          // add bootstrap table styles to pandoc tables
+          function bootstrapStylePandocTables() {
+            $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+          }
+          $(document).ready(function () {
+            bootstrapStylePandocTables();
+          });
 
 
-    <script>
+        </script>
 
-      // add bootstrap table styles to pandoc tables
-      function bootstrapStylePandocTables() {
-        $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-      }
-      $(document).ready(function () {
-        bootstrapStylePandocTables();
-      });
-
-
-    </script>
-
-    <!-- dynamically load mathjax for compatibility with self-contained -->
-    <script>
-      (function () {
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-        document.getElementsByTagName("head")[0].appendChild(script);
-      })();
-    </script>
+        <!-- dynamically load mathjax for compatibility with self-contained -->
+        <script>
+          (function () {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+            document.getElementsByTagName("head")[0].appendChild(script);
+          })();
+        </script>
 
 </body>
 
