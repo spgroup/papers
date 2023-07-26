@@ -691,7 +691,7 @@ div.tocify {
 "No",
 "No",
 "No",
-"Yes",
+"Yes*",
 "Yes",
 "No",
 "No",
@@ -1265,6 +1265,8 @@ div.tocify {
 "evals":[],"jsHooks":[]}
 
 </script>
+
+<p>For the <i>HikariConfig</i> case, a semantic conflict occurs based on our ground truth. During our study, SAM reported a conflict for this case; however, the reported test was flaky. As a result, we consider this case as a false-positive. For further discussion about FPs, please, check our paper.</p>
 
 <p>For additional details regarding our dataset, you can find further information <a href="https://github.com/leusonmario/papers/blob/master/2022PHDThesis/results/sample-semantic-conflicts.csv">here</a>. We provide descriptions for each row of the table above, like whether the associated changes represent a conflict, the summary of changes performed by each parent commit, and when applicable, also a test case revealing the conflict.</p>
 <p>For additional details regarding the set of test cases that detected semantic conflicts, please check this <a href="https://github.com/leusonmario/papers/blob/master/2022PHDThesis/results/detected-conflicts.csv">file</a>. We inform the test cases of each test suite that detected any of the semantic conflicts.</p>
