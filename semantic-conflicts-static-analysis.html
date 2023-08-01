@@ -392,28 +392,30 @@
         <div id="abstract" class="section level2 tabset tabset-fade tabset-pills par-div">
           <h2>Abstract</h2>
 
-          <p>When two developers merge their contributions in the software development process, textual conflicts can
-            occur. Traditional merging tools, such as Git merge, can detect this type of conflict. However, semantic
-            merge conflicts are a bit more difficult to detect as they can occur in different areas of text and require
-            an understanding of the software's behavior. Our goal is to check for the existence of a relationship
-            between the changes made by two developers using various types of static code analysis. To do this, we used
-            a combination of static analyses: direct flow analysis, confluence analysis, substitution assignment
-            analysis, and analysis with a program dependency graph. We conducted an empirical study based on a set of 99
-            code integration scenarios, with compiled and dependency-free versions, taken from open-source Java
-            projects. We executed and compared the tool's results with a ground truth dataset. Our tool can
-            detect interference between contributions, identifying 19 out of a total of 34 with a recall of 0.55. We had
-            about 18 false positives and 15 false negatives with a precision of 0.51. However, 62\% of the false
-            positives involved refactoring, which implies that combining with other tools could reduce this number. Most
-            of the false negatives were composed of scenarios with deleted lines, class attributes without an entry
-            point for static analysis, and absence of dependencies.
-
+          <p>Version control system tools, like Git, empower developers to work
+on their development tasks independently. These tools also facil-
+itate the integration of changes through merging operations and
+report errors in case of syntactic conflicts. However, when devel-
+opers integrate their changes, they might encounter other types
+of conflicts, such as static and dynamic semantic conflicts. In this
+paper, we specifically focus on dynamic semantic conflicts, which
+occur when merging results in undesired interference—causing
+unexpected program behavior at runtime. To address this issue, we
+explore the use of static analysis to detect an approximation for
+interference when merging contributions from two developers. We
+evaluate our technique using a dataset of 99 experimental units
+extracted from merge scenarios. The results provide evidence that
+our approach outperforms previous methods that rely on dynamic
+analysis for detecting semantic conflicts, in terms of F1 score and
+recall (but with much worse precision). Our technique remains
+comparable to precision levels observed in other studies that also
+leverage static analysis or use theorem proving techniques to de-
+tect semantic conflict, albeit with significantly improved overall
+performance.
           </p>
 
           <h3>Authors</h3>
           <ul>
-            <li>removed for review</li>
-            <li>removed for review</li>
-            <li>removed for review</li>
             <li>removed for review</li>
           </ul>
 
@@ -465,11 +467,11 @@
               merge conflict detection tools
 
             <figure>
-              <img src="img\semanticConflictsStaticAnalysisMethodology.png" alt="Study Design" style="width:100%">
+              <img src="img\semanticConflictsStaticAnalysisMethodology.jpg" alt="Study Design" style="width:100%">
               <figcaption align="middle">Figure 1 - Study Design</figcaption>
             </figure>
 
-            For additional details on our results, you can find more information <a href="./SemanticConflictsStaticAnalysis/results/">here</a>. We provide data on all our runs, charts, logs, timesheets and more.
+            For additional details on our results, you can find more information <a href="">removed for review</a>. We provide data on all our runs, charts, logs, timesheets and more.
             </p>
 
           </div>
@@ -507,7 +509,7 @@
                 href="https://docs.docker.com/desktop/install">https://docs.docker.com/desktop/install</a>.
               </br></br>
               After installation or if you already have docker installed, we have prepared a <a
-                href="https://anonymous.4open.science/r/conflict-static-analysis-6DDA/docker/README.md">guide</a> so you can
+                href="">removed for review</a> so you can
               create an image, initialize a container and run the analyses.
 
             </p>
