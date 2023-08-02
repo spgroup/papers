@@ -392,84 +392,67 @@
         <div id="abstract" class="section level2 tabset tabset-fade tabset-pills par-div">
           <h2>Abstract</h2>
 
-          <p>When two developers merge their contributions in the software development process, textual conflicts can
-            occur. Traditional merging tools, such as Git merge, can detect this type of conflict. However, semantic
-            merge conflicts are a bit more difficult to detect as they can occur in different areas of text and require
-            an understanding of the software's behavior. Our goal is to check for the existence of a relationship
-            between the changes made by two developers using various types of static code analysis. To do this, we used
-            a combination of static analyses: direct flow analysis, confluence analysis, substitution assignment
-            analysis, and analysis with a program dependency graph. We conducted an empirical study based on a set of 99
-            code integration scenarios, with compiled and dependency-free versions, taken from open-source Java
-            projects. We executed and compared the tool's results with a ground truth dataset. Our tool can
-            detect interference between contributions, identifying 19 out of a total of 34 with a recall of 0.55. We had
-            about 18 false positives and 15 false negatives with a precision of 0.51. However, 62\% of the false
-            positives involved refactoring, which implies that combining with other tools could reduce this number. Most
-            of the false negatives were composed of scenarios with deleted lines, class attributes without an entry
-            point for static analysis, and absence of dependencies.
-
+          <p>Version control system tools, like Git, empower developers to work
+on their development tasks independently. These tools also facil-
+itate the integration of changes through merging operations and
+report errors in case of syntactic conflicts. However, when devel-
+opers integrate their changes, they might encounter other types
+of conflicts, such as static and dynamic semantic conflicts. In this
+paper, we specifically focus on dynamic semantic conflicts, which
+occur when merging results in undesired interference—causing
+unexpected program behavior at runtime. To address this issue, we
+explore the use of static analysis to detect an approximation for
+interference when merging contributions from two developers. We
+evaluate our technique using a dataset of 99 experimental units
+extracted from merge scenarios. The results provide evidence that
+our approach outperforms previous methods that rely on dynamic
+analysis for detecting semantic conflicts, in terms of F1 score and
+recall (but with much worse precision). Our technique remains
+comparable to precision levels observed in other studies that also
+leverage static analysis or use theorem proving techniques to de-
+tect semantic conflict, albeit with significantly improved overall
+performance.
           </p>
 
           <h3>Authors</h3>
           <ul>
             <li>removed for review</li>
-            <li>removed for review</li>
-            <li>removed for review</li>
-            <li>removed for review</li>
           </ul>
 
         </div>
 
-        <!-- <div id="sam" class="section level3 par-div" >
-<h2>SAM: SemAntic Merge tool based on Unit Test Generation </h2>
-<p> The essence of SAM is to generate and execute tests when merge scenarios are performed. These tests are executed over the different commits of a merge scenario, and after interpreting their results, the tools report whether a semantic conflict is detected. </p>
-
-<p>SAM receives as input a merge scenario and, based on the changes performed by developers, invokes unit test generation tools to generate test suites exploring the ongoing changes. Next, based on some heuristics, SAM checks whether test conflicts occur by comparing the test suites’ results against the different merge scenario commits. If a conflict is detected, the tool warns developers about its occurrence, informing the class and its element involved in the conflict. Figure 1 below shows how SAM works. Our current version of SAM is available on <a target="_blank" href="https://github.com/leusonmario/SAM">GitHub</a>.</p>
-
-<figure>
-  <img src="img/sam-workflow.png" alt="SAM workflow" style="width:100%">
-  <figcaption align="middle">Figure 1 - SAM workflow</figcaption>
-</figure>
-
-</div> -->
+        <!-- <div id="sam" class="section level3 par-div" ></div> -->
         <div>
-
           <div id="Detecting-Semantic-Conflics-Using-Static-Analysis" class="section level3 par-div">
             <h2>Detecting Semantic Conflics Using Static Analysis</h2>
-            <p>We use static analysis to verify if the contributions
-              from left and right in merging scenarios lead to interferences. For
-              example, we examine if one developer’s change affects the exe-
-              cution flow of the other developer’s change or alters any state
-              element, leading to a program behavior that is different from the
-              expected behavior of the individual changes. We implemented the
-              Static Semantic Merge tool (SSM), which combines four static anal-
-              ysis algorithms to identify interferences. Whenever one of these
-              algorithms indicates an interference, we conclude that a semantic
-              conflict might have occurred.
-              our analyses takes as input a merged version with the lines
-              modified by developers in the same method. We then perform our
-              analyses and provide a positive or negative result as output.
-              </br></br>
-              To detect interferences through the execution of static analyses
-              on the resulting code from textual merge, the code is pre-annotated
-              with markings of modifications, such as insertions or line mod-
-              ifications, taking into consideration that line deletions will not
-              be considered as they are not preserved in the merge. Based on
-              these annotations, our analyses check for properties that may be
-              associated with occurrences of interference.
-              </br></br>
-              To assess the potential of our static analyses for detecting interfer-
-              ence, we follow the study setup illustrated in Figure 1 and explained
-              in the rest of the section. We want to understand how accurate and
-              efficient our analyses are for detecting interference, with the aim of
-              understanding whether they could be useful as the basis of semantic
-              merge conflict detection tools
+            <p>To detect interference and help mitigate the negative consequences
+of semantic conflicts, we propose a technique that runs static anal-
+yses on the merged version of the code, which we annotate with
+metadata indicating instructions modified or added by each devel-
+oper. In particular, by running a static control dependence analy-
+sis on the example illustrated in the previous section, a tool
+could report that a method invoke instruction added by Right is
+control dependent on a conditional instruction modified by Left,
+warning about the existing interference.</p>
+<p>We implement and rely on four analyses we describe in the fol-
+lowing: Interprocedural Data Flow, Interprocedural Confluence,
+Interprocedural Override Assignment, and Program Dependence
+Graph, which includes the control dependency that detects the
+interference illustrated in the previous section. They all try to ex-
+plore likely interference situations by keeping track of the changes
+developers make and how they affect state elements such as global
+variables, object fields, system files, variables that hold method
+return values or raised exceptions, etc. We consider field accesses
+like o.a and o.b to refer to different state elements, even if o holds
+the same reference; the variable o also corresponds to a different
+state element</p>
 
             <figure>
-              <img src="img\semanticConflictsStaticAnalysisMethodology.png" alt="Study Design" style="width:100%">
+              <img src="img\semanticConflictsStaticAnalysisMethodology.jpg" alt="Study Design" style="width:100%">
               <figcaption align="middle">Figure 1 - Study Design</figcaption>
             </figure>
 
-            For additional details on our results, you can find more information <a href="./SemanticConflictsStaticAnalysis/results/">here</a>. We provide data on all our runs, charts, logs, timesheets and more.
+            For additional details on our results, you can find more information <a href="">removed for review</a>. We provide data on all our runs, charts, logs, timesheets and more.
             </p>
 
           </div>
@@ -507,7 +490,7 @@
                 href="https://docs.docker.com/desktop/install">https://docs.docker.com/desktop/install</a>.
               </br></br>
               After installation or if you already have docker installed, we have prepared a <a
-                href="https://anonymous.4open.science/r/conflict-static-analysis-6DDA/docker/README.md">guide</a> so you can
+                href="">removed for review</a> so you can
               create an image, initialize a container and run the analyses.
 
             </p>
