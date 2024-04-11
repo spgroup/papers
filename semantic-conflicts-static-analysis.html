@@ -395,8 +395,7 @@
           <p>Version control system tools, like Git, empower developers to work
 on their development tasks independently. These tools also facil-
 itate the integration of changes through merging operations and
-report errors in case of syntactic conflicts. However, when devel-
-opers integrate their changes, they might encounter other types
+report errors in case of syntactic conflicts. However, when developers integrate their changes, they might encounter other types
 of conflicts, such as static and dynamic semantic conflicts. In this
 paper, we specifically focus on dynamic semantic conflicts, which
 occur when merging results in undesired interference—causing
@@ -426,20 +425,15 @@ performance.
           <div id="Detecting-Semantic-Conflics-Using-Static-Analysis" class="section level3 par-div">
             <h2>Detecting Semantic Conflics Using Static Analysis</h2>
             <p>To detect interference and help mitigate the negative consequences
-of semantic conflicts, we propose a technique that runs static anal-
-yses on the merged version of the code, which we annotate with
-metadata indicating instructions modified or added by each devel-
-oper. In particular, by running a static control dependence analy-
-sis on the example illustrated in the previous section, a tool
+of semantic conflicts, we propose a technique that runs static analyses on the merged version of the code, which we annotate with
+metadata indicating instructions modified or added by each developer. In particular, by running a static control dependence analysis on the example illustrated in the previous section, a tool
 could report that a method invoke instruction added by Right is
 control dependent on a conditional instruction modified by Left,
 warning about the existing interference.</p>
-<p>We implement and rely on four analyses we describe in the fol-
-lowing: Interprocedural Data Flow, Interprocedural Confluence,
+<p>We implement and rely on four analyses we describe in the following: Interprocedural Data Flow, Interprocedural Confluence,
 Interprocedural Override Assignment, and Program Dependence
 Graph, which includes the control dependency that detects the
-interference illustrated in the previous section. They all try to ex-
-plore likely interference situations by keeping track of the changes
+interference illustrated in the previous section. They all try to explore likely interference situations by keeping track of the changes
 developers make and how they affect state elements such as global
 variables, object fields, system files, variables that hold method
 return values or raised exceptions, etc. We consider field accesses
