@@ -1,0 +1,5 @@
+Metric;Value;Analyses;Time (s) (mean, median, standard)
+Precision;0.88;{'CD'};(8.32, 4.45, 12.23)
+Recall;0.59;{'PDG-e', 'DFP-Inter'} {'PDG-e', 'DFP-Intra'};(25.12, 10.84, 48.45) (18.25, 9.85, 25.56)
+F1-score;0.44;{'PDG-e', 'DFP-Intra'};(18.25, 9.85, 25.56)
+Accuracy;0.77;{'CD'};(8.32, 4.45, 12.23)
