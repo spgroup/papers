@@ -1,0 +1,4097 @@
+
+
+Combination: ['OA Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 65', 'FALSE NEGATIVE: 26', 'TRUE POSITIVE: 3', 'FALSE POSITIVE: 5']
+Precision: 0.38
+Recall: 0.10
+F1 Score: 0.16
+Accuracy: 0.69
+
+Combination: ['left right CDe', 'right left CDe']
+
+Confusion Matrix: ['FALSE POSITIVE: 13', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 57']
+Precision: 0.41
+Recall: 0.31
+F1 Score: 0.35
+Accuracy: 0.67
+
+Combination: ['left right PDG-e', 'right left PDG-e']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['Confluence Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 53', 'FALSE NEGATIVE: 23', 'TRUE POSITIVE: 6', 'FALSE POSITIVE: 17']
+Precision: 0.26
+Recall: 0.21
+F1 Score: 0.23
+Accuracy: 0.60
+
+Combination: ['left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 18', 'TRUE POSITIVE: 11', 'TRUE NEGATIVE: 52', 'FALSE NEGATIVE: 18']
+Precision: 0.38
+Recall: 0.38
+F1 Score: 0.38
+Accuracy: 0.64
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 46', 'FALSE NEGATIVE: 21', 'TRUE POSITIVE: 8', 'FALSE POSITIVE: 24']
+Precision: 0.25
+Recall: 0.28
+F1 Score: 0.26
+Accuracy: 0.55
+
+Combination: ['left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 69', 'FALSE NEGATIVE: 22', 'TRUE POSITIVE: 7', 'FALSE POSITIVE: 1']
+Precision: 0.88
+Recall: 0.24
+F1 Score: 0.38
+Accuracy: 0.77
+
+Combination: ['Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 60', 'FALSE NEGATIVE: 29', 'FALSE POSITIVE: 10']
+Precision: 0.00
+Recall: 0.00Accuracy: -
+Accuracy: 0.61
+
+Combination: ['left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 50', 'FALSE NEGATIVE: 22', 'TRUE POSITIVE: 7', 'FALSE POSITIVE: 20']
+Precision: 0.26
+Recall: 0.24
+F1 Score: 0.25
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe']
+
+Confusion Matrix: ['FALSE POSITIVE: 16', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 54']
+Precision: 0.36
+Recall: 0.31
+F1 Score: 0.33
+Accuracy: 0.64
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'Confluence Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 51', 'FALSE NEGATIVE: 23', 'TRUE POSITIVE: 6', 'FALSE POSITIVE: 19']
+Precision: 0.24
+Recall: 0.21
+F1 Score: 0.22
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 20', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 50', 'FALSE NEGATIVE: 17']
+Precision: 0.38
+Recall: 0.41
+F1 Score: 0.39
+Accuracy: 0.63
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'FALSE POSITIVE: 25']
+Precision: 0.26
+Recall: 0.31
+F1 Score: 0.29
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 64', 'FALSE NEGATIVE: 21', 'TRUE POSITIVE: 8', 'FALSE POSITIVE: 6']
+Precision: 0.57
+Recall: 0.28
+F1 Score: 0.37
+Accuracy: 0.73
+
+Combination: ['OA Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 58', 'FALSE NEGATIVE: 26', 'TRUE POSITIVE: 3', 'FALSE POSITIVE: 12']
+Precision: 0.20
+Recall: 0.10
+F1 Score: 0.14
+Accuracy: 0.62
+
+Combination: ['OA Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 49', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'FALSE POSITIVE: 21']
+Precision: 0.30
+Recall: 0.31
+F1 Score: 0.31
+Accuracy: 0.59
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 42']
+Precision: 0.30
+Recall: 0.41
+F1 Score: 0.35
+Accuracy: 0.55
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 13', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 57']
+Precision: 0.41
+Recall: 0.31
+F1 Score: 0.35
+Accuracy: 0.67
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 22', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 48']
+Precision: 0.29
+Recall: 0.31
+F1 Score: 0.30
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 26']
+Precision: 0.28
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.55
+
+Combination: ['Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 52', 'FALSE NEGATIVE: 18', 'TRUE POSITIVE: 11', 'FALSE POSITIVE: 18']
+Precision: 0.38
+Recall: 0.38
+F1 Score: 0.38
+Accuracy: 0.64
+
+Combination: ['Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 52', 'FALSE NEGATIVE: 23', 'TRUE POSITIVE: 6', 'FALSE POSITIVE: 18']
+Precision: 0.25
+Recall: 0.21
+F1 Score: 0.23
+Accuracy: 0.59
+
+Combination: ['Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 25']
+Precision: 0.29
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.56
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 18', 'TRUE POSITIVE: 11', 'TRUE NEGATIVE: 52', 'FALSE NEGATIVE: 18']
+Precision: 0.38
+Recall: 0.38
+F1 Score: 0.38
+Accuracy: 0.64
+
+Combination: ['left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 19', 'TRUE POSITIVE: 11', 'TRUE NEGATIVE: 51', 'FALSE NEGATIVE: 18']
+Precision: 0.37
+Recall: 0.38
+F1 Score: 0.37
+Accuracy: 0.63
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 24', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 46', 'FALSE NEGATIVE: 15']
+Precision: 0.37
+Recall: 0.48
+F1 Score: 0.42
+Accuracy: 0.61
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 25']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.58
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 46', 'FALSE NEGATIVE: 21', 'TRUE POSITIVE: 8', 'FALSE POSITIVE: 24']
+Precision: 0.25
+Recall: 0.28
+F1 Score: 0.26
+Accuracy: 0.55
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 46', 'FALSE NEGATIVE: 21', 'TRUE POSITIVE: 8', 'FALSE POSITIVE: 24']
+Precision: 0.25
+Recall: 0.28
+F1 Score: 0.26
+Accuracy: 0.55
+
+Combination: ['left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 59', 'FALSE NEGATIVE: 22', 'TRUE POSITIVE: 7', 'FALSE POSITIVE: 11']
+Precision: 0.39
+Recall: 0.24
+F1 Score: 0.30
+Accuracy: 0.67
+
+Combination: ['left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 49', 'FALSE NEGATIVE: 18', 'TRUE POSITIVE: 11', 'FALSE POSITIVE: 21']
+Precision: 0.34
+Recall: 0.38
+F1 Score: 0.36
+Accuracy: 0.61
+
+Combination: ['Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 49', 'FALSE NEGATIVE: 22', 'TRUE POSITIVE: 7', 'FALSE POSITIVE: 21']
+Precision: 0.25
+Recall: 0.24
+F1 Score: 0.25
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 42']
+Precision: 0.30
+Recall: 0.41
+F1 Score: 0.35
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 16', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 54']
+Precision: 0.36
+Recall: 0.31
+F1 Score: 0.33
+Accuracy: 0.64
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 22', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 48']
+Precision: 0.29
+Recall: 0.31
+F1 Score: 0.30
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 27']
+Precision: 0.27
+Recall: 0.34
+F1 Score: 0.30
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 50', 'FALSE NEGATIVE: 18', 'TRUE POSITIVE: 11', 'FALSE POSITIVE: 20']
+Precision: 0.35
+Recall: 0.38
+F1 Score: 0.37
+Accuracy: 0.62
+
+Combination: ['OA Inter', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 50', 'FALSE NEGATIVE: 23', 'TRUE POSITIVE: 6', 'FALSE POSITIVE: 20']
+Precision: 0.23
+Recall: 0.21
+F1 Score: 0.22
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 26']
+Precision: 0.28
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 20', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 50', 'FALSE NEGATIVE: 17']
+Precision: 0.38
+Recall: 0.41
+F1 Score: 0.39
+Accuracy: 0.63
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 21', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 49', 'FALSE NEGATIVE: 17']
+Precision: 0.36
+Recall: 0.41
+F1 Score: 0.39
+Accuracy: 0.62
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 25', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 14']
+Precision: 0.38
+Recall: 0.52
+F1 Score: 0.43
+Accuracy: 0.61
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 26']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'FALSE POSITIVE: 25']
+Precision: 0.26
+Recall: 0.31
+F1 Score: 0.29
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'FALSE POSITIVE: 25']
+Precision: 0.26
+Recall: 0.31
+F1 Score: 0.29
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 57', 'FALSE NEGATIVE: 21', 'TRUE POSITIVE: 8', 'FALSE POSITIVE: 13']
+Precision: 0.38
+Recall: 0.28
+F1 Score: 0.32
+Accuracy: 0.66
+
+Combination: ['OA Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 48', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 22']
+Precision: 0.35
+Recall: 0.41
+F1 Score: 0.38
+Accuracy: 0.61
+
+Combination: ['OA Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 48', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'FALSE POSITIVE: 22']
+Precision: 0.29
+Recall: 0.31
+F1 Score: 0.30
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 42']
+Precision: 0.30
+Recall: 0.41
+F1 Score: 0.35
+Accuracy: 0.55
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 41']
+Precision: 0.29
+Recall: 0.41
+F1 Score: 0.34
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 22', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 48']
+Precision: 0.29
+Recall: 0.31
+F1 Score: 0.30
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 27']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 26']
+Precision: 0.28
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.55
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 26']
+Precision: 0.28
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.55
+
+Combination: ['Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 51', 'FALSE NEGATIVE: 18', 'TRUE POSITIVE: 11', 'FALSE POSITIVE: 19']
+Precision: 0.37
+Recall: 0.38
+F1 Score: 0.37
+Accuracy: 0.63
+
+Combination: ['Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 26']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 25']
+Precision: 0.29
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.56
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 19', 'TRUE POSITIVE: 11', 'TRUE NEGATIVE: 51', 'FALSE NEGATIVE: 18']
+Precision: 0.37
+Recall: 0.38
+F1 Score: 0.37
+Accuracy: 0.63
+
+Combination: ['left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 24', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 46', 'FALSE NEGATIVE: 15']
+Precision: 0.37
+Recall: 0.48
+F1 Score: 0.42
+Accuracy: 0.61
+
+Combination: ['left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 25', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 15']
+Precision: 0.36
+Recall: 0.48
+F1 Score: 0.41
+Accuracy: 0.60
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 25']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.58
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 25']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.58
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 46', 'FALSE NEGATIVE: 21', 'TRUE POSITIVE: 8', 'FALSE POSITIVE: 24']
+Precision: 0.25
+Recall: 0.28
+F1 Score: 0.26
+Accuracy: 0.55
+
+Combination: ['left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 48', 'FALSE NEGATIVE: 18', 'TRUE POSITIVE: 11', 'FALSE POSITIVE: 22']
+Precision: 0.33
+Recall: 0.38
+F1 Score: 0.35
+Accuracy: 0.60
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 42']
+Precision: 0.30
+Recall: 0.41
+F1 Score: 0.35
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 41']
+Precision: 0.29
+Recall: 0.41
+F1 Score: 0.34
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 22', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'TRUE NEGATIVE: 48']
+Precision: 0.29
+Recall: 0.31
+F1 Score: 0.30
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 28']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 27']
+Precision: 0.27
+Recall: 0.34
+F1 Score: 0.30
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 27']
+Precision: 0.27
+Recall: 0.34
+F1 Score: 0.30
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 49', 'FALSE NEGATIVE: 18', 'TRUE POSITIVE: 11', 'FALSE POSITIVE: 21']
+Precision: 0.34
+Recall: 0.38
+F1 Score: 0.36
+Accuracy: 0.61
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 27']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 26']
+Precision: 0.28
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 21', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 49', 'FALSE NEGATIVE: 17']
+Precision: 0.36
+Recall: 0.41
+F1 Score: 0.39
+Accuracy: 0.62
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 25', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 14']
+Precision: 0.38
+Recall: 0.52
+F1 Score: 0.43
+Accuracy: 0.61
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 14']
+Precision: 0.37
+Recall: 0.52
+F1 Score: 0.43
+Accuracy: 0.60
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 26']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 26']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 20', 'TRUE POSITIVE: 9', 'FALSE POSITIVE: 25']
+Precision: 0.26
+Recall: 0.31
+F1 Score: 0.29
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 47', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 23']
+Precision: 0.34
+Recall: 0.41
+F1 Score: 0.38
+Accuracy: 0.60
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 41']
+Precision: 0.29
+Recall: 0.41
+F1 Score: 0.34
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 27']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 27']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 26']
+Precision: 0.28
+Recall: 0.34
+F1 Score: 0.31
+Accuracy: 0.55
+
+Combination: ['Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 26']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 25', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 15']
+Precision: 0.36
+Recall: 0.48
+F1 Score: 0.41
+Accuracy: 0.60
+
+Combination: ['left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 45', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 25']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'TRUE NEGATIVE: 41']
+Precision: 0.29
+Recall: 0.41
+F1 Score: 0.34
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 16']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 40']
+Precision: 0.30
+Recall: 0.45
+F1 Score: 0.36
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 28']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 28']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 19', 'TRUE POSITIVE: 10', 'FALSE POSITIVE: 27']
+Precision: 0.27
+Recall: 0.34
+F1 Score: 0.30
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 27']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 26', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 14']
+Precision: 0.37
+Recall: 0.52
+F1 Score: 0.43
+Accuracy: 0.60
+
+Combination: ['OA Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 44', 'FALSE NEGATIVE: 17', 'TRUE POSITIVE: 12', 'FALSE POSITIVE: 26']
+Precision: 0.32
+Recall: 0.41
+F1 Score: 0.36
+Accuracy: 0.57
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 27']
+Precision: 0.33
+Recall: 0.45
+F1 Score: 0.38
+Accuracy: 0.57
+
+Combination: ['left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 28', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 14']
+Precision: 0.35
+Recall: 0.52
+F1 Score: 0.42
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 27', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 43', 'FALSE NEGATIVE: 15']
+Precision: 0.34
+Recall: 0.48
+F1 Score: 0.40
+Accuracy: 0.58
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 15']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 37']
+Precision: 0.30
+Recall: 0.48
+F1 Score: 0.37
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 13']
+Precision: 0.34
+Recall: 0.55
+F1 Score: 0.42
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'TRUE NEGATIVE: 38']
+Precision: 0.29
+Recall: 0.45
+F1 Score: 0.35
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['TRUE NEGATIVE: 42', 'FALSE NEGATIVE: 16', 'TRUE POSITIVE: 13', 'FALSE POSITIVE: 28']
+Precision: 0.32
+Recall: 0.45
+F1 Score: 0.37
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 29', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 41', 'FALSE NEGATIVE: 14']
+Precision: 0.34
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.57
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 30', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 40', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.41
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 14']
+Precision: 0.31
+Recall: 0.52
+F1 Score: 0.39
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 32', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 38', 'FALSE NEGATIVE: 12']
+Precision: 0.35
+Recall: 0.59
+F1 Score: 0.44
+Accuracy: 0.56
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 13']
+Precision: 0.32
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'FALSE NEGATIVE: 15', 'TRUE POSITIVE: 14', 'TRUE NEGATIVE: 36']
+Precision: 0.29
+Recall: 0.48
+F1 Score: 0.36
+Accuracy: 0.51
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 33', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 37', 'FALSE NEGATIVE: 13']
+Precision: 0.33
+Recall: 0.55
+F1 Score: 0.41
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 31', 'TRUE POSITIVE: 15', 'TRUE NEGATIVE: 39', 'FALSE NEGATIVE: 14']
+Precision: 0.33
+Recall: 0.52
+F1 Score: 0.40
+Accuracy: 0.55
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.53
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 34', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 36', 'FALSE NEGATIVE: 12']
+Precision: 0.33
+Recall: 0.59
+F1 Score: 0.42
+Accuracy: 0.54
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 35', 'TRUE POSITIVE: 16', 'TRUE NEGATIVE: 35', 'FALSE NEGATIVE: 13']
+Precision: 0.31
+Recall: 0.55
+F1 Score: 0.40
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+Combination: ['OA Inter', 'left right CDe', 'right left CDe', 'left right PDG-e', 'right left PDG-e', 'Confluence Inter', 'left right PDG', 'right left PDG', 'left right DFP-Inter', 'right left DFP-Inter', 'left right CD', 'right left CD', 'Confluence Intra', 'left right DFP-Intra', 'right left DFP-Intra']
+
+Confusion Matrix: ['FALSE POSITIVE: 36', 'TRUE POSITIVE: 17', 'TRUE NEGATIVE: 34', 'FALSE NEGATIVE: 12']
+Precision: 0.32
+Recall: 0.59
+F1 Score: 0.41
+Accuracy: 0.52
+
+The best:
+Precision: 0.88, [['left right CD', 'right left CD']]
+
+Recall: 0.59, [['left right PDG-e', 'right left PDG-e', 'left right DFP-Inter', 'right left DFP-Inter'], ['left right PDG-e', 'right left PDG-e', 'left right DFP-Intra', 'right left DFP-Intra']]
+
+F1-score: 0.44, [['left right PDG-e', 'right left PDG-e', 'left right DFP-Intra', 'right left DFP-Intra']]
+
+Accuracy: 0.77, [['left right CD', 'right left CD']]
