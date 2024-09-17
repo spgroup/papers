@@ -361,7 +361,7 @@
 
 
 
-          <h1 class="title toc-ignore"><strong>Comparison of Static Analyses for Semantic Conflict Detection</strong></h1>
+          <h1 class="title toc-ignore"><strong>Comparing Static Analyses for Improved Semantic Conflict Detection</strong></h1>
 
         </div>
 
@@ -392,7 +392,10 @@
         <div id="abstract" class="section level2 tabset tabset-fade tabset-pills par-div">
           <h2>Abstract</h2>
 
-          <p>Version control system tools empower developers to independently work on their development tasks. These tools also facilitate the integration of changes through merging operations, and report textual  conflicts. However, when developers integrate their changes, they might encounter other types of conflicts that are not detected by current merge tools. In this paper, we focus on dynamic semantic conflicts, which occur when merging reports no textual conflicts but results in undesired interference--- causing unexpected program behavior at runtime. To address this issue, we propose a technique that explores the use of static analysis to detect interference when merging contributions from two developers. We evaluate our technique using a dataset of 99 experimental units extracted from merge scenarios.The results provide evidence that our technique presents significant interference detection capability. It outperforms, in terms of F1 score and recall, previous methods that rely on dynamic analysis for detecting semantic conflicts, but these show better precision. Our technique precision is comparable to the ones observed in other studies that also leverage static analysis or use theorem proving techniques to detect semantic conflicts, albeit with significantly improved overall performance.
+          <p>Version control systems are essential in software development, allowing teams to collaborate simultaneously without interfering with each other's work. Tools like Git facilitate code integration through merge operations, which automatically resolve textual conflicts. However, these systems focus solely on source code differences, overlooking more complex semantic conflicts that can lead to failures or unexpected behavior after integration.
+          To address this challenge, static analysis emerges as an effective solution, detecting semantic conflicts that traditional merge tools might miss, providing an additional layer of security and quality to the code integration process.
+          Our study combines different static analysis techniques to enhance the effectiveness of detecting semantic conflicts, tested across 32 real-world projects from GitHub. Depending on the context, some analyses prove more suitable than others: in areas where precision is crucial, such as medical or financial systems, techniques that minimize false positives are prioritized; while in security or monitoring projects, techniques with higher recall are preferred to ensure that as many issues as possible are identified, even if it results in some false alarms.
+          The results show that combining static analysis strategies delivers superior performance in terms of precision, recall, F1 score, and accuracy compared to previous methods, and is a more lightweight and flexible approach to adapt to the application context.
           </p>
 
           <h3>Authors</h3>
@@ -409,26 +412,23 @@
         <!-- <div id="sam" class="section level3 par-div" ></div> -->
         <div>
           <div id="Detecting-Semantic-Conflics-Using-Static-Analysis" class="section level3 par-div">
-            <h2>Detecting Semantic Conflics Using Static Analysis</h2>
+            <h2>Comparing Static Analyses for Improved Semantic Conflict Detection</h2>
             <p>To detect interference and help mitigate the negative consequences
 of semantic conflicts, we propose a technique that runs static analyses on the merged version of the code, which we annotate with
 metadata indicating instructions modified or added by each developer. In particular, by running a static control dependence analysis on the example illustrated in the previous section, a tool
 could report that a method invoke instruction added by Right is
 control dependent on a conditional instruction modified by Left,
 warning about the existing interference.</p>
-<p>We implement and rely on four analyses we describe in the following: Interprocedural Data Flow, Interprocedural Confluence,
-Interprocedural Override Assignment, and Program Dependence
-Graph, which includes the control dependency that detects the
-interference illustrated in the previous section. They all try to explore likely interference situations by keeping track of the changes
-developers make and how they affect state elements such as global
-variables, object fields, system files, variables that hold method
-return values or raised exceptions, etc. We consider field accesses
-like o.a and o.b to refer to different state elements, even if o holds
-the same reference; the variable o also corresponds to a different
-state element</p>
+<p>
+   We compare the interference ground truth with the combinations generated from the analysis results and compute precision, recall, F1 score, and accuracy metrics. 
+When combining the nine approaches, we explore over 500 distinct possible configurations, performing the combination one by one and applying the logical OR operation for each set of approaches, resulting in a single outcome for each specific combination. Next, we calculate the metrics for each of these combinations. Additionally, we evaluate if the most effective combinations are subsets of other configurations with the same outcome. If so, we eliminate the larger configurations, retaining only the smaller and therefore more efficient ones. This procedure enables us to achieve the same result in less time.
+</p>
+
+<p>
+To assess the contribution of each static analysis technique, we used the Exclusive True Positives (TPe) and Exclusive False Positives (FPe) metric. This metric was developed to measure the effectiveness of each analysis in isolation, highlighting its specific contributions in terms of true positives (TP) and false positives (FP). The TPe represents the number of true positives identified exclusively by a given analysis, while the FPe corresponds to the false positives attributed exclusively to that analysis. The difference between TPe and FPe provides a balanced measure that highlights the net impact of each analysis. The higher the TPe-FPe value, the greater the contribution of the analysis in providing accurate results without generating excessive noise, making it essential for evaluating the precision and usefulness of static analysis techniques in detecting semantic conflicts. We also automatically generate Table ~\ref{tab:exclusive}, which illustrates the contribution of each analysis to the occurrence of inaccuracies.</p>
 
             <figure>
-              <img src="img\semanticConflictsStaticAnalysisMethodology.jpg" alt="Study Design" style="width:100%">
+              <img src="img\interference_methodology.png" alt="Study Design" style="width:100%">
               <figcaption align="middle">Figure 1 - Study Design</figcaption>
             </figure>
 
@@ -447,8 +447,7 @@ state element</p>
 
             <p>Here, you can find the list of changes on the same declarations we analyzed in our study. Each change is
               represented as a row in the table below.</p>
-            <iframe
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMUhAqphN1mNYDgGV6meNJ9uiiyPPVCqX15qpTrvgBhMPogXWNJWi0648RkFzlvVKjpeoAKlR9xZJo/pubhtml?gid=792123321&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSDb5G_FpI8Y-Id0-jwViG_BuOkIhiBBoooEayfmdnB0yvTjpkea1k-QzMIWJhEwGWC4tqW-dpW4-ey/pubhtml?gid=679138559&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
           </div>
 
           <div id="study-replication" class="section level3 par-div">
