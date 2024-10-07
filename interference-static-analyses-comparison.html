@@ -425,14 +425,14 @@ When combining the nine approaches, we explore over 500 distinct possible config
 </p>
 
 <p>
-To assess the contribution of each static analysis technique, we used the Exclusive True Positives (TPe) and Exclusive False Positives (FPe) metric. This metric was developed to measure the effectiveness of each analysis in isolation, highlighting its specific contributions in terms of true positives (TP) and false positives (FP). The TPe represents the number of true positives identified exclusively by a given analysis, while the FPe corresponds to the false positives attributed exclusively to that analysis. The difference between TPe and FPe provides a balanced measure that highlights the net impact of each analysis. The higher the TPe-FPe value, the greater the contribution of the analysis in providing accurate results without generating excessive noise, making it essential for evaluating the precision and usefulness of static analysis techniques in detecting semantic conflicts. We also automatically generate Table ~\ref{tab:exclusive}, which illustrates the contribution of each analysis to the occurrence of inaccuracies.</p>
+To assess the contribution of each static analysis technique, we used the Exclusive True Positives (TPe) and Exclusive False Positives (FPe) metric. This metric was developed to measure the effectiveness of each analysis in isolation, highlighting its specific contributions in terms of true positives (TP) and false positives (FP). The TPe represents the number of true positives identified exclusively by a given analysis, while the FPe corresponds to the false positives attributed exclusively to that analysis. The difference between TPe and FPe provides a balanced measure that highlights the net impact of each analysis. The higher the TPe-FPe value, the greater the contribution of the analysis in providing accurate results without generating excessive noise, making it essential for evaluating the precision and usefulness of static analysis techniques in detecting semantic conflicts.</p>
 
             <figure>
               <img src="img\interference_methodology.png" alt="Study Design" style="width:100%">
               <figcaption align="middle">Figure 1 - Study Design</figcaption>
             </figure>
 
-            For additional details on our results, you can find more information <a href="https://anonymous.4open.science/r/results-paper1-8849/README.md">here</a>. We provide data on all our runs, charts, logs, timesheets and more.
+            For additional details on our results, you can find more information <a href="https://github.com/spgroup/papers/tree/master/InterferenceStaticAnalysesComparison/results/README.md">here</a>. We provide data on all our runs, charts, logs, timesheets and more.
             </p>
 
           </div>
@@ -454,7 +454,7 @@ To assess the contribution of each static analysis technique, we used the Exclus
             <h2>Study Replication</h2>
             <p>Here you can find the links for the scripts and dataset we used to perform our study. Aiming to support
               replications, we provide our sample of merge scenarios as a <a target="_blank"
-                href="https://anonymous.4open.science/r/dataset-18C9">dataset</a>.</p>
+                href="https://github.com/spgroup/mergedataset/blob/master/README.md">dataset</a>.</p>
 
             <p>Below, we present in detail how our scripts can be used to replicate our study using our dataset.</p>
 
@@ -469,7 +469,7 @@ To assess the contribution of each static analysis technique, we used the Exclus
                 href="https://docs.docker.com/desktop/install">https://docs.docker.com/desktop/install</a>.
               </br></br>
               After installation or if you already have docker installed, we have prepared a <a
-                href="https://anonymous.4open.science/r/conflict-static-analysis-6DDA/docker/README.md">guide</a> so you can
+                href="https://github.com/spgroup/conflict-static-analysis/blob/acf38d5c0833a3483d284046c77698c0859cd816/docker/README.md">guide</a> so you can
               create an image, initialize a container and run the analyses.
 
             </p>
