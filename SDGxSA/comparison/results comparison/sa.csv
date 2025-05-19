@@ -1,0 +1,115 @@
+project;class;method;merge commit;Confluence Inter;OA Inter;left right DFP-Inter;right left DFP-Inter;left right PDG;right left PDG;Time;LOI;result
+antlr4;Python2Target;python2Keywords;69ff2669eec265e25721dbc27cb00f6c381d0b41;false;false;false;false;false;false;15.792;-;
+antlr4;Python3Target;python3Keywords;69ff2669eec265e25721dbc27cb00f6c381d0b41;false;false;false;false;false;false;16.343;-;
+druid;S3SegmentPusher;push;05168808c278c080c59c19e858d9471b316cd1f5;false;false;false;false;false;true;16.31;No;FALSE POSITIVE
+netty;LengthFieldBasedFrameDecoder;decode;193acdb36cd3da9bfc62dd69c4208dff3f0a2b1b;false;false;false;false;false;true;19.305;Yes;TRUE POSITIVE
+OpenTripPlanner;MultiShortestPathTree;dominates;4c506dce43775704919d084f0acfba86d251bf4a;false;false;false;false;true;false;20.007;Yes;TRUE POSITIVE
+webbit;WebSocketClient;adjustPipelineToWebSocket;74d2d2b87704d003acacb34e4ca8fb5f897b938f;false;false;false;false;false;false;15.112;No;TRUE NEGATIVE
+resty-gwt;DirectRestServiceInterfaceClassCreator;getMethodCallback;867b917c43c32acbdcac55767e7f04334006c866;false;false;false;false;false;true;13.974;Yes;TRUE POSITIVE
+storm;KafkaSpout;open;ad2be678831b3b060229fd936e3908110162b7ac;false;false;false;false;false;false;14.131;No;TRUE NEGATIVE
+storm;KafkaSpoutConfig;KafkaSpoutConfig;ad2be678831b3b060229fd936e3908110162b7ac;false;false;false;false;false;false;13.317;No;TRUE NEGATIVE
+storm;KafkaSpoutConfig;toString;ad2be678831b3b060229fd936e3908110162b7ac;false;false;false;false;false;false;14.328;Yes;FALSE NEGATIVE
+storm;KafkaSpout;emitTupleIfNotEmitted;bd1f5c54752f67b484a83c26667331234234d3a3;false;false;false;false;true;true;14.865;No;FALSE POSITIVE
+swagger-maven-plugin;AbstractReader;hasValidAnnotations;e825a7fdc6ef688f1253b93d2cb236e710acfc56;false;false;false;false;false;false;14.394;-;
+jsoup;HttpConnection;execute;a8b6982de98ff76ef254031d7152fff57f6bf941;false;false;false;false;false;false;29.438;Yes;FALSE NEGATIVE
+jsoup;HttpConnection;createConnection;fee4762322f85a1109edd75ccb67f38cf5008c80;false;false;false;false;false;false;15.607;No;TRUE NEGATIVE
+jsoup;HttpConnection;execute;3f7d2c71dbbbb289c684f339874eed8ac2747fa0;false;false;false;false;false;true;23.16;Yes;TRUE POSITIVE
+jsoup;TextNode;outerHtmlHead;a44e18aa3c1fcd25a68a5965f9490d8f7d026509;false;false;true;true;false;true;17.195;Yes;TRUE POSITIVE
+retrofit;RestAdapter;logAndReplaceResponse;2b6c719c6645f8e48dca6d0047c752069d321bc4;false;false;false;false;false;false;16.141;Yes;FALSE NEGATIVE
+retrofit;RestAdapter;logAndReplaceRequest;2b6c719c6645f8e48dca6d0047c752069d321bc4;false;false;false;false;false;false;16.023;Yes;FALSE NEGATIVE
+retrofit;RequestBuilder;build;71f622ce51031b152a0be6ad5facfb27a654bf5a;false;false;false;false;true;false;16.497;Yes;TRUE POSITIVE
+activiti;DeploymentEntityManager;deleteDeployment;50d8e43eb5917c63abfbcdec1e68e510943f325a;false;false;false;false;false;true;32.303;Yes;TRUE POSITIVE
+activiti;UserTaskActivityBehavior;execute;bf46684ba62f5883673ea8fb0a14aecfe0aedea2;true;true;true;true;false;true;38.355;Yes;TRUE POSITIVE
+okhttp;GzipSource;consumeHeader;1151c9853ccc3c9c3211c613b9b845b925f8c6a6;false;false;false;false;false;true;23.369;No;FALSE POSITIVE
+okhttp;OkHttpClient;copyWithDefaults;35166168529bd27281685e56a0a122eff44460e9;false;false;false;false;false;false;15.208;No;TRUE NEGATIVE
+HikariCP;HikariConfig;validate;1bca94af9ec625f21d1b58ff10efb5be71ab87a6;false;false;false;false;false;false;16.098;Yes;FALSE NEGATIVE
+HikariCP;HikariPool;addConnection;1bca94af9ec625f21d1b58ff10efb5be71ab87a6;false;false;true;false;true;true;16.324;Yes;TRUE POSITIVE
+pushy;PushManager;handleConnectionFailure;58901c846e4f0874977c5aabbc34bcb4de3670e0;false;false;false;false;false;false;14.934;No;TRUE NEGATIVE
+pushy;PushManager;handleConnectionClosure;58901c846e4f0874977c5aabbc34bcb4de3670e0;false;false;false;false;false;false;15.79;No;TRUE NEGATIVE
+java-faker;Faker;Faker;ca42fcfaf45cae1754c58e02e1d5d2a58ec03561;false;false;false;false;false;false;15.326;No;TRUE NEGATIVE
+swagger-core;OperationParser;getSchemaFromAnnotation;e7fea7c4889dbdd6a4e0b2d059c8aa0f126ab1c2;false;false;false;false;false;false;16.251;No;TRUE NEGATIVE
+cucumber-jvm;JavaLanguage;load;4505c156b6267c1b760deec570ddbfe047b42aa9;false;false;true;false;true;false;16.463;No;FALSE POSITIVE
+dropwizard;Bootstrap;Bootstrap;ddd15a681bf42360337844412cae4aba1556eb88;false;false;false;false;false;false;13.856;No;TRUE NEGATIVE
+jenkins;DefaultJnlpSlaveReceiver;handle;48b2b951dfb3438999ceda330093cac82b857ce6;true;true;false;false;false;true;45.526;Yes;TRUE POSITIVE
+logback;TimeBasedFileNamingAndTriggeringPolicyBase;start;542843fd04a793fb9e0eea0c84d199e66d7c15af;true;false;false;true;false;true;16.488;Yes;TRUE POSITIVE
+orientdb;Orient;startup;a5ce3bcc0a1d196745c575ad6602019f7a6b86f8;false;false;false;false;false;false;36.992;No;TRUE NEGATIVE
+SimianArmy;BasicJanitorMonkeyContext;getInstanceJanitor;345ad9513aafff397050d613fa87ad06ddffe99d;true;false;true;true;false;false;20.094;No;FALSE POSITIVE
+SimianArmy;BasicSimianArmyContext;BasicSimianArmyContext;c39c19bc6b9231601f6bc7358e638a99adf37e0d;true;false;false;false;false;false;27.403;No;FALSE POSITIVE
+alluxio;HdfsFileInputStream;HdfsFileInputStream;dafe76c90024a915224264b4862b33f40cb8478c;false;false;false;false;false;false;115.717;No;TRUE NEGATIVE
+voldemort;VoldemortClientShell;VoldemortClientShell;b30fdfebe30c9b6e37b9fbc3fec0ff74cd19f997;true;true;false;true;false;false;339.279;Yes;TRUE POSITIVE
+voldemort;VoldemortConfig;VoldemortConfig;4cc1c145819030c8e2baffe4c92383de14b8d880;true;false;true;true;false;false;48.556;No;FALSE POSITIVE
+libgdx;Lwjgl3Application;newWindow;da27e2dae56be0a159e82231e5c3a5b83b099063;false;false;false;false;false;false;17.592;No;TRUE NEGATIVE
+libgdx;Lwjgl3ApplicationConfiguration;copy;da27e2dae56be0a159e82231e5c3a5b83b099063;false;false;false;false;false;false;13.979;No;TRUE NEGATIVE
+RxJava;OperatorMulticast;connect;a40a4130edcdadc2340da5787ca30353018173f2;false;true;true;true;false;false;17.497;No;FALSE POSITIVE
+RxJava;TestScheduler;triggerActions;1c47b0cb26e6d971eefa42ebb3479099236b0125;false;false;false;false;false;false;14.426;No;TRUE NEGATIVE
+elasticsearch-river-mongodb;MongoDBRiverDefinition;parseSettings;3d4f99516ba3177f7d88a1f600923138a8b77cc8;false;false;false;false;false;false;33.593;No;TRUE NEGATIVE
+elasticsearch-river-mongodb;Slurper;assignCollections;3d4f99516ba3177f7d88a1f600923138a8b77cc8;true;false;true;true;false;false;17.197;Yes;TRUE POSITIVE
+elasticsearch-river-mongodb;MongoDBRiverDefinition;parseSettings;6b6ce8e851c6613213c4508c3f277a80649e0c7b;false;false;false;false;false;false;33.777;No;TRUE NEGATIVE
+elasticsearch-river-mongodb;Indexer;applyAdvancedTransformation;6b6ce8e851c6613213c4508c3f277a80649e0c7b;false;false;false;false;false;true;22.414;No;FALSE POSITIVE
+elasticsearch-river-mongodb;Indexer;processBlockingQueue;6b6ce8e851c6613213c4508c3f277a80649e0c7b;true;false;false;true;true;true;28.165;No;FALSE POSITIVE
+elasticsearch-river-mongodb;Slurper;run;6b6ce8e851c6613213c4508c3f277a80649e0c7b;false;false;false;false;false;false;39.944;No;TRUE NEGATIVE
+elasticsearch-river-mongodb;Slurper;addToStream;6b6ce8e851c6613213c4508c3f277a80649e0c7b;false;false;false;false;false;false;16.404;Yes;FALSE NEGATIVE
+hector;HSaslThriftClient;open;0588608e7a2bdf974c985ff546207104f672bf6c;false;true;false;false;false;false;18.404;No;FALSE POSITIVE
+hector;HKerberosThriftClient;open;a33a46506656a39d1b0f7780973905665d3b6145;false;false;true;false;true;false;17.158;No;FALSE POSITIVE
+hector;HThriftClient;open;a33a46506656a39d1b0f7780973905665d3b6145;false;false;true;false;true;false;16.406;No;FALSE POSITIVE
+hector;HConnectionManager;operateWithFailover;213f7887ea70eabdf0705cf8454de29af89e8c38;false;false;false;false;false;false;18.575;No;TRUE NEGATIVE
+titan;SerializerInitialization;initialize;387c16ea05ef9fa312f37139228d2bbf61455ff4;false;false;false;false;false;false;15.642;No;TRUE NEGATIVE
+titan;StandardTitanTx;StandardTitanTx;04edd7f0e7eab2e8255a497922e34dc707d84c19;false;false;false;false;false;false;17.968;No;TRUE NEGATIVE
+MPAndroidChart;SimpleFragment;generateScatterData;af114d180da6ec5633d32c701ff5467f7629fcf3;false;false;false;false;false;false;14.008;No;TRUE NEGATIVE
+MPAndroidChart;ScatterChartActivity;onProgressChanged;af114d180da6ec5633d32c701ff5467f7629fcf3;false;false;false;false;false;false;15.077;No;TRUE NEGATIVE
+MPAndroidChart;ScatterChartActivity;onCreate;af114d180da6ec5633d32c701ff5467f7629fcf3;false;false;false;false;false;false;14.361;No;TRUE NEGATIVE
+MPAndroidChart;LineChartActivity2;onCreate;9297923f09460d0484cd713b0abbeaea9b888ec0;false;false;false;false;false;false;14.664;No;TRUE NEGATIVE
+MPAndroidChart;RadarChartActivitry;onCreate;9297923f09460d0484cd713b0abbeaea9b888ec0;false;false;false;false;false;false;14.36;No;TRUE NEGATIVE
+MPAndroidChart;StackedBarActivityNegative;onCreate;9297923f09460d0484cd713b0abbeaea9b888ec0;false;false;false;false;false;false;13.743;No;TRUE NEGATIVE
+MPAndroidChart;LineChartActivity1;onCreate;9297923f09460d0484cd713b0abbeaea9b888ec0;false;false;false;false;false;false;13.587;No;TRUE NEGATIVE
+MPAndroidChart;LineChartRenderer;drawData;9531ba69895cd64fce48038ffd8df2543eeea1d2;false;false;false;false;false;false;0.006;Yes;FALSE NEGATIVE
+MPAndroidChart;PieChartRenderer;drawData;9531ba69895cd64fce48038ffd8df2543eeea1d2;false;false;false;false;false;false;13.89;Yes;FALSE NEGATIVE
+elasticsearch;IndexScopedSettings;BUILT_IN_INDEX_SETTINGS;d896886973660785aac45275ddb110c1a6babc57;false;false;false;false;false;false;45.117;-;
+elasticsearch;TransportIndexAction;executeIndexRequestOnPrimary;d896886973660785aac45275ddb110c1a6babc57;false;false;true;false;false;false;51.525;No;FALSE POSITIVE
+elasticsearch;ReplicationOperationTests;testReplication;d896886973660785aac45275ddb110c1a6babc57;true;false;false;false;false;false;30.569;No;FALSE POSITIVE
+elasticsearch;IndexSettings;IndexSettings;d896886973660785aac45275ddb110c1a6babc57;true;false;true;true;false;false;89.279;No;FALSE POSITIVE
+elasticsearch;TransportShardBulkAction;update;d896886973660785aac45275ddb110c1a6babc57;true;false;true;false;true;false;144.795;No;FALSE POSITIVE
+elasticsearch;TransportReplicationAction;doRun;d896886973660785aac45275ddb110c1a6babc57;false;false;false;false;false;false;54.503;Yes;FALSE NEGATIVE
+elasticsearch;ReplicationOperation;execute;d896886973660785aac45275ddb110c1a6babc57;true;true;true;true;true;true;56.223;No;FALSE POSITIVE
+elasticsearch;InternalEngineTests;testRecoverFromForeignTranslog;d896886973660785aac45275ddb110c1a6babc57;false;false;false;false;false;false;33.014;No;TRUE NEGATIVE
+elasticsearch;InternalEngine;InternalEngine;d896886973660785aac45275ddb110c1a6babc57;true;false;true;false;false;false;117.342;No;FALSE POSITIVE
+elasticsearch;DocWriteResponse;writeTo;d896886973660785aac45275ddb110c1a6babc57;false;false;false;false;false;false;49.61;Yes;FALSE NEGATIVE
+elasticsearch;DocWriteResponse;readFrom;d896886973660785aac45275ddb110c1a6babc57;false;false;false;false;false;false;47.705;No;TRUE NEGATIVE
+elasticsearch;DocWriteResponse;toXContent;d896886973660785aac45275ddb110c1a6babc57;false;false;true;true;false;false;48.373;Yes;TRUE POSITIVE
+elasticsearch;MetaDataCreateIndexService;createIndex;d896886973660785aac45275ddb110c1a6babc57;true;false;false;true;false;false;1434.903;No;FALSE POSITIVE
+elasticsearch;TransportUpdateAction;shardOperation;d896886973660785aac45275ddb110c1a6babc57;true;false;true;true;false;true;109.487;No;FALSE POSITIVE
+elasticsearch;TransportDeleteAction;executeDeleteRequestOnPrimary;d896886973660785aac45275ddb110c1a6babc57;true;false;true;false;false;false;49.712;No;FALSE POSITIVE
+elasticsearch;RestNodesAction;getTableWithHeader;3764b3ff800c94293aba0bb0fa18c7df80a764f7;false;false;false;false;false;false;51.147;No;TRUE NEGATIVE
+elasticsearch;RestIndicesAction;getTableWithHeader;3764b3ff800c94293aba0bb0fa18c7df80a764f7;false;false;false;false;false;false;51.969;No;TRUE NEGATIVE
+elasticsearch;RestShardsAction;getTableWithHeader;3764b3ff800c94293aba0bb0fa18c7df80a764f7;false;false;false;false;false;false;52.342;No;TRUE NEGATIVE
+elasticsearch;ClusterSettings;BUILT_IN_CLUSTER_SETTINGS;0404db65e3497452886173957729c8e82cfd4a03;false;false;false;false;false;false;44.992;-;
+elasticsearch;ESSingleNodeTestCase;newNode;0404db65e3497452886173957729c8e82cfd4a03;true;false;false;true;false;true;15.382;No;FALSE POSITIVE
+elasticsearch;NestedInnerQueryParseSupport;setPathLevel;59cb67c7bd0ab6311115b20954e013412b676b29;false;false;true;true;false;false;49.986;No;FALSE POSITIVE
+elasticsearch;MultiMatchQueryBuilder;doXContent;59cb67c7bd0ab6311115b20954e013412b676b29;false;false;false;false;false;false;51.769;Yes;FALSE NEGATIVE
+elasticsearch;SynonymsAnalysisTest;testSynonymsAnalysis;f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;false;true;false;true;false;26.859;No;FALSE POSITIVE
+elasticsearch;CommonGramsTokenFilterFactoryTests;testQueryModeCommonGramsAnalysis;f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;true;true;true;true;false;62.432;No;FALSE POSITIVE
+elasticsearch;CommonGramsTokenFilterFactoryTests;testCommonGramsAnalysis;f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;true;true;true;true;false;58.494;No;FALSE POSITIVE
+elasticsearch;KuromojiAnalysisTests;createAnalysisService;f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;false;false;true;false;true;14.884;No;FALSE POSITIVE
+elasticsearch;SimpleIndexQueryParserTests;setup;36884807b3cc9d660db4da062275c7fdbec8ba67;true;false;true;false;true;false;27.472;No;FALSE POSITIVE
+fitnesse;SlimTableFactoryTest;setUp;4d9ba9d221d879507440feb084fa7521b95111ec;false;false;false;false;false;false;14.859;Yes;FALSE NEGATIVE
+fitnesse;SlimTableFactory;SlimTableFactory;4d9ba9d221d879507440feb084fa7521b95111ec;false;false;true;true;false;false;20.821;Yes;TRUE POSITIVE
+cloud-slang;SlangImpl;getAllEventTypes;20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76;false;false;false;false;false;false;12.837;Yes;FALSE NEGATIVE
+cloud-slang;SlangImplTest;ALL_EVENTS_SIZE;20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76;false;false;false;false;false;false;11.849;-;
+spring-boot;AtomikosProperties;asProperties;6664ce19d6f2388ebd6cf54763f54fdddd226b9a;not-found;not-found;not-found;not-found;not-found;not-found;0.015;-;
+spring-boot;AtomikosPropertiesTests;testProperties;6664ce19d6f2388ebd6cf54763f54fdddd226b9a;not-found;not-found;not-found;not-found;not-found;not-found;0.002;-;
+spring-boot;AtomikosPropertiesTests;testDefaultProperties;6664ce19d6f2388ebd6cf54763f54fdddd226b9a;not-found;not-found;not-found;not-found;not-found;not-found;0.001;-;
+spring-boot;MongoProperties;builder;958a0a45f164601d01cb706c19f22ed3e25eff56;false;false;false;false;false;false;16.381;No;TRUE NEGATIVE
+spring-boot;ExplodedArchiveTests;getUrl;af20dc6cc45c032573413c401f9f73aa75371744;false;false;false;false;false;false;0.007;No;TRUE NEGATIVE
+spring-boot;ExplodedArchive;getUrl;af20dc6cc45c032573413c401f9f73aa75371744;false;false;false;false;false;false;0.003;No;TRUE NEGATIVE
+spring-boot;RedisCacheConfiguration;cacheManager;c93ea54ea3e08eaa2a17640d5d2b3e60264c1a9c;not-found;not-found;not-found;not-found;not-found;not-found;0.011;-;
+spring-boot;UndertowEmbeddedServletContainerFactory;createDeploymentManager;ea8107b6a53fa60b5f23b33e1b6d2e88bb60133c;false;false;false;false;false;false;22.436;No;TRUE NEGATIVE
+spring-boot;SpringBootServletInitializer;createRootApplicationContext;3444ebbc05b99a164474c14d6a6784f749514428;false;false;false;false;false;false;22.64;No;TRUE NEGATIVE
+spring-boot;SpringBootServletInitializer;createRootApplicationContext;074771ec125dd407af0282b92960e9e9e3377e84;true;false;false;true;false;true;22.463;No;FALSE POSITIVE
+spring-boot;AutoConfigurationReportLoggingInitializer;logAutoConfigurationReport;fdd3f12ee0f92ac18844c08bf71df39feebb6673;false;false;false;false;false;false;15.438;Yes;FALSE NEGATIVE
+spring-boot;TomcatEmbeddedServletContainerFactory;customizeConnector;2d4e68a9777601bfb8309c94d8b74bc21be80ad1;false;false;false;false;false;false;16.24;No;TRUE NEGATIVE
+quickml;OutOfTimeCrossValidatorRunner;getRandomForestBuilder;bae968d9a85c0501ba8842a6f88e7fc2c6b78693;false;false;false;false;false;false;12.642;No;TRUE NEGATIVE
+vavr;HashSet;of;204635d9156b498079c2f34b821dca7ca1711ef6;not-found;not-found;not-found;not-found;not-found;not-found;0.002;-;
+vavr;LinkedHashSet;of;204635d9156b498079c2f34b821dca7ca1711ef6;not-found;not-found;not-found;not-found;not-found;not-found;0.001;-;
+vavr;CharSeq;of;204635d9156b498079c2f34b821dca7ca1711ef6;not-found;not-found;not-found;not-found;not-found;not-found;0.0;-;
+vavr;Iterator;of;204635d9156b498079c2f34b821dca7ca1711ef6;not-found;not-found;not-found;not-found;not-found;not-found;0.001;-;
+crawler4j;Parser;parse;6fdb8f27b53c5d69b552341a459d0e1fa610f68d;false;false;false;false;false;false;0.002;-;
