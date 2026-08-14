@@ -387,20 +387,22 @@
         </style>
         <div id="abstract" class="section level2 tabset tabset-fade tabset-pills par-div">
           <h2>Abstract</h2>
-          <p>Collaborative software development relies on automated merge tools, but parallel contributions can
-            introduce dynamic semantic conflicts that alter program behavior without triggering textual merge conflicts.
-            Different techniques can be used to detect these conflicts, including testing, dynamic analysis, and static
-            analysis. However, the prevalence, structural characteristics, and distribution of these semantic conflicts
-            remain largely unexplored at scale. To address this gap, we establish a catalog of topological structures
-            that characterize recurring structural patterns of semantic conflicts. We conduct an empirical study to
-            quantify the occurrence of these structures in practice, using interprocedural static analysis on a large
-            benchmark comprising 907 java merge scenarios where both developers modified the same method from
-            open-source GitHub repositories. Our results reveal a structural dichotomy: while CF conflicts concentrate
-            overwhelmingly in fully local topologies (90.4\% start and end in the same file), DF and OA conflicts
-            exhibit highly divergent behavior, with multi-file topologies accounting for 60.3\% and 46.7\% of their
-            respective instances. These findings provide actionable guidance for configuring static analysis tools,
-            demonstrating that fast intraprocedural analysis is sufficient to detect the vast majority of CF conflicts,
-            whereas deeper interprocedural analysis is essential to uncover DF and OA conflicts.</p>
+          <p>
+            Collaborative software development relies on automated merge tools, but parallel contributions can introduce
+            dynamic semantic conflicts that alter program behavior without triggering textual merge conflicts. Different
+            techniques can be used to detect these conflicts including testing, dynamic analysis, and static analysis.
+            However, the prevalence, structural characteristics, and distribution of these semantic conflicts remain
+            largely unexplored at scale. To address this gap, we establish a catalog of topological structures that
+            characterize recurring structural patterns of semantic conflicts. We conduct an empirical study to quantify
+            the occurrence of these structures in practice, using interprocedural static analysis on a large benchmark
+            comprising 907 Java merge scenarios from open-source GitHub repositories, where the merged branches modify
+            the same method. Our results reveal a structural dichotomy: while CF conflicts appear mostly in fully local
+            topologies (90.4% start and end in the same file), DF and OA conflicts appear in multi-file topologies far
+            more often, accounting for 60.3% and 46.7% of their respective instances. These findings provide actionable
+            guidance for configuring static analysis tools, demonstrating that fast intraprocedural analysis is
+            sufficient to detect most CF conflicts, whereas deeper interprocedural analysis might be essential to
+            uncover DF and OA conflicts.
+          </p>
           <ul>
             <li><a href="preprint/preprint.pdf">Preprint</a></li>
           </ul>
@@ -409,7 +411,7 @@
           <ul>
             <li>Matheus Barbosa</li>
             <li>Vinicius Resende</li>
-            <li>Ykaro dos Santos Silva</li>
+            <li>Ykaro dos Santos</li>
             <li>Paulo Borba</li>
             <li>Rodrigo Bonifácio</li>
             <li>Pedro Patriota</li>
